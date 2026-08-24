@@ -1,23 +1,23 @@
 ---
 layout: default
 title: OpenLux API 实战指南
-description: 解决 API 接入、错误排查、安全重试与模型成本评估问题
+description: 解决 API 接入、错误排查、安全重试、模型成本和最新接口变化
 permalink: /
 ---
 
 # OpenLux API 实战指南
 
-这里不堆泛泛的产品介绍，只整理开发者在真实接入中会遇到的问题：第一次请求怎么跑通、错误发生在哪一层、什么时候能重试，以及怎样衡量模型的真实任务成本。
+这里不堆泛泛的产品介绍，只整理开发者在真实接入中会遇到的问题。新闻栏目只收录有官方一手依据、并且能转化为实际操作建议的 API 与模型变化。
 
-## 指南目录
+## 基础指南
 
-1. [OpenLux API 快速接入：处理 401、429 和流式中断](./quickstart/)
-2. [`this organization has been disabled` 怎么分层排查](./organization-disabled/)
-3. [API 429 与流式中断：什么能重试，什么不能](./rate-limit-stream-retry/)
-4. [模型选型为什么要算“每个成功任务成本”](./model-cost-per-success/)
+- [OpenLux API 接入实战：用 OpenAI SDK 切换统一网关，并处理 401、429 和流式中断](./quickstart/)
+- [`this organization has been disabled` 怎么排查：先定位请求到底失败在哪一层](./organization-disabled/)
+- [API 429 与流式中断实战：什么能自动重试，什么重试一次就可能出事故](./rate-limit-stream-retry/)
+- [模型选型为什么不能只看每百万 Token 单价？我更建议算“每个成功任务成本”](./model-cost-per-success/)
 
-## 阅读建议
+## 最新 API 与模型动态
 
-第一次接入从快速开始读起；遇到组织禁用或鉴权异常时先做分层排查；批量和流式业务上线前必须完成重试故障演练；模型选型则使用真实任务集评估，不只比较每百万 token 单价。
+- 2026-08-24 · [GPT-5.6 Sol API 与 credit pricing 未来三个月下调超20%，开发者该怎么评估](./news/gpt-5-6-sol-api-credit-pricing-cut/)
 
 所有示例都应先使用低权限、低余额测试 Key 验证，再进入生产环境。
