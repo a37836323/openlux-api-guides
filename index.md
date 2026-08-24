@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-08-24 · [Anthropic Python SDK 1.0 发布：迁移到 httpx2 前先检查这些变更](./news/anthropic-python-sdk-v1-migration/)
 - 2026-08-24 · [GPT-5.6 Sol API 与 credit pricing 未来三个月下调超20%，开发者该怎么评估](./news/gpt-5-6-sol-api-credit-pricing-cut/)
 
 所有示例都应先使用低权限、低余额测试 Key 验证，再进入生产环境。
