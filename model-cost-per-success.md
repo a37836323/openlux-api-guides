@@ -3,6 +3,7 @@ layout: default
 title: "模型选型为什么不能只看每百万 Token 单价？我更建议算“每个成功任务成本”"
 description: "用每个成功任务成本选择大模型"
 permalink: /model-cost-per-success/
+date: 2026-08-24
 ---
 
 # 模型选型为什么不能只看每百万 Token 单价？我更建议算“每个成功任务成本”
