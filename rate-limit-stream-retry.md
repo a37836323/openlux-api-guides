@@ -3,6 +3,7 @@ layout: default
 title: "API 429 与流式中断实战：什么能自动重试，什么重试一次就可能出事故"
 description: "API 429、流式中断与安全重试实战"
 permalink: /rate-limit-stream-retry/
+date: 2026-08-24
 ---
 
 # API 429 与流式中断实战：什么能自动重试，什么重试一次就可能出事故
