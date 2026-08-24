@@ -1,7 +1,9 @@
 title: OpenLux API 实战指南
-description: 面向真实接入问题的 API 排错、重试和模型选型指南
+description: 面向真实接入问题的 API 新闻、排错、重试和模型选型指南
 lang: zh-CN
 theme: jekyll-theme-cayman
 url: https://a37836323.github.io
 baseurl: /openlux-api-guides
 show_downloads: false
+plugins:
+  - jekyll-seo-tag
