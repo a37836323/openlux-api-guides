@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-08-24 · [Claude API 电脑与浏览器工具正式可用，Files 和 Skills API 退出 Beta](./news/claude-api-computer-browser-files-skills-ga/)
 - 2026-08-24 · [OpenAI 高风险 Agent 安全措施：上线前检查沙箱、隔离与审计](./news/openai-agent-security-deployment-checklist/)
 - 2026-08-24 · [OpenAI API 零数据保留：符合资格客户上线前需核对的边界](./news/openai-api-zero-data-retention-eligibility-and-boundaries/)
 - 2026-08-24 · [Anthropic Python SDK 1.0 发布：迁移到 httpx2 前先检查这些变更](./news/anthropic-python-sdk-v1-migration/)
