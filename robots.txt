@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://a37836323.github.io/openlux-api-guides/sitemap.xml
