@@ -3,6 +3,7 @@ layout: default
 title: "OpenLux API 接入实战：用 OpenAI SDK 切换统一网关，并处理 401、429 和流式中断"
 description: "OpenLux API 快速接入、401、429 与流式中断处理实战"
 permalink: /quickstart/
+date: 2026-08-24
 ---
 
 # OpenLux API 接入实战：用 OpenAI SDK 切换统一网关，并处理 401、429 和流式中断
