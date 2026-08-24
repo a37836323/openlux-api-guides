@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-08-24 · [OpenAI API 零数据保留：符合资格客户上线前需核对的边界](./news/openai-api-zero-data-retention-eligibility-and-boundaries/)
 - 2026-08-24 · [Anthropic Python SDK 1.0 发布：迁移到 httpx2 前先检查这些变更](./news/anthropic-python-sdk-v1-migration/)
 - 2026-08-24 · [GPT-5.6 Sol API 与 credit pricing 未来三个月下调超20%，开发者该怎么评估](./news/gpt-5-6-sol-api-credit-pricing-cut/)
 
