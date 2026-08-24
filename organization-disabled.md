@@ -3,6 +3,7 @@ layout: default
 title: "`this organization has been disabled` 怎么排查：先定位请求到底失败在哪一层"
 description: "this organization has been disabled 错误分层排查指南"
 permalink: /organization-disabled/
+date: 2026-08-24
 ---
 
 # `this organization has been disabled` 怎么排查：先定位请求到底失败在哪一层
