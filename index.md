@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-08-28 · [Compliance API 会话转录正式可用：企业合规接入需要确认的权限与产品面](./news/compliance-api-session-transcripts-ga/)
 - 2026-08-27 · [Gemini Omni 1.1 Flash 视频 API 控制指南：场景延展、首尾帧与 4K 输出](./news/gemini-omni-1-1-flash-video-api-controls/)
 - 2026-08-26 · [Gemini 3.5 Transcribe 接入指南：实时与录音转写 API 怎么选](./news/gemini-3-5-transcribe-api-preview/)
 - 2026-08-24 · [Claude API 电脑与浏览器工具正式可用，Files 和 Skills API 退出 Beta](./news/claude-api-computer-browser-files-skills-ga/)
