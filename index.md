@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-09-01 · [Claude Fable 5.1 上线：API 迁移需检查 tool_choice、思维块与数据保留](./news/claude-fable-5-1-api-migration/)
 - 2026-09-01 · [在浏览器接入 Hugging Face WebGPU 内核：安装、版本与兼容性检查](./news/huggingface-webgpu-kernels-browser-inference/)
 - 2026-08-28 · [Compliance API 会话转录正式可用：企业合规接入需要确认的权限与产品面](./news/compliance-api-session-transcripts-ga/)
 - 2026-08-27 · [Gemini Omni 1.1 Flash 视频 API 控制指南：场景延展、首尾帧与 4K 输出](./news/gemini-omni-1-1-flash-video-api-controls/)
