@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-09-01 · [在浏览器接入 Hugging Face WebGPU 内核：安装、版本与兼容性检查](./news/huggingface-webgpu-kernels-browser-inference/)
 - 2026-08-28 · [Compliance API 会话转录正式可用：企业合规接入需要确认的权限与产品面](./news/compliance-api-session-transcripts-ga/)
 - 2026-08-27 · [Gemini Omni 1.1 Flash 视频 API 控制指南：场景延展、首尾帧与 4K 输出](./news/gemini-omni-1-1-flash-video-api-controls/)
 - 2026-08-26 · [Gemini 3.5 Transcribe 接入指南：实时与录音转写 API 怎么选](./news/gemini-3-5-transcribe-api-preview/)
