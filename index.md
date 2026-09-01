@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-09-01 · [Gemini API 上线 Agentic Video：如何启用并降低长视频分析 Token 消耗](./news/gemini-agentic-video-understanding-api/)
 - 2026-09-01 · [Claude Fable 5.1 上线：API 迁移需检查 tool_choice、思维块与数据保留](./news/claude-fable-5-1-api-migration/)
 - 2026-09-01 · [在浏览器接入 Hugging Face WebGPU 内核：安装、版本与兼容性检查](./news/huggingface-webgpu-kernels-browser-inference/)
 - 2026-08-28 · [Compliance API 会话转录正式可用：企业合规接入需要确认的权限与产品面](./news/compliance-api-session-transcripts-ga/)
