@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-09-07 · [Qwen 3.8 Max API 接入指南：区域价格、百万上下文与思考模式](./news/qwen3-8-max-api-price-region-context-guide/)
 - 2026-09-07 · [GPT-6 Astra API 接入指南：价格、百万上下文与 reasoning.effort 怎么选](./news/gpt-6-astra-api-price-context-guide/)
 - 2026-09-07 · [Gemini 3.8 Flash 已上线：API 定价、调低 effort 与 Cyber 访问边界](./news/gemini-3-8-flash-api-pricing-effort-guide/)
 - 2026-09-07 · [Confluent Cloud 早期接入 IBM Granite：用 Flink SQL 做时序预测与异常检测](./news/confluent-cloud-ibm-granite-time-series-early-access/)
