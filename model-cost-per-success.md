@@ -182,9 +182,16 @@ OpenLux 的公开页面目前将 `luna`、`terra`、`sol` 展示为不同价格�
 
 先用真实任务测出这几个数字，再计算每个成功任务成本。你会更容易找到适合自己的模型组合，也更容易向团队解释为什么某些任务应该便宜优先，另一些任务值得为质量付费。
 
+如果正在评估最新模型，可以继续查看两份已经按同一方法拆解的资料：
+
+- [GPT-6 Astra：价格、百万上下文与 reasoning.effort](https://a37836323.github.io/openlux-api-guides/news/gpt-6-astra-api-price-context-guide/)
+- [Qwen 3.8 Max：区域价格、百万上下文与思考模式](https://a37836323.github.io/openlux-api-guides/news/qwen3-8-max-api-price-region-context-guide/)
+
+这两篇分别列出了当前模型约束、价格来源和验证步骤，可以直接用来设计候选模型测试表。
+
 如果需要在同一兼容接口下对三档模型做小规模对照测试，可以通过下面的入口注册 OpenLux，并为评测创建独立测试 Key 和预算上限：
 
-https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=cost_per_success&utm_content=footer
+[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=cost_per_success&utm_content=footer)
 
 请以测试当天的公开价格和实际渠道倍率为准。本文表格中的成功率、返工成本和评测结果均为解释计算方法而设置的假设数据，不代表模型能力结论。
 
