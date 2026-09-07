@@ -210,7 +210,7 @@ low / medium / high / xhigh / max
 ### 作者建议
 
 正式上线前，再读取实时价格目录，并使用低余额测试 Key 完成最小请求验证：确认模型名、端点、鉴权、账单归属与错误处理均符合预期。目录入口：  
-https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gpt-6-astra-api-price-context-guide&utm_content=footer
+[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gpt-6-astra-api-price-context-guide&utm_content=footer)
 
 ## 七、最终决策：何时适合采用 GPT-6 Astra
 
