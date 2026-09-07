@@ -14,6 +14,8 @@ date: 2026-09-07
 
 本文面向需要比较区域价格、百万上下文限制、工具支持差异，以及默认模型与 0902 快照选择方式的 API 开发者和技术负责人。
 
+如果希望先验证 OpenAI 兼容调用，可[注册并创建低余额测试 Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=qwen3-8-max-api-price-region-context-guide&utm_content=intro)，再按本文清单核对模型、价格和返回结果。
+
 ## 官方发布事实：模型能力与上下文边界
 
 Alibaba Cloud Model Studio 官方模型页显示，模型 ID 为 `qwen3.8-max`，页面最后更新于 2026 年 9 月 2 日。
@@ -77,6 +79,17 @@ Alibaba Cloud Model Studio 官方模型页显示，模型 ID 为 `qwen3.8-max`�
 3. 对长上下文任务单独建模，因为输入占比通常更高。
 4. 为重试、工具调用轮次和结果校验预留预算。
 5. 在真实流量前，用低额度样本记录实际 token 用量，再修正预测。
+
+## OpenLux 当前目录如何计价
+
+OpenLux 在 2026 年 9 月 8 日的公开价格目录中同时列出 `qwen3.8-max` 和 `qwen3.8-max-0902`，两者均标记为可用并支持 `openai` 端点。按目录公开倍率换算，当前基础价格如下：
+
+| OpenLux 目录项 | 输入 / 1M tokens | 缓存输入 / 1M tokens | 输出 / 1M tokens | 端点类型 |
+|---|---:|---:|---:|---|
+| `qwen3.8-max` | $2.00 | $0.25 | $6.00 | `openai` |
+| `qwen3.8-max-0902` | $2.00 | $0.25 | $6.00 | `openai` |
+
+这些数值是 OpenLux 目录快照，不能反向证明请求一定路由到 Alibaba Cloud 的新加坡区域。虽然基础数字与官方新加坡原价一致，实际供应渠道、账户分组、可用工具和最终账单仍应通过当前控制台及最小请求确认。该目录没有为这两个条目列出 `openai-response`，因此接入时应先按其标出的 OpenAI 兼容端点验证，不能直接假设 Responses API 可用。
 
 ## 思考模式如何纳入验证
 
