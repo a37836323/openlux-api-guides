@@ -152,7 +152,7 @@ v1.0 对异步客户端的 `with_raw_response` 结果改变了使用方式：拿
 
 本文使用的版本、变更范围和行为描述均来自 Anthropic 官方发版说明；迁移动作和检查顺序属于作者建议，不代表官方对具体项目结构的保证。
 
-截至给定的 OpenLux 公开目录快照，匹配结果为空，因此不能用该目录判断 Anthropic Python SDK v1.0 是否已被收录、上线或具备任何额外能力；相关目录入口为：https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=anthropic-python-sdk-v1-migration&utm_content=footer
+截至给定的 OpenLux 公开目录快照，匹配结果为空，因此不能用该目录判断 Anthropic Python SDK v1.0 是否已被收录、上线或具备任何额外能力；相关目录入口为：[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=anthropic-python-sdk-v1-migration&utm_content=footer)
 
 ## 官方一手来源
 
