@@ -159,4 +159,4 @@ Fleet 是官方发布的浏览器内 GPU 测试和基准工具，可在用户同
 
 当前 OpenLux 公开目录快照没有匹配项，因此本文不把它作为 Hugging Face WebGPU 内核已上线、兼容性或性能的证据。指定归因入口：
 
-https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=huggingface-webgpu-kernels-browser-inference&utm_content=footer
+[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=huggingface-webgpu-kernels-browser-inference&utm_content=footer)
