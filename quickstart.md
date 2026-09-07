@@ -20,7 +20,7 @@ date: 2026-08-24
 
 本文统一使用现有 OpenLux 推广渠道，平台与文章效果通过链接中的 UTM 参数区分：
 
-https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openlux_api_quickstart&utm_content=article
+[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openlux_api_quickstart&utm_content=article)
 
 macOS 或 Linux：
 
@@ -240,7 +240,7 @@ OpenLux API 的最小接入并不复杂：官方 OpenAI SDK 加上新的 `base_u
 
 如果准备开始测试，先注册账号、创建独立 API Key，再用本文的 cURL 请求完成第一次验证：
 
-https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openlux_api_quickstart&utm_content=footer
+[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openlux_api_quickstart&utm_content=footer)
 
 ---
 
