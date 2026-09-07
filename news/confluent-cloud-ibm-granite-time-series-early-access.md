@@ -30,7 +30,7 @@ date: 2026-09-07
 2. 使用的 Confluent Cloud 部署环境是否属于当前 AWS Early Access 范围；
 3. 团队是否能接受早期功能可能存在的接口、模型覆盖范围或运行限制变化。
 
-本次 OpenLux 当前公开目录快照没有匹配项，因此它不能作为 IBM Granite 已在某个目录中上线或账号可用的证明；实际资格仍应以 Confluent 的 Early Access 流程和官方文档为准：https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=confluent-cloud-ibm-granite-time-series-early-access&utm_content=footer
+本次 OpenLux 当前公开目录快照没有匹配项，因此它不能作为 IBM Granite 已在某个目录中上线或账号可用的证明；实际资格仍应以 Confluent 的 Early Access 流程和官方文档为准：[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=confluent-cloud-ibm-granite-time-series-early-access&utm_content=footer)
 
 ## 两个 Flink SQL 函数分别解决什么问题
 
