@@ -181,7 +181,7 @@ Agentic Video 的设计方式不同。模型可以根据用户问题，动态决
 
 **作者建议：**先验证处理模式是否解决你的任务问题，再在三个支持模型上运行同一套评测集。根据不同任务的质量、Token、调用费用和复核负担选择模型；长视频检索、异常检测与计数任务不一定需要使用同一模型配置。
 
-**OpenLux 目录快照：**所给公开目录快照中没有与这项官方发布相匹配的条目。若需登记或管理 API 资源，可访问：https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-agentic-video-understanding-api&utm_content=footer
+**OpenLux 目录快照：**所给公开目录快照中没有与这项官方发布相匹配的条目。若需登记或管理 API 资源，可访问：[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-agentic-video-understanding-api&utm_content=footer)
 
 ## 官方一手来源
 
