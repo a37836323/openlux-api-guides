@@ -239,7 +239,7 @@ async def guarded_call(call_api, payload):
 
 如果你希望用统一兼容接口做一次低成本故障演练，可通过下面的专属入口注册 OpenLux，再为测试单独创建一个低余额、低权限渠道，避免影响生产 Key：
 
-https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=rate_limit_stream_retry&utm_content=footer
+[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=rate_limit_stream_retry&utm_content=footer)
 
 建议先跑最小请求和上述 6 个故障场景，再接入正式业务。本文中的重试次数与并发数是示例，不是适用于所有账号的固定参数。
 
