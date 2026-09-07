@@ -42,7 +42,7 @@ gemini-omni-1.1-flash
 - 任务状态查询、错误处理和结果下载方式；
 - 计费与配额规则。
 
-OpenLux 当前公开目录快照没有匹配到该模型，因此不能用目录结果证明它已经在某个第三方 API 目录中上线；验证入口为：https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-omni-1-1-flash-video-api-controls&utm_content=footer
+OpenLux 当前公开目录快照没有匹配到该模型，因此不能用目录结果证明它已经在某个第三方 API 目录中上线；验证入口为：[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-omni-1-1-flash-video-api-controls&utm_content=footer)
 
 ## 二、场景延展：用交互 ID 继续既有视频
 
