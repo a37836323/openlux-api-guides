@@ -132,7 +132,7 @@ Claude 官方于 2026 年 9 月 1 日发布 Claude Fable 5.1，模型 ID 为 `cl
 
 不要把模型切换理解为单一配置变更。对 Agent 而言，`tool_choice` 是请求契约，thinking 块是会话状态，数据保留则是治理边界；三者都完成审计后，才适合推进生产迁移。
 
-截至所给目录快照，OpenLux 公开目录没有与该模型匹配的条目，因此不应把目录状态作为其上线或可用性的依据；如需核对目录，可访问：https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=claude-fable-5-1-api-migration&utm_content=footer
+截至所给目录快照，OpenLux 公开目录没有与该模型匹配的条目，因此不应把目录状态作为其上线或可用性的依据；如需核对目录，可访问：[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=claude-fable-5-1-api-migration&utm_content=footer)
 
 ## 官方一手来源
 
