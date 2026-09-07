@@ -22,7 +22,7 @@
       try{
         var u=new URL(a.href,location.href);
         if(u.hostname!=='api.openlux.ai')return;
-        send('click',{c:a.getAttribute('data-cta')||'article-link',h:u.href});
+        send('click',{c:a.getAttribute('data-cta')||u.searchParams.get('utm_content')||'article-link',h:u.href});
       }catch(err){}
     },{capture:true,passive:true});
   }catch(e){}
