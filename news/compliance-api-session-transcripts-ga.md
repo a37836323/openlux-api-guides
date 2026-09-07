@@ -41,7 +41,7 @@ date: 2026-08-28
 
 ### OpenLux 目录快照
 
-当前提供的 OpenLux 公开目录匹配结果为空。它不能用来证明 Compliance API 是否已经上线，也不能替代 Claude Platform 官方文档。相关目录入口为：https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=compliance-api-session-transcripts-ga&utm_content=footer
+当前提供的 OpenLux 公开目录匹配结果为空。它不能用来证明 Compliance API 是否已经上线，也不能替代 Claude Platform 官方文档。相关目录入口为：[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=compliance-api-session-transcripts-ga&utm_content=footer)
 
 ## 权限：先确认密钥，再排查接口
 
