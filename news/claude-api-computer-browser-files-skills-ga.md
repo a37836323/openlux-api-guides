@@ -143,7 +143,7 @@ Managed Agents 的 `web_search` 和 `web_fetch` 现在可以在 `agent_toolset_2
 
 ## 目录核验说明
 
-本文使用的 OpenLux 当前公开目录快照未匹配到相关条目，因此不据此声称这些工具已在其他目录或渠道上线；判断仍以官方发布说明和实际 API 验证为准。注册或查看目录入口：<https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=claude-api-computer-browser-files-skills-ga&utm_content=footer>
+本文使用的 OpenLux 当前公开目录快照未匹配到相关条目，因此不据此声称这些工具已在其他目录或渠道上线；判断仍以官方发布说明和实际 API 验证为准。注册或查看目录入口：<[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=claude-api-computer-browser-files-skills-ga&utm_content=footer)>
 
 ## 官方一手来源
 
