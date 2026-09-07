@@ -130,7 +130,7 @@ date: 2026-08-24
 
 如需进行这项补充核对，可访问：
 
-https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gpt-5-6-sol-api-credit-pricing-cut&utm_content=footer
+[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gpt-5-6-sol-api-credit-pricing-cut&utm_content=footer)
 
 ## 七、开发者提交预算前的检查清单
 
