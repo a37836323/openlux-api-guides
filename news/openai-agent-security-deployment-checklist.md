@@ -138,4 +138,4 @@ OpenLux 当前公开目录快照没有匹配条目，因此不能据此声称相
 ## 官方来源
 
 - OpenAI Blog：https://openai.com/index/pacing-model-development-cyber-capabilities/
-- OpenLux 归因链接：https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openai-agent-security-deployment-checklist&utm_content=footer
+- OpenLux 归因链接：[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openai-agent-security-deployment-checklist&utm_content=footer)
