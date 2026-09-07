@@ -1,0 +1,30 @@
+<script>
+(function(){
+  try{
+    var EP="https://tk.openlux.ai/collect",S="openlux-api-guides",L='zh-CN',V=1;
+    var sid=Math.random().toString(36).slice(2)+Date.now().toString(36);
+    function send(type,extra){
+      try{
+        var p={v:V,t:type,s:S,l:L,sid:sid,r:document.referrer||'',
+          p:location.pathname||'/',q:location.search||'',sw:screen.width||0,
+          tz:(Intl.DateTimeFormat().resolvedOptions()||{}).timeZone||''};
+        for(var k in extra){p[k]=extra[k];}
+        var body=JSON.stringify(p);
+        if(navigator.sendBeacon){
+          navigator.sendBeacon(EP,new Blob([body],{type:'text/plain;charset=UTF-8'}));
+        }else{fetch(EP,{method:'POST',body:body,keepalive:true,mode:'no-cors'});}
+      }catch(e){}
+    }
+    send('view');
+    document.addEventListener('click',function(e){
+      var a=e.target&&e.target.closest?e.target.closest('a'):null;
+      if(!a)return;
+      try{
+        var u=new URL(a.href,location.href);
+        if(u.hostname!=='api.openlux.ai')return;
+        send('click',{c:a.getAttribute('data-cta')||'article-link',h:u.href});
+      }catch(err){}
+    },{capture:true,passive:true});
+  }catch(e){}
+})();
+</script>
