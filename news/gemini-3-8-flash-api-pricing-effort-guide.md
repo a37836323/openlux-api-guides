@@ -3,10 +3,10 @@ layout: default
 title: "Gemini 3.8 Flash 已上线：API 定价、调低 effort 与 Cyber 访问边界"
 description: "Gemini 3.8 Flash 可通过 Gemini API 使用；本文梳理当前与明年价格、effort 的 token 成本取舍及 Cyber 版本准入限制。"
 permalink: /news/gemini-3-8-flash-api-pricing-effort-guide/
-date: 2026-09-02
+date: 2026-09-07
 ---
 
-> 更新日期：2026-09-02 · 一手来源：[DeepMind Blog](https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/)
+> 更新日期：2026-09-07 · 一手来源：[DeepMind Blog](https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/)
 
 # Gemini 3.8 Flash 已上线：API 定价、调低 effort 与 Cyber 访问边界
 
