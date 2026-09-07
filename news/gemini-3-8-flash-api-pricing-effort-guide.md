@@ -168,4 +168,4 @@ Gemini 3.8 Flash Cyber 通过 Fairwind Program 向以下受信任防御方提供
 ## 来源与目录核验
 
 - 官方一手来源：<https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/>
-- OpenLux 当前公开目录快照没有匹配 Gemini 3.8 Flash，因此不能用该目录证明模型已在你的账户或 API 中可用；相关目录入口：<https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-3-8-flash-api-pricing-effort-guide&utm_content=footer>
+- OpenLux 当前公开目录快照没有匹配 Gemini 3.8 Flash，因此不能用该目录证明模型已在你的账户或 API 中可用；相关目录入口：<[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-3-8-flash-api-pricing-effort-guide&utm_content=footer)>
