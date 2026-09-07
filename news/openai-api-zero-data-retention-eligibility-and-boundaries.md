@@ -150,4 +150,4 @@ Private Safety Processing 在正式推出并发布技术白皮书前，只作为
 ## 官方一手来源
 
 - OpenAI Blog：<https://openai.com/index/offering-zero-data-retention-for-frontier-models/>
-- 相关服务入口：<https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openai-api-zero-data-retention-eligibility-and-boundaries&utm_content=footer>
+- 相关服务入口：<[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openai-api-zero-data-retention-eligibility-and-boundaries&utm_content=footer)>
