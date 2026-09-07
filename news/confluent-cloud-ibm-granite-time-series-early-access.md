@@ -3,10 +3,10 @@ layout: default
 title: "Confluent Cloud 早期接入 IBM Granite：用 Flink SQL 做时序预测与异常检测"
 description: "IBM Granite 时序模型已在 Confluent Cloud Early Access，可通过 Flink SQL 调用预测和异常检测函数。"
 permalink: /news/confluent-cloud-ibm-granite-time-series-early-access/
-date: 2026-09-02
+date: 2026-09-07
 ---
 
-> 更新日期：2026-09-02 · 一手来源：[Hugging Face Blog](https://huggingface.co/blog/ibm-research/real-time-intelligence)
+> 更新日期：2026-09-07 · 一手来源：[Hugging Face Blog](https://huggingface.co/blog/ibm-research/real-time-intelligence)
 
 # Confluent Cloud 早期接入 IBM Granite：用 Flink SQL 做时序预测与异常检测
 
