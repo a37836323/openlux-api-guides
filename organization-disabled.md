@@ -236,7 +236,7 @@ except openai.APIConnectionError as exc:
 
 需要建立一个独立测试账号来复现时，可从 OpenLux 注册入口开始：
 
-https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=organization_disabled&utm_content=footer
+[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=organization_disabled&utm_content=footer)
 
 ---
 
