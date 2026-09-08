@@ -18,8 +18,9 @@ permalink: /
 
 ## 最新 API 与模型动态
 
-- 2026-09-08 · [Qwen 3.8 Flash 怎么选：API 费用计算、验收样本与 Max 升级条件](./news/qwen3-8-flash-api-cost-selection/)
+- 2026-09-08 · [用 ant apply 将 Claude Agent 资源纳入代码和 CI 管理](./news/ant-apply-agent-resources-as-code/)
 - 2026-09-08 · [Qwen 缓存为什么没命中：从请求前缀、usage 到真实账单的排查流程](./news/qwen-context-cache-hit-troubleshooting/)
+- 2026-09-08 · [Qwen 3.8 Flash 怎么选：API 费用计算、验收样本与 Max 升级条件](./news/qwen3-8-flash-api-cost-selection/)
 - 2026-09-07 · [Qwen 3.8 Max API 接入指南：区域价格、百万上下文与思考模式](./news/qwen3-8-max-api-price-region-context-guide/)
 - 2026-09-07 · [GPT-6 Astra API 接入指南：价格、百万上下文与 reasoning.effort 怎么选](./news/gpt-6-astra-api-price-context-guide/)
 - 2026-09-07 · [Gemini 3.8 Flash 已上线：API 定价、调低 effort 与 Cyber 访问边界](./news/gemini-3-8-flash-api-pricing-effort-guide/)
