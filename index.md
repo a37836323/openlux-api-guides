@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-09-08 · [用 GRPO 微调 LFM2.5-350M：提升结构化输出合规率的复现与评测方法](./news/grpo-structured-output-finetuning-lfm25-350m/)
 - 2026-09-08 · [Google WeatherNext 3 已接入 Maps Platform Weather API：开发者先验证天气数据变化](./news/googles-weathernext-3-maps-platform-weather-api/)
 - 2026-09-08 · [用 ant apply 将 Claude Agent 资源纳入代码和 CI 管理](./news/ant-apply-agent-resources-as-code/)
 - 2026-09-08 · [Qwen 缓存为什么没命中：从请求前缀、usage 到真实账单的排查流程](./news/qwen-context-cache-hit-troubleshooting/)
