@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-09-09 · [IBM Granite PatchTST-FM-r2 上线：如何用开源权重部署零样本时间序列预测](./news/ibm-granite-patchtst-fm-r2-deployment/)
 - 2026-09-08 · [用 GRPO 微调 LFM2.5-350M：提升结构化输出合规率的复现与评测方法](./news/grpo-structured-output-finetuning-lfm25-350m/)
 - 2026-09-08 · [Google WeatherNext 3 已接入 Maps Platform Weather API：开发者先验证天气数据变化](./news/googles-weathernext-3-maps-platform-weather-api/)
 - 2026-09-08 · [用 ant apply 将 Claude Agent 资源纳入代码和 CI 管理](./news/ant-apply-agent-resources-as-code/)
