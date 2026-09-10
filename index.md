@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-09-10 · [OpenAI Agents API 发布：如何评估云端 Agent 托管与工具调用](./news/openai-agents-api-cloud-agent-evaluation/)
 - 2026-09-10 · [GPT‑Live‑1 已进入 API：评估全双工语音与电话接入](./news/gpt-live-1-api-voice-experiences/)
 - 2026-09-09 · [用 TRL 与 OpenEnv 部署自定义视觉奖励 GRPO：配置与排错要点](./news/trl-openenv-watercolour-grpo-training/)
 - 2026-09-09 · [IBM Granite PatchTST-FM-r2 上线：如何用开源权重部署零样本时间序列预测](./news/ibm-granite-patchtst-fm-r2-deployment/)
