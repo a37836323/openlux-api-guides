@@ -18,6 +18,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-09-11 · [Claude Managed Agents 新增 `auto` 权限策略：让服务器评估并审批工具调用](./news/claude-managed-agents-auto-permission-policy/)
 - 2026-09-10 · [OpenAI Agents API 发布：如何评估云端 Agent 托管与工具调用](./news/openai-agents-api-cloud-agent-evaluation/)
 - 2026-09-10 · [GPT‑Live‑1 已进入 API：评估全双工语音与电话接入](./news/gpt-live-1-api-voice-experiences/)
 - 2026-09-09 · [用 TRL 与 OpenEnv 部署自定义视觉奖励 GRPO：配置与排错要点](./news/trl-openenv-watercolour-grpo-training/)
