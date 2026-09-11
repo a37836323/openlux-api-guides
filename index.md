@@ -21,6 +21,16 @@ permalink: /
 
 准备实际调用时，[注册 OpenLux 并核对账户可用模型](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=hub&utm_campaign=problem_navigation&utm_content=hub_next_step)，再按基础指南完成小规模测试。
 
+## 从应用场景开始
+
+| 想完成的任务 | 实操指南 |
+|---|---|
+| 让企业知识库找到正确资料 | [检索召回与重排评估](./news/rag-retrieval-rerank-evaluation/) |
+| 处理成千上万条文本 | [批次结果核对与失败补跑](./news/batch-ai-jobs-result-reconciliation/) |
+| 翻译商品页和帮助文档 | [术语、数字与占位符检查](./news/ai-product-translation-glossary-workflow/) |
+| 把扫描图片整理为表格 | [OCR 输入与单元格质量验收](./news/image-ocr-table-extraction-quality/) |
+| 把会议录音整理成纪要 | [转写与行动项证据核对](./news/meeting-audio-transcription-action-items/) |
+
 
 ## 基础指南
 
@@ -31,6 +41,11 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-09-12 · [企业知识库答非所问怎么办：先测检索召回，再决定是否加 Rerank](./news/rag-retrieval-rerank-evaluation/)
+- 2026-09-12 · [一万条文本怎样批量交给 AI：任务编号、结果核对与失败补跑](./news/batch-ai-jobs-result-reconciliation/)
+- 2026-09-12 · [AI 翻译商品页如何保持术语一致：术语表、数字与占位符检查](./news/ai-product-translation-glossary-workflow/)
+- 2026-09-12 · [图片转表格总有错字怎么办：OCR 输入、单元格对应与质量验收](./news/image-ocr-table-extraction-quality/)
+- 2026-09-12 · [会议录音转文字再生成纪要：怎样核对人名、数字和行动项](./news/meeting-audio-transcription-action-items/)
 - 2026-09-12 · [Qwen 回答只出一半：finish_reason、输出上限与流式完整性排查](./news/qwen-output-truncation-finish-reason/)
 - 2026-09-12 · [Qwen 多轮对话越聊越长：历史裁剪、事实保留与上下文预算](./news/qwen-chat-history-budget-and-facts/)
 - 2026-09-12 · [Qwen 输出 JSON 仍然不能入库：字段、类型与事实的三层验收](./news/qwen-json-output-business-validation/)
