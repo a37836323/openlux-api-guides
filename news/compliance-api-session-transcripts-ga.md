@@ -3,10 +3,10 @@ layout: default
 title: "Compliance API 会话转录正式可用：企业合规接入需要确认的权限与产品面"
 description: "Cowork 和 Claude Code 会话转录接口正式脱离 beta，并扩展支持 Claude Science 与 Microsoft 365 会话。"
 permalink: /news/compliance-api-session-transcripts-ga/
-date: 2026-08-28
+date: 2026-08-29
 ---
 
-> 更新日期：2026-08-28 · 一手来源：[Claude 平台发版](https://platform.claude.com/docs/en/release-notes/overview#august-26-2026)
+> 更新日期：2026-08-29 · 一手来源：[Claude 平台发版](https://platform.claude.com/docs/en/release-notes/overview#august-26-2026)
 
 # Compliance API 会话转录正式可用：企业合规接入需要确认的权限与产品面
 
