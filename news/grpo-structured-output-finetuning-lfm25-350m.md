@@ -3,10 +3,10 @@ layout: default
 title: "用 GRPO 微调 LFM2.5-350M：提升结构化输出合规率的复现与评测方法"
 description: "基于约500条样本和100步GRPO，复现小模型结构化输出微调、llama.cpp部署及IFStruct评测流程。"
 permalink: /news/grpo-structured-output-finetuning-lfm25-350m/
-date: 2026-09-08
+date: 2026-09-09
 ---
 
-> 更新日期：2026-09-08 · 一手来源：[Hugging Face Blog](https://huggingface.co/blog/grpo-with-trl-ifstruct)
+> 更新日期：2026-09-09 · 一手来源：[Hugging Face Blog](https://huggingface.co/blog/grpo-with-trl-ifstruct)
 
 # 用 GRPO 微调 LFM2.5-350M：提升结构化输出合规率的复现与评测方法
 
