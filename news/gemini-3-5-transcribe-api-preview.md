@@ -3,10 +3,10 @@ layout: default
 title: "Gemini 3.5 Transcribe 接入指南：实时与录音转写 API 怎么选"
 description: "Gemini 3.5 Transcribe 开放预览：用 Live API 做亚秒级实时转写，或用 Interactions API 处理录音、说话人归属和词级时间戳。"
 permalink: /news/gemini-3-5-transcribe-api-preview/
-date: 2026-08-26
+date: 2026-08-27
 ---
 
-> 更新日期：2026-08-26 · 一手来源：[DeepMind Blog](https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/)
+> 更新日期：2026-08-27 · 一手来源：[DeepMind Blog](https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/)
 
 <think>**Planning structured factual content****Clarifying source distinctions and limitations**</think>
 
