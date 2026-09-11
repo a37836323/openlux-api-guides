@@ -3,10 +3,10 @@ layout: default
 title: "Claude API 电脑与浏览器工具正式可用，Files 和 Skills API 退出 Beta"
 description: "Claude API 新增正式版电脑操作和浏览器工具，Files、Skills API 取消 Beta 头部要求，并支持 Managed Agents 域名限制。"
 permalink: /news/claude-api-computer-browser-files-skills-ga/
-date: 2026-08-24
+date: 2026-08-25
 ---
 
-> 更新日期：2026-08-24 · 一手来源：[Claude 平台发版](https://platform.claude.com/docs/en/release-notes/overview#august-19-2026)
+> 更新日期：2026-08-25 · 一手来源：[Claude 平台发版](https://platform.claude.com/docs/en/release-notes/overview#august-19-2026)
 
 # Claude API 电脑与浏览器工具正式可用，Files 和 Skills API 退出 Beta
 
