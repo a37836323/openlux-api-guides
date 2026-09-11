@@ -3,10 +3,10 @@ layout: default
 title: "Gemini Omni 1.1 Flash 视频 API 控制指南：场景延展、首尾帧与 4K 输出"
 description: "Google 发布 Gemini Omni 1.1 Flash，开发者可通过 API 延展视频、指定首尾帧，并用 360p 草稿和 4K 输出优化生成工作流。"
 permalink: /news/gemini-omni-1-1-flash-video-api-controls/
-date: 2026-08-27
+date: 2026-08-28
 ---
 
-> 更新日期：2026-08-27 · 一手来源：[DeepMind Blog](https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/)
+> 更新日期：2026-08-28 · 一手来源：[DeepMind Blog](https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/)
 
 # Gemini Omni 1.1 Flash 视频 API 控制指南：场景延展、首尾帧与 4K 输出
 
