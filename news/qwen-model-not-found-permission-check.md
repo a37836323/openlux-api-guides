@@ -3,10 +3,10 @@ layout: default
 title: "Qwen 模型找不到怎么办：模型 ID、入口与账户权限排查"
 description: "按原始错误、精确模型 ID、实际入口与账户范围定位 Qwen 模型找不到问题。"
 permalink: /news/qwen-model-not-found-permission-check/
-date: 2026-09-11
+date: 2026-09-12
 ---
 
-> 更新日期：2026-09-11 · 一手来源：[Alibaba Cloud Model Studio](https://www.alibabacloud.com/help/en/model-studio/error-code)
+> 更新日期：2026-09-12 · 一手来源：[Alibaba Cloud Model Studio](https://www.alibabacloud.com/help/en/model-studio/error-code)
 
 # Qwen 模型找不到怎么办：模型 ID、入口与账户权限排查
 
