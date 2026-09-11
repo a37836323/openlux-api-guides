@@ -3,10 +3,10 @@ layout: default
 title: "Qwen 多轮对话越聊越长：历史裁剪、事实保留与上下文预算"
 description: "为多轮对话设置历史和输出预算，按完整轮次裁剪并保留事实来源。"
 permalink: /news/qwen-chat-history-budget-and-facts/
-date: 2026-09-11
+date: 2026-09-12
 ---
 
-> 更新日期：2026-09-11 · 一手来源：[Alibaba Cloud Model Studio](https://www.alibabacloud.com/help/en/model-studio/multi-round-conversation)
+> 更新日期：2026-09-12 · 一手来源：[Alibaba Cloud Model Studio](https://www.alibabacloud.com/help/en/model-studio/multi-round-conversation)
 
 # Qwen 多轮对话越聊越长：历史裁剪、事实保留与上下文预算
 
