@@ -3,10 +3,10 @@ layout: default
 title: "Qwen 输出 JSON 仍然不能入库：字段、类型与事实的三层验收"
 description: "区分 JSON 语法、字段结构和业务事实错误，提供可运行的离线校验器。"
 permalink: /news/qwen-json-output-business-validation/
-date: 2026-09-11
+date: 2026-09-12
 ---
 
-> 更新日期：2026-09-11 · 一手来源：[Alibaba Cloud Model Studio](https://www.alibabacloud.com/help/en/model-studio/qwen-structured-output)
+> 更新日期：2026-09-12 · 一手来源：[Alibaba Cloud Model Studio](https://www.alibabacloud.com/help/en/model-studio/qwen-structured-output)
 
 # Qwen 输出 JSON 仍然不能入库：字段、类型与事实的三层验收
 
