@@ -3,10 +3,10 @@ layout: default
 title: "在浏览器接入 Hugging Face WebGPU 内核：安装、版本与兼容性检查"
 description: "Hugging Face 发布 207 个可版本化 WebGPU 内核及 JavaScript 加载器，开发者可按契约在支持 WebGPU 的浏览器中运行并评估本地推理性能。"
 permalink: /news/huggingface-webgpu-kernels-browser-inference/
-date: 2026-09-01
+date: 2026-09-02
 ---
 
-> 更新日期：2026-09-01 · 一手来源：[Hugging Face Blog](https://huggingface.co/blog/webgpu-kernels)
+> 更新日期：2026-09-02 · 一手来源：[Hugging Face Blog](https://huggingface.co/blog/webgpu-kernels)
 
 # 在浏览器接入 Hugging Face WebGPU 内核：安装、版本与兼容性检查
 
