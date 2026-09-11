@@ -3,10 +3,10 @@ layout: default
 title: "Google WeatherNext 3 已接入 Maps Platform Weather API：开发者先验证天气数据变化"
 description: "WeatherNext 3 已接入 Google Maps Platform Weather API，开发者可检查小时更新、分辨率和降水预测变化。"
 permalink: /news/googles-weathernext-3-maps-platform-weather-api/
-date: 2026-09-08
+date: 2026-09-09
 ---
 
-> 更新日期：2026-09-08 · 一手来源：[DeepMind Blog](https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/)
+> 更新日期：2026-09-09 · 一手来源：[DeepMind Blog](https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/)
 
 # Google WeatherNext 3 已接入 Maps Platform Weather API：开发者先验证天气数据变化
 
