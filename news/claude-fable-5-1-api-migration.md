@@ -3,10 +3,10 @@ layout: default
 title: "Claude Fable 5.1 上线：API 迁移需检查 tool_choice、思维块与数据保留"
 description: "Fable 5.1提供1M上下文与128K输出；迁移前须处理tool_choice限制、思维块绑定校验及30天数据保留要求。"
 permalink: /news/claude-fable-5-1-api-migration/
-date: 2026-09-01
+date: 2026-09-02
 ---
 
-> 更新日期：2026-09-01 · 一手来源：[Claude 平台发版](https://platform.claude.com/docs/en/release-notes/overview#september-1-2026)
+> 更新日期：2026-09-02 · 一手来源：[Claude 平台发版](https://platform.claude.com/docs/en/release-notes/overview#september-1-2026)
 
 <think>**Planning structured Chinese content with official references****Clarifying provider availability and API constraints**</think>
 
