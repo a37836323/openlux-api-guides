@@ -3,10 +3,10 @@ layout: default
 title: "Gemini API 上线 Agentic Video：如何启用并降低长视频分析 Token 消耗"
 description: "Gemini API 为三款 Flash 模型加入 Agentic Video；视频输入设为 processing=agentic 即可启用，按标准 Token 价格计费。"
 permalink: /news/gemini-agentic-video-understanding-api/
-date: 2026-09-01
+date: 2026-09-02
 ---
 
-> 更新日期：2026-09-01 · 一手来源：[DeepMind Blog](https://deepmind.google/blog/introducing-agentic-video-in-gemini/)
+> 更新日期：2026-09-02 · 一手来源：[DeepMind Blog](https://deepmind.google/blog/introducing-agentic-video-in-gemini/)
 
 <think>**Clarifying OpenLux snapshot attribution****Refining prohibited superlative usage**</think>
 
