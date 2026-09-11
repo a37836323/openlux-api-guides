@@ -3,10 +3,10 @@ layout: default
 title: "OpenAI Agents API 发布：如何评估云端 Agent 托管与工具调用"
 description: "Agents API 提供基于 Codex harness 的云端 Agent 托管能力，开发者可据此评估编排、长时会话和工具调用方案。"
 permalink: /news/openai-agents-api-cloud-agent-evaluation/
-date: 2026-09-10
+date: 2026-09-11
 ---
 
-> 更新日期：2026-09-10 · 一手来源：[OpenAI Blog](https://openai.com/index/introducing-the-agents-api)
+> 更新日期：2026-09-11 · 一手来源：[OpenAI Blog](https://openai.com/index/introducing-the-agents-api)
 
 # OpenAI Agents API 发布：如何评估云端 Agent 托管与工具调用
 
