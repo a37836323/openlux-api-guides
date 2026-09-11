@@ -9,6 +9,19 @@ permalink: /
 
 这里不堆泛泛的产品介绍，只整理开发者在真实接入中会遇到的问题。新闻栏目只收录有官方一手依据、并且能转化为实际操作建议的 API 与模型变化。
 
+## 按问题找教程
+
+| 你遇到的问题 | 建议先看 |
+|---|---|
+| 模型找不到、账户无权调用 | [模型 ID、入口与权限检查](./news/qwen-model-not-found-permission-check/) |
+| JSON 能解析但数据不能入库 | [字段、类型与事实验收](./news/qwen-json-output-business-validation/) |
+| 对话越聊越长或忘记早先条件 | [历史裁剪与事实保留](./news/qwen-chat-history-budget-and-facts/) |
+| 回答只出一半或缺少结尾 | [结束原因与输出完整性](./news/qwen-output-truncation-finish-reason/) |
+| 重复材料没有省下费用 | [缓存命中与账单排查](./news/qwen-context-cache-hit-troubleshooting/) |
+
+准备实际调用时，[注册 OpenLux 并核对账户可用模型](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=hub&utm_campaign=problem_navigation&utm_content=hub_next_step)，再按基础指南完成小规模测试。
+
+
 ## 基础指南
 
 - [OpenLux API 接入实战：用 OpenAI SDK 切换统一网关，并处理 401、429 和流式中断](./quickstart/)
@@ -18,6 +31,10 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-09-11 · [Qwen 模型找不到怎么办：模型 ID、入口与账户权限排查](./news/qwen-model-not-found-permission-check/)
+- 2026-09-11 · [Qwen 输出 JSON 仍然不能入库：字段、类型与事实的三层验收](./news/qwen-json-output-business-validation/)
+- 2026-09-11 · [Qwen 多轮对话越聊越长：历史裁剪、事实保留与上下文预算](./news/qwen-chat-history-budget-and-facts/)
+- 2026-09-11 · [Qwen 回答只出一半：finish_reason、输出上限与流式完整性排查](./news/qwen-output-truncation-finish-reason/)
 - 2026-09-11 · [Claude Managed Agents 新增 `auto` 权限策略：让服务器评估并审批工具调用](./news/claude-managed-agents-auto-permission-policy/)
 - 2026-09-10 · [OpenAI Agents API 发布：如何评估云端 Agent 托管与工具调用](./news/openai-agents-api-cloud-agent-evaluation/)
 - 2026-09-10 · [GPT‑Live‑1 已进入 API：评估全双工语音与电话接入](./news/gpt-live-1-api-voice-experiences/)
