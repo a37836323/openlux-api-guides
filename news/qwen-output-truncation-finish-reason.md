@@ -3,10 +3,10 @@ layout: default
 title: "Qwen 回答只出一半：finish_reason、输出上限与流式完整性排查"
 description: "从 finish_reason、输出预算和流式事件判断回答截断原因与续写边界。"
 permalink: /news/qwen-output-truncation-finish-reason/
-date: 2026-09-11
+date: 2026-09-12
 ---
 
-> 更新日期：2026-09-11 · 一手来源：[Alibaba Cloud Model Studio](https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-chat-completions)
+> 更新日期：2026-09-12 · 一手来源：[Alibaba Cloud Model Studio](https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-chat-completions)
 
 # Qwen 回答只出一半：finish_reason、输出上限与流式完整性排查
 
