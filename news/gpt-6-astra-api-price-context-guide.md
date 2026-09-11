@@ -3,10 +3,10 @@ layout: default
 title: "GPT-6 Astra API 接入指南：价格、百万上下文与 reasoning.effort 怎么选"
 description: "核对 GPT-6 Astra 的 API 端点、105 万上下文、超 272K 分层计价，以及 OpenLux 当前公开价格。"
 permalink: /news/gpt-6-astra-api-price-context-guide/
-date: 2026-09-07
+date: 2026-09-08
 ---
 
-> 更新日期：2026-09-07 · 一手来源：[OpenAI Blog](https://developers.openai.com/api/docs/models/gpt-6-astra)
+> 更新日期：2026-09-08 · 一手来源：[OpenAI Blog](https://developers.openai.com/api/docs/models/gpt-6-astra)
 
 # GPT-6 Astra API 接入指南：价格、百万上下文与 reasoning.effort 怎么选
 
