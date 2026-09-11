@@ -3,10 +3,10 @@ layout: default
 title: "用 TRL 与 OpenEnv 部署自定义视觉奖励 GRPO：配置与排错要点"
 description: "基于 HF Jobs、Spaces 和 Inference Providers 复现代码生成模型的自定义奖励 GRPO 训练，并避开 MoE LoRA 配置陷阱。"
 permalink: /news/trl-openenv-watercolour-grpo-training/
-date: 2026-09-09
+date: 2026-09-10
 ---
 
-> 更新日期：2026-09-09 · 一手来源：[Hugging Face Blog](https://huggingface.co/blog/train-to-paint-with-code)
+> 更新日期：2026-09-10 · 一手来源：[Hugging Face Blog](https://huggingface.co/blog/train-to-paint-with-code)
 
 # 用 TRL 与 OpenEnv 部署自定义视觉奖励 GRPO：配置与排错要点
 
