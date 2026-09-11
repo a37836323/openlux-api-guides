@@ -3,10 +3,10 @@ layout: default
 title: "IBM Granite PatchTST-FM-r2 上线：如何用开源权重部署零样本时间序列预测"
 description: "IBM发布约3.85亿参数的PatchTST-FM-r2，支持8192步上下文、99分位数预测，并提供可直接运行的Python推理流程。"
 permalink: /news/ibm-granite-patchtst-fm-r2-deployment/
-date: 2026-09-09
+date: 2026-09-10
 ---
 
-> 更新日期：2026-09-09 · 一手来源：[Hugging Face Blog](https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series)
+> 更新日期：2026-09-10 · 一手来源：[Hugging Face Blog](https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series)
 
 # IBM Granite PatchTST-FM-r2 上线：如何用开源权重部署零样本时间序列预测
 
