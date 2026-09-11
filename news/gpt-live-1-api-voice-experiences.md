@@ -3,10 +3,10 @@ layout: default
 title: "GPT‑Live‑1 已进入 API：评估全双工语音与电话接入"
 description: "OpenAI 将 GPT‑Live‑1 带入 API，支持全双工语音、强化指令遵循、自定义声音和电话场景；开发者可据此评估接入方向。"
 permalink: /news/gpt-live-1-api-voice-experiences/
-date: 2026-09-10
+date: 2026-09-11
 ---
 
-> 更新日期：2026-09-10 · 一手来源：[OpenAI Blog](https://openai.com/index/introducing-gpt-live-1-in-the-api)
+> 更新日期：2026-09-11 · 一手来源：[OpenAI Blog](https://openai.com/index/introducing-gpt-live-1-in-the-api)
 
 # GPT‑Live‑1 已进入 API：评估全双工语音与电话接入
 
