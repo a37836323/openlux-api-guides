@@ -3,10 +3,10 @@ layout: default
 title: "Qwen 3.8 Max API 接入指南：区域价格、百万上下文与思考模式"
 description: "核对 Qwen 3.8 Max 的百万上下文、区域能力差异、官方价格、OpenLux 当前目录与 0902 快照选择。"
 permalink: /news/qwen3-8-max-api-price-region-context-guide/
-date: 2026-09-07
+date: 2026-09-08
 ---
 
-> 更新日期：2026-09-07 · 一手来源：[Alibaba Cloud Model Studio](https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max)
+> 更新日期：2026-09-08 · 一手来源：[Alibaba Cloud Model Studio](https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max)
 
 # Qwen 3.8 Max API 接入指南：区域价格、百万上下文与思考模式
 
