@@ -3,10 +3,10 @@ layout: default
 title: "用 ant apply 将 Claude Agent 资源纳入代码和 CI 管理"
 description: "ant CLI 1.30.0 新增 ant apply，可从仓库文件创建或更新 Agent 资源，并用锁文件避免 CI 重复创建。"
 permalink: /news/ant-apply-agent-resources-as-code/
-date: 2026-09-08
+date: 2026-09-09
 ---
 
-> 更新日期：2026-09-08 · 一手来源：[Claude 平台发版](https://platform.claude.com/docs/en/release-notes/overview#september-3-2026)
+> 更新日期：2026-09-09 · 一手来源：[Claude 平台发版](https://platform.claude.com/docs/en/release-notes/overview#september-3-2026)
 
 # 用 ant apply 将 Claude Agent 资源纳入代码和 CI 管理
 
