@@ -234,6 +234,15 @@ OpenLux 公开价格接口在 2026-08-24 返回的基准价格如下，单位是
 - [ ] 准备至少一个可切换的备用模型；
 - [ ] 客户端和服务端都没有输出完整 API Key。
 
+## 调用之后，按问题继续排查
+
+2026-09-12 补充阅读路径：下列教程分别处理权限、结构、历史和输出完整性，按实际现象选择。
+
+- 提示模型找不到或无权访问：[核对模型 ID、入口和账户范围](https://a37836323.github.io/openlux-api-guides/news/qwen-model-not-found-permission-check/)。
+- 能返回 JSON 但业务不能接受：[检查字段、类型和原文事实](https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/)。
+- 多轮会话越来越长：[整理历史并保留关键事实](https://a37836323.github.io/openlux-api-guides/news/qwen-chat-history-budget-and-facts/)。
+- 回答只出一半：[先看结束原因再决定是否续写](https://a37836323.github.io/openlux-api-guides/news/qwen-output-truncation-finish-reason/)。
+
 ## 总结
 
 OpenLux API 的最小接入并不复杂：官方 OpenAI SDK 加上新的 `base_url`、API Key 和真实模型 ID 就能开始验证。生产环境真正需要投入精力的是鉴权、限流、流式中断、账单核对和可替换性。
