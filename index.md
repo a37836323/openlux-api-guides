@@ -9,6 +9,14 @@ permalink: /
 
 这里不堆泛泛的产品介绍，只整理开发者在真实接入中会遇到的问题。新闻栏目只收录有官方一手依据、并且能转化为实际操作建议的 API 与模型变化。
 
+## 遇到这些报错，先看这里
+
+| 搜索的问题 | 排查文章 |
+|---|---|
+| 买了 ChatGPT Plus，API 还报 429 insufficient_quota？ | [订阅、API 余额与限流怎么区分](./news/chatgpt-plus-api-insufficient-quota/) |
+| Unsupported parameter: max_tokens 怎么改？ | [max_completion_tokens 与 max_output_tokens](./news/openai-unsupported-max-tokens-fix/) |
+| No tool output found for function call 怎么修？ | [call_id 与工具结果回传排查](./news/responses-no-tool-output-found-fix/) |
+
 ## 按问题找教程
 
 | 你遇到的问题 | 建议先看 |
@@ -49,9 +57,12 @@ permalink: /
 
 ## 最新 API 与模型动态
 
-- 2026-09-12 · [提示词改好了一题却弄坏其他题：版本管理与回归测试怎么做](./news/prompt-version-regression-release/)
-- 2026-09-12 · [工具调用返回了参数却执行失败：函数名、字段和业务范围怎么校验](./news/tool-call-arguments-validation-contract/)
+- 2026-09-12 · [买了 ChatGPT Plus，API 为什么还报 429 insufficient_quota？](./news/chatgpt-plus-api-insufficient-quota/)
+- 2026-09-12 · [OpenAI 报 Unsupported parameter: max_tokens 怎么改？两个接口别填错](./news/openai-unsupported-max-tokens-fix/)
+- 2026-09-12 · [No tool output found for function call 怎么修？Responses API 回传排查](./news/responses-no-tool-output-found-fix/)
 - 2026-09-12 · [API 用量和账单为什么对不上：时间窗口、计费单位与重试记录核对](./news/api-usage-billing-reconciliation-workflow/)
+- 2026-09-12 · [工具调用返回了参数却执行失败：函数名、字段和业务范围怎么校验](./news/tool-call-arguments-validation-contract/)
+- 2026-09-12 · [提示词改好了一题却弄坏其他题：版本管理与回归测试怎么做](./news/prompt-version-regression-release/)
 - 2026-09-12 · [会议录音转文字再生成纪要：怎样核对人名、数字和行动项](./news/meeting-audio-transcription-action-items/)
 - 2026-09-12 · [图片转表格总有错字怎么办：OCR 输入、单元格对应与质量验收](./news/image-ocr-table-extraction-quality/)
 - 2026-09-12 · [AI 翻译商品页如何保持术语一致：术语表、数字与占位符检查](./news/ai-product-translation-glossary-workflow/)
