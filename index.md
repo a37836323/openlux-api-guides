@@ -31,6 +31,14 @@ permalink: /
 | 把扫描图片整理为表格 | [OCR 输入与单元格质量验收](./news/image-ocr-table-extraction-quality/) |
 | 把会议录音整理成纪要 | [转写与行动项证据核对](./news/meeting-audio-transcription-action-items/) |
 
+## 应用维护与核验
+
+| 需要检查的变化 | 实操指南 |
+|---|---|
+| 改提示词后其他问题退步了 | [版本记录与同题回归](./news/prompt-version-regression-release/) |
+| 工具返回参数却无法执行 | [函数名、字段与业务范围校验](./news/tool-call-arguments-validation-contract/) |
+| 调用用量和实际账单对不上 | [时间、计费单位与重试记录核对](./news/api-usage-billing-reconciliation-workflow/) |
+
 
 ## 基础指南
 
@@ -41,11 +49,14 @@ permalink: /
 
 ## 最新 API 与模型动态
 
-- 2026-09-12 · [企业知识库答非所问怎么办：先测检索召回，再决定是否加 Rerank](./news/rag-retrieval-rerank-evaluation/)
-- 2026-09-12 · [一万条文本怎样批量交给 AI：任务编号、结果核对与失败补跑](./news/batch-ai-jobs-result-reconciliation/)
-- 2026-09-12 · [AI 翻译商品页如何保持术语一致：术语表、数字与占位符检查](./news/ai-product-translation-glossary-workflow/)
-- 2026-09-12 · [图片转表格总有错字怎么办：OCR 输入、单元格对应与质量验收](./news/image-ocr-table-extraction-quality/)
+- 2026-09-12 · [提示词改好了一题却弄坏其他题：版本管理与回归测试怎么做](./news/prompt-version-regression-release/)
+- 2026-09-12 · [工具调用返回了参数却执行失败：函数名、字段和业务范围怎么校验](./news/tool-call-arguments-validation-contract/)
+- 2026-09-12 · [API 用量和账单为什么对不上：时间窗口、计费单位与重试记录核对](./news/api-usage-billing-reconciliation-workflow/)
 - 2026-09-12 · [会议录音转文字再生成纪要：怎样核对人名、数字和行动项](./news/meeting-audio-transcription-action-items/)
+- 2026-09-12 · [图片转表格总有错字怎么办：OCR 输入、单元格对应与质量验收](./news/image-ocr-table-extraction-quality/)
+- 2026-09-12 · [AI 翻译商品页如何保持术语一致：术语表、数字与占位符检查](./news/ai-product-translation-glossary-workflow/)
+- 2026-09-12 · [一万条文本怎样批量交给 AI：任务编号、结果核对与失败补跑](./news/batch-ai-jobs-result-reconciliation/)
+- 2026-09-12 · [企业知识库答非所问怎么办：先测检索召回，再决定是否加 Rerank](./news/rag-retrieval-rerank-evaluation/)
 - 2026-09-12 · [Qwen 回答只出一半：finish_reason、输出上限与流式完整性排查](./news/qwen-output-truncation-finish-reason/)
 - 2026-09-12 · [Qwen 多轮对话越聊越长：历史裁剪、事实保留与上下文预算](./news/qwen-chat-history-budget-and-facts/)
 - 2026-09-12 · [Qwen 输出 JSON 仍然不能入库：字段、类型与事实的三层验收](./news/qwen-json-output-business-validation/)
