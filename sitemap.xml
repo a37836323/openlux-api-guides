@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://a37836323.github.io/openlux-api-guides/</loc><lastmod>2026-09-11</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/quickstart/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/organization-disabled/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/rate-limit-stream-retry/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/model-cost-per-success/</loc><lastmod>2026-08-24</lastmod></url>
-  <url><loc>https://a37836323.github.io/openlux-api-guides/news/rag-retrieval-rerank-evaluation/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://a37836323.github.io/openlux-api-guides/news/batch-ai-jobs-result-reconciliation/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://a37836323.github.io/openlux-api-guides/news/ai-product-translation-glossary-workflow/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://a37836323.github.io/openlux-api-guides/news/image-ocr-table-extraction-quality/</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/news/prompt-version-regression-release/</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/news/tool-call-arguments-validation-contract/</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/news/api-usage-billing-reconciliation-workflow/</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/meeting-audio-transcription-action-items/</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/news/image-ocr-table-extraction-quality/</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/news/ai-product-translation-glossary-workflow/</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/news/batch-ai-jobs-result-reconciliation/</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/news/rag-retrieval-rerank-evaluation/</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/qwen-output-truncation-finish-reason/</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/qwen-chat-history-budget-and-facts/</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/</loc><lastmod>2026-09-12</lastmod></url>
