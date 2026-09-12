@@ -47,6 +47,21 @@ permalink: /
 | 工具返回参数却无法执行 | [函数名、字段与业务范围校验](./news/tool-call-arguments-validation-contract/) |
 | 调用用量和实际账单对不上 | [时间、计费单位与重试记录核对](./news/api-usage-billing-reconciliation-workflow/) |
 
+## 更多工具与 API 报错
+
+| 遇到的问题 | 排查文章 |
+|---|---|
+| Pinecone 报 Vector dimension does not match 怎么办？ | [查看步骤](./news/pinecone-vector-dimension-mismatch-fix/) |
+| MCP 报 spawn npx ENOENT：终端能用，客户端为什么找不到？ | [查看步骤](./news/mcp-spawn-npx-enoent-fix/) |
+| APIRemovedInV1 怎么修？openai.ChatCompletion.create 迁移示例 | [查看步骤](./news/openai-python-apiremovedinv1-fix/) |
+| OpenAI Python 报 unexpected keyword argument proxies 怎么解决？ | [查看步骤](./news/openai-httpx-unexpected-proxies-fix/) |
+| Your organization must be verified to stream：已验证为什么还报错？ | [查看步骤](./news/openai-organization-verified-stream-error/) |
+| Invalid schema：additionalProperties 必须为 false，嵌套对象怎么改？ | [查看步骤](./news/structured-outputs-additionalproperties-false-fix/) |
+| OpenAI 图片上传报 invalid_base64 或 Invalid image，怎么排查？ | [查看步骤](./news/openai-invalid-base64-image-url-fix/) |
+| Whisper API 报 413、音频超过 25MB：怎么压缩和分段？ | [查看步骤](./news/whisper-audio-413-25mb-limit-fix/) |
+| Open WebUI 连不上 Ollama？Docker localhost 与 11434 排查 | [查看步骤](./news/open-webui-ollama-docker-connection-refused/) |
+| OpenAI API 报 CERTIFICATE_VERIFY_FAILED：证书链怎么修？ | [查看步骤](./news/openai-python-certificate-verify-failed-fix/) |
+
 
 ## 基础指南
 
@@ -57,9 +72,19 @@ permalink: /
 
 ## 最新 API 与模型动态
 
-- 2026-09-12 · [买了 ChatGPT Plus，API 为什么还报 429 insufficient_quota？](./news/chatgpt-plus-api-insufficient-quota/)
-- 2026-09-12 · [OpenAI 报 Unsupported parameter: max_tokens 怎么改？两个接口别填错](./news/openai-unsupported-max-tokens-fix/)
+- 2026-09-12 · [OpenAI API 报 CERTIFICATE_VERIFY_FAILED：证书链怎么修？](./news/openai-python-certificate-verify-failed-fix/)
+- 2026-09-12 · [Pinecone 报 Vector dimension does not match 怎么办？](./news/pinecone-vector-dimension-mismatch-fix/)
+- 2026-09-12 · [MCP 报 spawn npx ENOENT：终端能用，客户端为什么找不到？](./news/mcp-spawn-npx-enoent-fix/)
+- 2026-09-12 · [APIRemovedInV1 怎么修？openai.ChatCompletion.create 迁移示例](./news/openai-python-apiremovedinv1-fix/)
+- 2026-09-12 · [OpenAI Python 报 unexpected keyword argument proxies 怎么解决？](./news/openai-httpx-unexpected-proxies-fix/)
+- 2026-09-12 · [Your organization must be verified to stream：已验证为什么还报错？](./news/openai-organization-verified-stream-error/)
+- 2026-09-12 · [Invalid schema：additionalProperties 必须为 false，嵌套对象怎么改？](./news/structured-outputs-additionalproperties-false-fix/)
+- 2026-09-12 · [OpenAI 图片上传报 invalid_base64 或 Invalid image，怎么排查？](./news/openai-invalid-base64-image-url-fix/)
+- 2026-09-12 · [Whisper API 报 413、音频超过 25MB：怎么压缩和分段？](./news/whisper-audio-413-25mb-limit-fix/)
+- 2026-09-12 · [Open WebUI 连不上 Ollama？Docker localhost 与 11434 排查](./news/open-webui-ollama-docker-connection-refused/)
 - 2026-09-12 · [No tool output found for function call 怎么修？Responses API 回传排查](./news/responses-no-tool-output-found-fix/)
+- 2026-09-12 · [OpenAI 报 Unsupported parameter: max_tokens 怎么改？两个接口别填错](./news/openai-unsupported-max-tokens-fix/)
+- 2026-09-12 · [买了 ChatGPT Plus，API 为什么还报 429 insufficient_quota？](./news/chatgpt-plus-api-insufficient-quota/)
 - 2026-09-12 · [API 用量和账单为什么对不上：时间窗口、计费单位与重试记录核对](./news/api-usage-billing-reconciliation-workflow/)
 - 2026-09-12 · [工具调用返回了参数却执行失败：函数名、字段和业务范围怎么校验](./news/tool-call-arguments-validation-contract/)
 - 2026-09-12 · [提示词改好了一题却弄坏其他题：版本管理与回归测试怎么做](./news/prompt-version-regression-release/)
