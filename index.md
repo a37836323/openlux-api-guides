@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-25 · [OpenAI 12 小时提示缓存怎么开：prompt_cache_options.ttl 报 400、类型报错与命中核对](./news/openai-prompt-cache-12h-ttl-setup/)
 - 2026-10-25 · [Anthropic SDK 升级后报 400 或鉴权失败：API 版本 2026-10-21 迁移排查](./news/anthropic-api-2026-10-21-upgrade-errors-fix/)
 - 2026-10-25 · [Claude Managed Agents 报 `url_not_allowed`、`url_not_in_prior_context` 或 400：如何配置 `allowed_hosts` 与域名限制](./news/claude-managed-agents-web-fetch-url-not-allowed-fix/)
 - 2026-09-12 · [OpenAI API 报 CERTIFICATE_VERIFY_FAILED：证书链怎么修？](./news/openai-python-certificate-verify-failed-fix/)
