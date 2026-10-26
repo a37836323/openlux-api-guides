@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-26 · [Claude Code 怎么接入 Claude 中转 API：ANTHROPIC_BASE_URL、Key 与模型设置](./news/claude-code-relay-api-base-url-setup/)
 - 2026-10-26 · [OpenAI Decisions API 缓存没命中怎么办：questions 不进缓存、1024 token 门槛与 30m 限制](./news/openai-decisions-api-prompt-cache-not-hit/)
 - 2026-10-26 · [OpenAI Responses API 间歇性报 503 怎么办：server_is_overloaded、服务端错误与重试设置](./news/openai-responses-api-503-retry-fix/)
 - 2026-10-26 · [Codex 提示用量到上限怎么办：查剩余额度与重置时间、加购 credits、改用 API Key](./news/codex-usage-limit-reached-fix/)
