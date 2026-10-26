@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://a37836323.github.io/openlux-api-guides/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/quickstart/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/organization-disabled/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/rate-limit-stream-retry/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/model-cost-per-success/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/news/openai-responses-api-503-retry-fix/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/codex-usage-limit-reached-fix/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/claude-haiku-5-5-migration-400-errors-fix/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/openai-prompt-cache-12h-ttl-setup/</loc><lastmod>2026-10-25</lastmod></url>
