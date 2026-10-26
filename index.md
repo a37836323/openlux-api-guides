@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-27 · [Transformers 模型能在 AWS Trainium2 上运行吗？torch-neuronx 编译失败或首次运行过慢怎么排查](./news/check-transformers-model-trainium-support/)
 - 2026-10-26 · [Claude Code 怎么接入 Claude 中转 API：ANTHROPIC_BASE_URL、Key 与模型设置](./news/claude-code-relay-api-base-url-setup/)
 - 2026-10-26 · [OpenAI Decisions API 缓存没命中怎么办：questions 不进缓存、1024 token 门槛与 30m 限制](./news/openai-decisions-api-prompt-cache-not-hit/)
 - 2026-10-26 · [OpenAI Responses API 间歇性报 503 怎么办：server_is_overloaded、服务端错误与重试设置](./news/openai-responses-api-503-retry-fix/)
