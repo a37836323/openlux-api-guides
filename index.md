@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-27 · [Claude API 带 web_fetch 工具报 400 怎么办：组织未开启、域名名单冲突与续轮缺少结果块](./news/claude-api-web-fetch-400-error-fix/)
 - 2026-10-27 · [Codex CLI 怎么接入 OpenAI 兼容中转 API：config.toml 自定义 provider、Key 与模型设置](./news/codex-cli-relay-api-config-toml-setup/)
 - 2026-10-27 · [Transformers 模型能在 AWS Trainium2 上运行吗？torch-neuronx 编译失败或首次运行过慢怎么排查](./news/check-transformers-model-trainium-support/)
 - 2026-10-26 · [Claude Code 怎么接入 Claude 中转 API：ANTHROPIC_BASE_URL、Key 与模型设置](./news/claude-code-relay-api-base-url-setup/)
