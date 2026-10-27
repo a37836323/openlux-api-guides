@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-28 · [gpt-4o-transcribe-diarize 将于 2027-02-26 下线：换成 gpt-transcribe 后拿不到 diarized_json 说话人标签怎么办](./news/gpt-4o-transcribe-diarize-shutdown-diarized-json-migration/)
 - 2026-10-28 · [Zed 怎么接入 OpenAI 兼容 / Claude 中转 API：API URL、Key 与模型设置](./news/zed-relay-api-openai-compatible-setup/)
 - 2026-10-28 · [迁移到 GPT-6 后报 400 怎么改：reasoning_effort none、temperature 与 Chat Completions 工具调用](./news/gpt-6-migration-reasoning-none-temperature-400-fix/)
 - 2026-10-28 · [Continue 怎么接入 OpenAI 兼容 / Claude 中转 API：apiBase、Key 与模型设置](./news/continue-relay-api-openai-compatible-setup/)
