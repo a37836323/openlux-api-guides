@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-28 · [Zed 怎么接入 OpenAI 兼容 / Claude 中转 API：API URL、Key 与模型设置](./news/zed-relay-api-openai-compatible-setup/)
 - 2026-10-28 · [迁移到 GPT-6 后报 400 怎么改：reasoning_effort none、temperature 与 Chat Completions 工具调用](./news/gpt-6-migration-reasoning-none-temperature-400-fix/)
 - 2026-10-28 · [Continue 怎么接入 OpenAI 兼容 / Claude 中转 API：apiBase、Key 与模型设置](./news/continue-relay-api-openai-compatible-setup/)
 - 2026-10-27 · [OpenAI 传 PDF 报 400「You uploaded an invalid file」怎么办：input_file 写法、50 MB 上限与 PDF 内容排查](./news/openai-pdf-input-file-400-invalid-file-fix/)
