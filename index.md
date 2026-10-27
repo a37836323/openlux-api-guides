@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-27 · [Cline 怎么接入 OpenAI 兼容 / Claude 中转 API：Base URL、Key 与模型设置](./news/cline-relay-api-openai-compatible-setup/)
 - 2026-10-27 · [OpenAI 调用 MCP 工具报 424「unhandled errors in a TaskGroup」怎么办：outputSchema、structuredContent 与连通性排查](./news/openai-mcp-424-taskgroup-error-fix/)
 - 2026-10-27 · [Cherry Studio 怎么接入 OpenAI 兼容 / Claude 中转 API：API 地址、Key 与模型设置](./news/cherry-studio-relay-api-custom-provider-setup/)
 - 2026-10-27 · [Claude API 带 web_fetch 工具报 400 怎么办：组织未开启、域名名单冲突与续轮缺少结果块](./news/claude-api-web-fetch-400-error-fix/)
