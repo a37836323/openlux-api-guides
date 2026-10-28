@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-29 · [Chatbox 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：API Host、Key 与模型设置](./news/chatbox-relay-api-openai-compatible-setup/)
 - 2026-10-28 · [OpenAI 报 400「Invalid service_tier argument」怎么办：项目限制了服务等级的排查与改法](./news/openai-invalid-service-tier-argument-400-fix/)
 - 2026-10-28 · [Open WebUI 怎么接入 OpenAI 兼容 / Claude 中转 API：URL、Key 与模型设置](./news/open-webui-relay-api-openai-compatible-setup/)
 - 2026-10-28 · [gpt-4o-transcribe-diarize 将于 2027-02-26 下线：换成 gpt-transcribe 后拿不到 diarized_json 说话人标签怎么办](./news/gpt-4o-transcribe-diarize-shutdown-diarized-json-migration/)
