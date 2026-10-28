@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-29 · [Claude Sonnet 4.5 将于 11 月 30 日退役：换成 Sonnet 5.5 后报 400 怎么改（budget_tokens、temperature、预填充、tool_choice）](./news/claude-sonnet-4-5-retirement-sonnet-5-5-migration-400-fix/)
 - 2026-10-29 · [VS Code 怎么接入 OpenAI 兼容 / Claude 中转 API：Custom Endpoint、Key 与模型设置](./news/vscode-copilot-byok-custom-endpoint-relay-api-setup/)
 - 2026-10-29 · [Gemini Deep Research 突然调不通：deep-research-pro-preview-12-2025 停用后 agent 参数怎么改](./news/gemini-deep-research-pro-preview-shutdown-agent-migration/)
 - 2026-10-29 · [Chatbox 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：API Host、Key 与模型设置](./news/chatbox-relay-api-openai-compatible-setup/)
