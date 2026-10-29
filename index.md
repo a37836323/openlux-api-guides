@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-30 · [OpenAI 可复用提示词 11 月 30 日停用：Responses 请求里的 prompt 参数怎么改成代码内提示词](./news/openai-reusable-prompt-object-shutdown-migration/)
 - 2026-10-29 · [LobeHub（LobeChat）怎么接入 OpenAI 兼容 / Claude 中转 API：代理地址、Key 与模型设置](./news/lobehub-lobechat-relay-api-proxy-url-setup/)
 - 2026-10-29 · [换成 Claude Opus 5.5 后报 400 怎么改：thinking 关不掉、tool_choice 不能强制，按原来的模型逐项排查](./news/claude-opus-5-5-migration-400-thinking-tool-choice-fix/)
 - 2026-10-29 · [Claude Sonnet 4.5 将于 11 月 30 日退役：换成 Sonnet 5.5 后报 400 怎么改（budget_tokens、temperature、预填充、tool_choice）](./news/claude-sonnet-4-5-retirement-sonnet-5-5-migration-400-fix/)
