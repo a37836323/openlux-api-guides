@@ -12,7 +12,7 @@ date: 2026-09-12
 
 遇到 `No tool output found for function call`，先核对报错中的调用标识，确认它有对应的工具结果被送回同一条响应链。Responses API 的自定义函数结果使用 `function_call_output`，关联字段是函数调用的 `call_id`，不是输出项的 `id`。工具在本地执行成功，也不代表结果已经成功提交给模型。
 
-本文核验于 2026 年 9 月 12 日，讨论普通同步自定义函数调用。异步工具、托管工具和其他接口需按各自协议处理。如需另外评估兼容入口，可[查看 OpenLux 账户与模型入口](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=responses-no-tool-output-found-fix&utm_content=intro)，先确认 Responses 与所需工具能力是否受支持。
+本文核验于 2026 年 9 月 12 日，讨论普通同步自定义函数调用。异步工具、托管工具和其他接口需按各自协议处理。使用兼容服务时，先确认服务商明确支持 Responses 与所需的工具能力。
 
 ## 为什么看起来已经执行工具，仍提示没有输出
 
@@ -76,6 +76,8 @@ else:
 
 将这些结果提交给包含原函数调用的后续请求。可以按官方示例通过前一响应续接，也可以自行维护完整输入项；不要只发送结果，却把它对应的调用上下文丢掉。这里只执行了离线断言，没有声称验证了任何付费接口。
 
+> 需要一个干净的入口开新会话对照：OpenLux 的 OpenAI 兼容 Base URL 是 `https://api.openlux.ai/v1`，提供 Responses（`/v1/responses`）和 Chat Completions（`/v1/chat/completions`）。[注册 OpenLux 并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=responses-no-tool-output-found-fix&utm_content=inline)，先请求 `/v1/models` 确认地址和 Key 都对，再用上面的回传逻辑在新会话里跑一次最小的函数调用。
+
 ## 多工具与流式中断怎么排查
 
 本文建议先为每次调用保存响应标识、`call_id`、工具名和执行状态。多工具场景先列出本轮所有预期回传项，再与实际准备提交的结果集合比较。不要因为第一个工具完成，就把其余尚未处理的调用遗忘。
@@ -93,6 +95,14 @@ else:
 正常恢复应同时满足：报错指向的调用有匹配结果、下一步请求被接受、模型能继续处理结果、业务侧没有重复执行记录。若仍失败，提交脱敏的请求顺序、SDK 版本、request ID 和时间，比单独截取错误句更有帮助。
 
 准备切换入口时，可[注册 OpenLux 并核验所需接口能力](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=responses-no-tool-output-found-fix&utm_content=footer)。先以独立测试会话验证，不假设不同服务之间可以共享已有响应或会话标识。
+
+## 相关排查
+
+- [工具调用返回了参数却执行失败：函数名、字段和业务范围怎么校验](../tool-call-arguments-validation-contract/)
+- [OpenAI 调用 MCP 工具报 424「unhandled errors in a TaskGroup」怎么办](../openai-mcp-424-taskgroup-error-fix/)
+- [OpenAI Responses API 间歇性报 503 怎么办：server_is_overloaded 与重试设置](../openai-responses-api-503-retry-fix/)
+- [OpenAI 报 Unsupported parameter: max_tokens 怎么改？两个接口别填错](../openai-unsupported-max-tokens-fix/)
+- [Codex CLI 怎么接入 OpenAI 兼容中转 API：config.toml 自定义 provider、Key 与模型设置](../codex-cli-relay-api-config-toml-setup/)
 
 ## 提问线索与官方依据
 
