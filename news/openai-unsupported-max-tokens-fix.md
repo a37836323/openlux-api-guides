@@ -12,7 +12,7 @@ date: 2026-09-12
 
 如果完整报错要求使用 `max_completion_tokens`，先检查请求是不是发往 `/v1/chat/completions`。在这个接口中按当前模型要求移除 `max_tokens`，改用 `max_completion_tokens`；如果实际调用的是 Responses API，则对应的输出上限字段是 `max_output_tokens`。改完后确认发送出去的请求体，不能只看配置页面上的名称。
 
-本文核验于 2026 年 9 月 12 日，适用于 OpenAI 官方 API 的参数排错。如果使用兼容服务，可[查看 OpenLux 账户与模型入口](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=openai-unsupported-max-tokens-fix&utm_content=intro)，再核对该入口明确支持的接口和字段；兼容名称不代表所有参数行为相同。
+本文核验于 2026 年 9 月 12 日，适用于 OpenAI 官方 API 的参数排错。使用兼容服务时，字段区分同样适用，但以服务商对具体接口和字段的说明为准；兼容名称不代表所有参数行为相同。
 
 ## 这是什么真实问题
 
@@ -70,6 +70,8 @@ else:
 
 示例里的 512 是演示值，不是各模型通用的推荐预算。代码只验证字段分流和输入检查，不能证明具体模型已经支持这些请求。
 
+> 想换一个入口对照测试两种接口：OpenLux 的 OpenAI 兼容 Base URL 是 `https://api.openlux.ai/v1`，Chat Completions（`/v1/chat/completions`）和 Responses（`/v1/responses`）两个接口都有，同一站点还提供 Claude `/v1/messages` 和 Gemini `/v1beta` 入口。[注册 OpenLux 并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=openai-unsupported-max-tokens-fix&utm_content=inline)，先请求 `/v1/models` 确认地址和 Key 都对，再按上表核对长度字段。
+
 ## Batch 报错要改哪一层
 
 如果错误来自批处理，先找到失败行的 `custom_id`，检查该行请求的 URL 和 body。目标是 Chat Completions 的任务，应在该行 body 中修改生成参数，而不是只给整个批次的创建请求增加一个长度字段。
@@ -85,6 +87,14 @@ else:
 验证成功的标准是：最终请求不再带错误字段，API 接受请求，并且你能处理返回的完成状态。出现截断时，再研究结束原因、推理预算和任务长度，不要把“参数名改对”与“回答一定完整”混为一谈。
 
 如准备在另一个服务商复测，可[注册 OpenLux 并核对接口支持范围](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=openai-unsupported-max-tokens-fix&utm_content=footer)。保留一份服务商、端点与模型参数的对应配置，避免把官方请求模板无条件复用到其他入口。
+
+## 相关排查
+
+- [No tool output found for function call 怎么修？Responses API 回传排查](../responses-no-tool-output-found-fix/)
+- [迁移到 GPT-6 后报 400 怎么改：reasoning_effort none、temperature 与 Chat Completions 工具调用](../gpt-6-migration-reasoning-none-temperature-400-fix/)
+- [OpenAI 报 400「Invalid service_tier argument」怎么办](../openai-invalid-service-tier-argument-400-fix/)
+- [OpenAI Python 报 unexpected keyword argument proxies 怎么解决？](../openai-httpx-unexpected-proxies-fix/)
+- [APIRemovedInV1 怎么修？openai.ChatCompletion.create 迁移示例](../openai-python-apiremovedinv1-fix/)
 
 ## 提问线索与官方依据
 
