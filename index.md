@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-30 · [Gemini API 新项目默认保存请求怎么关：store=false 写法、AI Studio 日志设置，以及关掉后 previous_interaction_id 和后台执行不能用](./news/gemini-api-store-default-logging-store-false/)
 - 2026-10-30 · [Gemini 函数调用返回 MALFORMED_FUNCTION_CALL 怎么办：调用前的结构化文本、宽松参数结构与调用模式改法](./news/gemini-malformed-function-call-fix/)
 - 2026-10-30 · [OpenAI API 报 429 先看 error.code：限流、余额用完、消费上限与月度用量上限怎么区分](./news/openai-api-429-error-code-usage-tier-fix/)
 - 2026-10-30 · [gpt-4o、gpt-4o-mini、gpt-4.1 将于 2027 年 1 月 14 日下线：换成 gpt-6-luna 要改哪些参数](./news/gpt-4o-gpt-4-1-shutdown-gpt-6-luna-migration/)
