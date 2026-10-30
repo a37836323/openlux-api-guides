@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-30 · [换成 gemini-4-argon 后回答被截断、返回空文本或报 400：单次 32K/64K 上限与 continuation_token 续写](./news/gemini-4-argon-output-truncated-continuation-token-fix/)
 - 2026-10-30 · [Claude API 报 413 request_too_large 怎么办：128 MB 请求上限、图片和 PDF 改用 file_id](./news/claude-api-413-request-too-large-fix/)
 - 2026-10-30 · [gpt-3.5-turbo、gpt-4、o1、o3-mini、o4-mini 已于 10 月 23 日下线：调用失败后怎么换成 GPT-5.6](./news/openai-legacy-models-oct-23-shutdown-migration/)
 - 2026-10-30 · [Dify 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：API Base URL、Key 与模型设置](./news/dify-relay-api-openai-compatible-setup/)
