@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-31 · [n8n 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：Base URL、Key 与模型设置](./news/n8n-relay-api-openai-compatible-setup/)
 - 2026-10-31 · [Claude 的 usage_report / cost_report 被标为 legacy，如何迁移到 Analytics API 并正确传 beta header？](./news/claude-usage-cost-analytics-api-migration/)
 - 2026-10-30 · [gemini-3.1-flash-image 已弃用：换成 gemini-nano-banana-2.1 要改哪些（512 分辨率、image_size 大写 K、思考档位）](./news/gemini-3-1-flash-image-deprecated-nano-banana-2-1-migration/)
 - 2026-10-30 · [Gemini API 新项目默认保存请求怎么关：store=false 写法、AI Studio 日志设置，以及关掉后 previous_interaction_id 和后台执行不能用](./news/gemini-api-store-default-logging-store-false/)
