@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-31 · [Claude 的 usage_report / cost_report 被标为 legacy，如何迁移到 Analytics API 并正确传 beta header？](./news/claude-usage-cost-analytics-api-migration/)
 - 2026-10-30 · [gemini-3.1-flash-image 已弃用：换成 gemini-nano-banana-2.1 要改哪些（512 分辨率、image_size 大写 K、思考档位）](./news/gemini-3-1-flash-image-deprecated-nano-banana-2-1-migration/)
 - 2026-10-30 · [Gemini API 新项目默认保存请求怎么关：store=false 写法、AI Studio 日志设置，以及关掉后 previous_interaction_id 和后台执行不能用](./news/gemini-api-store-default-logging-store-false/)
 - 2026-10-30 · [Gemini 函数调用返回 MALFORMED_FUNCTION_CALL 怎么办：调用前的结构化文本、宽松参数结构与调用模式改法](./news/gemini-malformed-function-call-fix/)
