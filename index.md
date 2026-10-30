@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-30 · [OpenAI API 报 429 先看 error.code：限流、余额用完、消费上限与月度用量上限怎么区分](./news/openai-api-429-error-code-usage-tier-fix/)
 - 2026-10-30 · [gpt-4o、gpt-4o-mini、gpt-4.1 将于 2027 年 1 月 14 日下线：换成 gpt-6-luna 要改哪些参数](./news/gpt-4o-gpt-4-1-shutdown-gpt-6-luna-migration/)
 - 2026-10-30 · [换成 gemini-4-argon 后回答被截断、返回空文本或报 400：单次 32K/64K 上限与 continuation_token 续写](./news/gemini-4-argon-output-truncated-continuation-token-fix/)
 - 2026-10-30 · [Claude API 报 413 request_too_large 怎么办：128 MB 请求上限、图片和 PDF 改用 file_id](./news/claude-api-413-request-too-large-fix/)
