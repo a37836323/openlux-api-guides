@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-01 · [OpenAI Responses API 返回 status: incomplete、只有推理没有正文：max_output_tokens 被推理用光怎么办](./news/openai-responses-incomplete-max-output-tokens-fix/)
 - 2026-11-01 · [Claude 提示缓存没命中怎么查：用 diagnostics 找出是 system、tools 还是 messages 变了](./news/claude-prompt-cache-miss-diagnostics-fix/)
 - 2026-11-01 · [OpenAI Agent Builder 将于 11 月 30 日停用：工作流导出成 Agents SDK、ChatKit 改自托管，换 Base URL 后报 404/401/400 怎么改](./news/agent-builder-shutdown-agents-sdk-chatkit-migration/)
 - 2026-11-01 · [gemini-3.1-flash-live-preview 最早 11 月 17 日下线：换成 gemini-3.8-live 要改哪些（thinkingLevel、函数调用、proactive_audio）](./news/gemini-live-preview-shutdown-gemini-3-8-live-migration/)
