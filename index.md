@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-01 · [gpt-realtime 将于 2027 年 1 月 20 日下线：换成 gpt-realtime-2.1 后说完「我查一下」就沉默、话说一半停住怎么办](./news/gpt-realtime-shutdown-gpt-realtime-2-1-silence-fix/)
 - 2026-10-31 · [whisper-1 将于 2027 年 2 月 26 日下线：换成 gpt-transcribe 要改哪些参数（language、时间戳、字幕格式）](./news/whisper-1-shutdown-gpt-transcribe-migration/)
 - 2026-10-31 · [Gemini 旧 TTS 预览模型最早 11 月 17 日下线：换成 gemini-3.8-flash-tts 要改哪些](./news/gemini-tts-preview-shutdown-gemini-3-8-flash-tts-migration/)
 - 2026-10-31 · [gpt-audio、gpt-audio-mini 将于 2027 年 1 月 20 日下线：换成 gpt-audio-1.5 要改哪些](./news/gpt-audio-mini-shutdown-gpt-audio-1-5-migration/)
