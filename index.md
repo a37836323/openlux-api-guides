@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-31 · [GPT-5、o3、gpt-5-pro、o3-pro 将于 12 月 11 日下线：换成 gpt-5.6 系列要改哪些参数](./news/gpt-5-o3-shutdown-gpt-5-6-sol-migration/)
 - 2026-10-31 · [OpenAI /v1/audio/translations 将于 2027 年 2 月 26 日下线：换成 gpt-realtime-translate 为什么不能只改模型名](./news/openai-audio-translations-shutdown-realtime-translate-migration/)
 - 2026-10-31 · [gpt-5.1、gpt-5.3-codex、gpt-5.4-nano 将于 2027 年 4 月 1 日下线：换成 gpt-6-sol、gpt-6-luna 要改哪些参数](./news/gpt-5-1-5-3-codex-5-4-nano-shutdown-migration/)
 - 2026-10-31 · [Claude Opus 4.8 快速模式 11 月 30 日移除：带 speed: "fast" 的请求会报错，留在 4.8 还是换 Opus 5.5](./news/claude-opus-4-8-fast-mode-removal-opus-5-5-migration/)
