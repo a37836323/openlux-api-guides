@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-10-31 · [Claude Opus 4.8 快速模式 11 月 30 日移除：带 speed: "fast" 的请求会报错，留在 4.8 还是换 Opus 5.5](./news/claude-opus-4-8-fast-mode-removal-opus-5-5-migration/)
 - 2026-10-31 · [tts-1、gpt-4o-mini-tts 将于 2027 年 1 月 6 日下线：换成 gpt-realtime-2.1-mini 为什么不能只改模型名](./news/tts-1-gpt-4o-mini-tts-shutdown-gpt-realtime-migration/)
 - 2026-10-31 · [gpt-image-1.5、gpt-image-1-mini 将于 12 月 1 日下线：换成 gpt-image-2.5-sunburst / flare 要改哪些参数](./news/gpt-image-1-5-mini-shutdown-gpt-image-2-5-migration/)
 - 2026-10-31 · [n8n 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：Base URL、Key 与模型设置](./news/n8n-relay-api-openai-compatible-setup/)
