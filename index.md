@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-01 · [grok-imagine-image-quality 11 月 2 日退役：请求会转到 grok-imagine-image-2.0 的 low 档，要不要改 model 和 quality](./news/grok-imagine-image-quality-retirement-image-2-0-migration/)
 - 2026-11-01 · [OpenAI Evals 10 月 31 日起只读、11 月 30 日停用：评测迁到 Promptfoo 要改哪些](./news/openai-evals-read-only-shutdown-promptfoo-migration/)
 - 2026-11-01 · [gemini-3.1-flash-lite 最早 2027 年 5 月 7 日下线：换成 gemini-3.5-flash-lite 要改哪些（thinking_level、采样参数、预填 400）](./news/gemini-3-1-flash-lite-shutdown-gemini-3-5-flash-lite-migration/)
 - 2026-11-01 · [gemini-3.7-flash、gemini-3.5-flash 已弃用并自动转到新模型：thinking_level 报错、token 变多怎么处理](./news/gemini-3-7-3-5-flash-deprecated-auto-routing-fix/)
