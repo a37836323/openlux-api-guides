@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-02 · [Claude Code 走中转报 400「Extra inputs are not permitted」怎么办：context_management、output_config 与 thinking 逐项排查](./news/claude-code-relay-400-extra-inputs-not-permitted-fix/)
 - 2026-11-01 · [grok-imagine-image-quality 11 月 2 日退役：请求会转到 grok-imagine-image-2.0 的 low 档，要不要改 model 和 quality](./news/grok-imagine-image-quality-retirement-image-2-0-migration/)
 - 2026-11-01 · [OpenAI Evals 10 月 31 日起只读、11 月 30 日停用：评测迁到 Promptfoo 要改哪些](./news/openai-evals-read-only-shutdown-promptfoo-migration/)
 - 2026-11-01 · [gemini-3.1-flash-lite 最早 2027 年 5 月 7 日下线：换成 gemini-3.5-flash-lite 要改哪些（thinking_level、采样参数、预填 400）](./news/gemini-3-1-flash-lite-shutdown-gemini-3-5-flash-lite-migration/)
