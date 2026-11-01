@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-01 · [gemini-3.1-flash-lite 最早 2027 年 5 月 7 日下线：换成 gemini-3.5-flash-lite 要改哪些（thinking_level、采样参数、预填 400）](./news/gemini-3-1-flash-lite-shutdown-gemini-3-5-flash-lite-migration/)
 - 2026-11-01 · [gemini-3.7-flash、gemini-3.5-flash 已弃用并自动转到新模型：thinking_level 报错、token 变多怎么处理](./news/gemini-3-7-3-5-flash-deprecated-auto-routing-fix/)
 - 2026-11-01 · [OpenAI Responses API 返回 status: incomplete、只有推理没有正文：max_output_tokens 被推理用光怎么办](./news/openai-responses-incomplete-max-output-tokens-fix/)
 - 2026-11-01 · [Claude 提示缓存没命中怎么查：用 diagnostics 找出是 system、tools 还是 messages 变了](./news/claude-prompt-cache-miss-diagnostics-fix/)
