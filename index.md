@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-03 · [Claude Code 走中转后 /model 里看不到或切不了模型：网关模型发现、ANTHROPIC_DEFAULT_*_MODEL 与 Model not found 排查](./news/claude-code-relay-model-picker-missing-models-fix/)
 - 2026-11-02 · [OpenAI API 报 401 Incorrect API key provided 怎么办：Key 写错、项目不对、已撤销与 Base URL 指错逐项排查](./news/openai-api-401-incorrect-api-key-fix/)
 - 2026-11-02 · [n8n 接中转后 OpenAI Chat Model 报「Bad request - please check your parameters」怎么办：429、Insufficient quota 与 Responses API 提示怎么排查](./news/n8n-openai-chat-model-bad-request-error-fix/)
 - 2026-11-02 · [Claude API 报 529 overloaded_error 怎么办：和 429、500、504 怎么区分，重试与流式中途报错怎么处理](./news/claude-api-529-overloaded-error-retry-fix/)
