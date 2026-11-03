@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-04 · [Claude API 报 401 authentication_error 怎么办：Key 过期、被停用、请求头与 Base URL 逐项排查](./news/claude-api-401-authentication-error-fix/)
 - 2026-11-04 · [Codex CLI 接中转后流式卡住不结束、第二轮或工具调用失败怎么办：Responses 兼容、response.completed 与模型名逐项排查](./news/codex-cli-relay-stream-stall-tool-call-fix/)
 - 2026-11-03 · [Gemini API 报 429 RESOURCE_EXHAUSTED 怎么办：RPM、TPM、每日配额与 10 分钟消费限额怎么区分，重试怎么写](./news/gemini-api-429-resource-exhausted-fix/)
 - 2026-11-03 · [Claude Code 走中转报 Unable to connect to API、Request timed out 怎么办：连接失败、超时与流式中断逐项排查](./news/claude-code-relay-unable-to-connect-timeout-fix/)
