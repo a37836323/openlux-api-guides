@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-03 · [Claude Code 走中转报 Unable to connect to API、Request timed out 怎么办：连接失败、超时与流式中断逐项排查](./news/claude-code-relay-unable-to-connect-timeout-fix/)
 - 2026-11-03 · [Claude API 报 400「prompt is too long」怎么办：上下文窗口多大、怎么数 token、历史怎么裁](./news/claude-api-prompt-is-too-long-400-fix/)
 - 2026-11-03 · [Claude Code 走中转后 /model 里看不到或切不了模型：网关模型发现、ANTHROPIC_DEFAULT_*_MODEL 与 Model not found 排查](./news/claude-code-relay-model-picker-missing-models-fix/)
 - 2026-11-02 · [OpenAI API 报 401 Incorrect API key provided 怎么办：Key 写错、项目不对、已撤销与 Base URL 指错逐项排查](./news/openai-api-401-incorrect-api-key-fix/)
