@@ -72,6 +72,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-04 · [Codex CLI 接中转后流式卡住不结束、第二轮或工具调用失败怎么办：Responses 兼容、response.completed 与模型名逐项排查](./news/codex-cli-relay-stream-stall-tool-call-fix/)
 - 2026-11-03 · [Gemini API 报 429 RESOURCE_EXHAUSTED 怎么办：RPM、TPM、每日配额与 10 分钟消费限额怎么区分，重试怎么写](./news/gemini-api-429-resource-exhausted-fix/)
 - 2026-11-03 · [Claude Code 走中转报 Unable to connect to API、Request timed out 怎么办：连接失败、超时与流式中断逐项排查](./news/claude-code-relay-unable-to-connect-timeout-fix/)
 - 2026-11-03 · [Claude API 报 400「prompt is too long」怎么办：上下文窗口多大、怎么数 token、历史怎么裁](./news/claude-api-prompt-is-too-long-400-fix/)
