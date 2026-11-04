@@ -93,3 +93,14 @@ for raw in [
 看到某一层连续失败，就改动对应规则：字段理解不一致时补充定义；输入确实缺失时明确缺失值；输出被截断时先查结束原因，不要立刻扩大格式修复重试次数。
 
 遇到长回答不完整，可继续看[回答截断排查](https://a37836323.github.io/openlux-api-guides/news/qwen-output-truncation-finish-reason/)。需要预算比较可看[成功任务成本](https://a37836323.github.io/openlux-api-guides/model-cost-per-success/)。[进入 OpenLux 开始小样本验证](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=qwen-json-output-business-validation&utm_content=footer)。
+
+## 同专题文章
+
+- [企业知识库答非所问怎么办：先测检索召回，再决定是否加 Rerank](https://a37836323.github.io/openlux-api-guides/news/rag-retrieval-rerank-evaluation/)
+- [Qwen 回答只出一半：finish_reason、输出上限与流式完整性排查](https://a37836323.github.io/openlux-api-guides/news/qwen-output-truncation-finish-reason/)
+- [Qwen 多轮对话越聊越长：历史裁剪、事实保留与上下文预算](https://a37836323.github.io/openlux-api-guides/news/qwen-chat-history-budget-and-facts/)
+- [Qwen 模型找不到怎么办：模型 ID、入口与账户权限排查](https://a37836323.github.io/openlux-api-guides/news/qwen-model-not-found-permission-check/)
+- [用 TRL 与 OpenEnv 部署自定义视觉奖励 GRPO：配置与排错要点](https://a37836323.github.io/openlux-api-guides/news/trl-openenv-watercolour-grpo-training/)
+- [IBM Granite PatchTST-FM-r2 上线：如何用开源权重部署零样本时间序列预测](https://a37836323.github.io/openlux-api-guides/news/ibm-granite-patchtst-fm-r2-deployment/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
