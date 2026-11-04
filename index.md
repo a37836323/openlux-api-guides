@@ -63,6 +63,16 @@ permalink: /
 | OpenAI API 报 CERTIFICATE_VERIFY_FAILED：证书链怎么修？ | [查看步骤](./news/openai-python-certificate-verify-failed-fix/) |
 
 
+## 按专题浏览
+
+- [Claude Code 接入与报错](https://a37836323.github.io/openlux-api-guides/topics/claude-code/)（5 篇）
+- [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（17 篇）
+- [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（18 篇）
+- [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（40 篇）
+- [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（16 篇）
+- [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（24 篇）
+- [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+
 ## 基础指南
 
 - [OpenLux API 接入实战：用 OpenAI SDK 切换统一网关，并处理 401、429 和流式中断](./quickstart/)
