@@ -92,3 +92,14 @@ date: 2026-10-30
 通过 OpenLux 调用时，原生 Gemini 接口的 Base URL 填 `https://api.openlux.ai`，请求路径是 `/v1beta/models/gemini-4-argon:generateContent`，Key 放在 `x-goog-api-key` 请求头里，Key 在控制台「令牌」页创建。OpenLux 价格接口当前在售的 `gemini-4-argon` 同时标注了 gemini 和 openai 两种接口；按官方说明，需要长解码时应走 gemini 原生接口。中转对 `continuationToken` 的透传本文没有实测，续写不生效时以响应里的 `finishReason` 和错误信息为准排查。
 
 需要一个同时支持 Gemini 原生接口和 OpenAI 兼容接口的地址来测试 gemini-4-argon，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-4-argon-output-truncated-continuation-token-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [gemini-3.1-flash-image 已弃用：换成 gemini-nano-banana-2.1 要改哪些（512 分辨率、image_size 大写 K、思考档位）](https://a37836323.github.io/openlux-api-guides/news/gemini-3-1-flash-image-deprecated-nano-banana-2-1-migration/)
+- [Gemini API 新项目默认保存请求怎么关：store=false 写法、AI Studio 日志设置，以及关掉后 previous_interaction_id 和后台执行不能用](https://a37836323.github.io/openlux-api-guides/news/gemini-api-store-default-logging-store-false/)
+- [Gemini 函数调用返回 MALFORMED_FUNCTION_CALL 怎么办：调用前的结构化文本、宽松参数结构与调用模式改法](https://a37836323.github.io/openlux-api-guides/news/gemini-malformed-function-call-fix/)
+- [Gemini Deep Research 突然调不通：deep-research-pro-preview-12-2025 停用后 agent 参数怎么改](https://a37836323.github.io/openlux-api-guides/news/gemini-deep-research-pro-preview-shutdown-agent-migration/)
+- [Google WeatherNext 3 已接入 Maps Platform Weather API：开发者先验证天气数据变化](https://a37836323.github.io/openlux-api-guides/news/googles-weathernext-3-maps-platform-weather-api/)
+- [Gemini 3.8 Flash 已上线：API 定价、调低 effort 与 Cyber 访问边界](https://a37836323.github.io/openlux-api-guides/news/gemini-3-8-flash-api-pricing-effort-guide/)
+
+[查看「Gemini API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
