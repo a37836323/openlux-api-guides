@@ -109,3 +109,14 @@ Chat Completions 同样接受 `service_tier` 参数，写法相同。
 - [API 更新日志（2026-10-21 项目服务等级限制）](https://developers.openai.com/api/docs/changelog)
 
 需要一个 OpenAI 兼容地址来调用 GPT、Claude 等模型，可以[注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openai-invalid-service-tier-argument-400-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [gpt-4o、gpt-4o-mini、gpt-4.1 将于 2027 年 1 月 14 日下线：换成 gpt-6-luna 要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-4o-gpt-4-1-shutdown-gpt-6-luna-migration/)
+- [gpt-3.5-turbo、gpt-4、o1、o3-mini、o4-mini 已于 10 月 23 日下线：调用失败后怎么换成 GPT-5.6](https://a37836323.github.io/openlux-api-guides/news/openai-legacy-models-oct-23-shutdown-migration/)
+- [OpenAI 可复用提示词 11 月 30 日停用：Responses 请求里的 prompt 参数怎么改成代码内提示词](https://a37836323.github.io/openlux-api-guides/news/openai-reusable-prompt-object-shutdown-migration/)
+- [gpt-4o-transcribe-diarize 将于 2027-02-26 下线：换成 gpt-transcribe 后拿不到 diarized_json 说话人标签怎么办](https://a37836323.github.io/openlux-api-guides/news/gpt-4o-transcribe-diarize-shutdown-diarized-json-migration/)
+- [迁移到 GPT-6 后报 400 怎么改：reasoning_effort none、temperature 与 Chat Completions 工具调用](https://a37836323.github.io/openlux-api-guides/news/gpt-6-migration-reasoning-none-temperature-400-fix/)
+- [OpenAI 传 PDF 报 400「You uploaded an invalid file」怎么办：input_file 写法、50 MB 上限与 PDF 内容排查](https://a37836323.github.io/openlux-api-guides/news/openai-pdf-input-file-400-invalid-file-fix/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
