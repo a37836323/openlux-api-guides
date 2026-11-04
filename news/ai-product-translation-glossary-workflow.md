@@ -90,3 +90,14 @@ assert not same_placeholders(
 大批量翻译可以结合[批次结果核对](https://a37836323.github.io/openlux-api-guides/news/batch-ai-jobs-result-reconciliation/)，结构化字段可以参考[JSON 验收](https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/)。
 
 [进入 OpenLux 准备小样本翻译测试](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=ai-product-translation-glossary-workflow&utm_content=footer)，先建立术语和验收规则，再增加处理量。
+
+## 同专题文章
+
+- [提示词改好了一题却弄坏其他题：版本管理与回归测试怎么做](https://a37836323.github.io/openlux-api-guides/news/prompt-version-regression-release/)
+- [会议录音转文字再生成纪要：怎样核对人名、数字和行动项](https://a37836323.github.io/openlux-api-guides/news/meeting-audio-transcription-action-items/)
+- [图片转表格总有错字怎么办：OCR 输入、单元格对应与质量验收](https://a37836323.github.io/openlux-api-guides/news/image-ocr-table-extraction-quality/)
+- [一万条文本怎样批量交给 AI：任务编号、结果核对与失败补跑](https://a37836323.github.io/openlux-api-guides/news/batch-ai-jobs-result-reconciliation/)
+- [企业知识库答非所问怎么办：先测检索召回，再决定是否加 Rerank](https://a37836323.github.io/openlux-api-guides/news/rag-retrieval-rerank-evaluation/)
+- [Qwen 回答只出一半：finish_reason、输出上限与流式完整性排查](https://a37836323.github.io/openlux-api-guides/news/qwen-output-truncation-finish-reason/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
