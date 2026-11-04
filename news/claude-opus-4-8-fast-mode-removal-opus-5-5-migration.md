@@ -100,3 +100,14 @@ curl https://api.anthropic.com/v1/messages \
 本文没有实测 OpenLux 是否把 `speed` 参数和快速模式 beta 头转发给上游，也没有核实走 OpenAI 兼容端点时如何对应 `speed`。判断快速模式是否真的生效，以响应里的 `usage.speed` 为准：没有这个字段或值为 `"standard"`，就说明这次请求按标准速度执行。先用 `/v1/models` 确认列表里有你要用的模型，再按第六节逐项验证。
 
 需要通过 OpenLux 调用 `claude-opus-5-5` 或 `claude-opus-4-8` 时，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=claude-opus-4-8-fast-mode-removal-opus-5-5-migration&utm_content=footer)。
+
+## 同专题文章
+
+- [Claude API 报 400「prompt is too long」怎么办：上下文窗口多大、怎么数 token、历史怎么裁](https://a37836323.github.io/openlux-api-guides/news/claude-api-prompt-is-too-long-400-fix/)
+- [Claude API 报 529 overloaded_error 怎么办：和 429、500、504 怎么区分，重试与流式中途报错怎么处理](https://a37836323.github.io/openlux-api-guides/news/claude-api-529-overloaded-error-retry-fix/)
+- [Claude 提示缓存没命中怎么查：用 diagnostics 找出是 system、tools 还是 messages 变了](https://a37836323.github.io/openlux-api-guides/news/claude-prompt-cache-miss-diagnostics-fix/)
+- [Claude 的 usage_report / cost_report 被标为 legacy，如何迁移到 Analytics API 并正确传 beta header？](https://a37836323.github.io/openlux-api-guides/news/claude-usage-cost-analytics-api-migration/)
+- [Claude API 报 413 request_too_large 怎么办：128 MB 请求上限、图片和 PDF 改用 file_id](https://a37836323.github.io/openlux-api-guides/news/claude-api-413-request-too-large-fix/)
+- [换成 Claude Opus 5.5 后报 400 怎么改：thinking 关不掉、tool_choice 不能强制，按原来的模型逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-opus-5-5-migration-400-thinking-tool-choice-fix/)
+
+[查看「Claude API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/claude-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
