@@ -104,3 +104,14 @@ for raw in [
 发布记录可结合[提示词回归流程](https://a37836323.github.io/openlux-api-guides/news/prompt-version-regression-release/)，较长任务的完整性可参考[结束原因排查](https://a37836323.github.io/openlux-api-guides/news/qwen-output-truncation-finish-reason/)。
 
 [进入 OpenLux 准备工具调用小样本验证](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=tool-call-arguments-validation-contract&utm_content=footer)，先跑通只读查询的完整链路，再扩展业务动作。
+
+## 同专题文章
+
+- [Transformers 模型能在 AWS Trainium2 上运行吗？torch-neuronx 编译失败或首次运行过慢怎么排查](https://a37836323.github.io/openlux-api-guides/news/check-transformers-model-trainium-support/)
+- [Pinecone 报 Vector dimension does not match 怎么办？](https://a37836323.github.io/openlux-api-guides/news/pinecone-vector-dimension-mismatch-fix/)
+- [API 用量和账单为什么对不上：时间窗口、计费单位与重试记录核对](https://a37836323.github.io/openlux-api-guides/news/api-usage-billing-reconciliation-workflow/)
+- [提示词改好了一题却弄坏其他题：版本管理与回归测试怎么做](https://a37836323.github.io/openlux-api-guides/news/prompt-version-regression-release/)
+- [会议录音转文字再生成纪要：怎样核对人名、数字和行动项](https://a37836323.github.io/openlux-api-guides/news/meeting-audio-transcription-action-items/)
+- [图片转表格总有错字怎么办：OCR 输入、单元格对应与质量验收](https://a37836323.github.io/openlux-api-guides/news/image-ocr-table-extraction-quality/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
