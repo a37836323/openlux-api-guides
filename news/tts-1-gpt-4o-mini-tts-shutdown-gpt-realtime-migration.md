@@ -112,3 +112,14 @@ date: 2026-10-31
 一手来源：[OpenAI 弃用公告：Text-to-speech models](https://developers.openai.com/api/docs/deprecations#2026-10-01-text-to-speech-models)、[Text to speech 指南](https://developers.openai.com/api/docs/guides/text-to-speech)、[gpt-realtime-2.1-mini 模型页](https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini)、[Realtime 会话指南](https://developers.openai.com/api/docs/guides/realtime-conversations)、[Realtime WebSocket 连接指南](https://developers.openai.com/api/docs/guides/voice-websockets?api=realtime)、[Realtime 客户端事件参考](https://developers.openai.com/api/reference/resources/realtime/client-events)、[Speech API 参考](https://developers.openai.com/api/reference/resources/audio/subresources/speech/methods/create)。
 
 如需通过中转调用 OpenAI 语音模型，可以[注册 OpenLux 获取 API Key](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=tts-1-gpt-4o-mini-tts-shutdown-gpt-realtime-migration&utm_content=footer)，在售模型和支持的接口以价格页为准。
+
+## 同专题文章
+
+- [GPT-5、o3、gpt-5-pro、o3-pro 将于 12 月 11 日下线：换成 gpt-5.6 系列要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-5-o3-shutdown-gpt-5-6-sol-migration/)
+- [OpenAI /v1/audio/translations 将于 2027 年 2 月 26 日下线：换成 gpt-realtime-translate 为什么不能只改模型名](https://a37836323.github.io/openlux-api-guides/news/openai-audio-translations-shutdown-realtime-translate-migration/)
+- [gpt-5.1、gpt-5.3-codex、gpt-5.4-nano 将于 2027 年 4 月 1 日下线：换成 gpt-6-sol、gpt-6-luna 要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-5-1-5-3-codex-5-4-nano-shutdown-migration/)
+- [gpt-image-1.5、gpt-image-1-mini 将于 12 月 1 日下线：换成 gpt-image-2.5-sunburst / flare 要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-image-1-5-mini-shutdown-gpt-image-2-5-migration/)
+- [OpenAI API 报 429 先看 error.code：限流、余额用完、消费上限与月度用量上限怎么区分](https://a37836323.github.io/openlux-api-guides/news/openai-api-429-error-code-usage-tier-fix/)
+- [gpt-4o、gpt-4o-mini、gpt-4.1 将于 2027 年 1 月 14 日下线：换成 gpt-6-luna 要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-4o-gpt-4-1-shutdown-gpt-6-luna-migration/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
