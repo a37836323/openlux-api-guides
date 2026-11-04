@@ -106,3 +106,14 @@ Deep Research 任务通常要跑几分钟，官方写明最长研究时间为 60
 截至 2026 年 10 月 29 日，OpenLux 价格接口的在售模型列表里没有 Deep Research 系列 agent ID，Deep Research 任务请按本文直接调用 Google 官方的 Interactions API。OpenLux 在售列表里有 `gemini-4-argon` 等 Gemini 模型，Gemini 原生接口的地址填 `https://api.openlux.ai`，请求路径为 `/v1beta/models/<模型>:generateContent`；如前文所说，`generateContent` 不能调用 Deep Research agent，只适合普通的对话与生成请求。Key 在 OpenLux 控制台的令牌页创建，价格以官网价格页为准。
 
 需要调用 OpenLux 在售的 Gemini 模型时，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-deep-research-pro-preview-shutdown-agent-migration&utm_content=footer)。
+
+## 同专题文章
+
+- [Gemini API 新项目默认保存请求怎么关：store=false 写法、AI Studio 日志设置，以及关掉后 previous_interaction_id 和后台执行不能用](https://a37836323.github.io/openlux-api-guides/news/gemini-api-store-default-logging-store-false/)
+- [Gemini 函数调用返回 MALFORMED_FUNCTION_CALL 怎么办：调用前的结构化文本、宽松参数结构与调用模式改法](https://a37836323.github.io/openlux-api-guides/news/gemini-malformed-function-call-fix/)
+- [换成 gemini-4-argon 后回答被截断、返回空文本或报 400：单次 32K/64K 上限与 continuation_token 续写](https://a37836323.github.io/openlux-api-guides/news/gemini-4-argon-output-truncated-continuation-token-fix/)
+- [Google WeatherNext 3 已接入 Maps Platform Weather API：开发者先验证天气数据变化](https://a37836323.github.io/openlux-api-guides/news/googles-weathernext-3-maps-platform-weather-api/)
+- [Gemini 3.8 Flash 已上线：API 定价、调低 effort 与 Cyber 访问边界](https://a37836323.github.io/openlux-api-guides/news/gemini-3-8-flash-api-pricing-effort-guide/)
+- [Gemini API 上线 Agentic Video：如何启用并降低长视频分析 Token 消耗](https://a37836323.github.io/openlux-api-guides/news/gemini-agentic-video-understanding-api/)
+
+[查看「Gemini API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
