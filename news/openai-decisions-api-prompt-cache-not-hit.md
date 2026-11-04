@@ -136,3 +136,14 @@ Responses API 的 12 小时缓存怎么开，可以看本站的 [OpenAI 12 小�
 - 官方更新日志：[Changelog](https://developers.openai.com/api/docs/changelog)
 
 如果你需要在一个入口里同时调用多家厂商的模型，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openai-decisions-api-prompt-cache-not-hit&utm_content=footer)。
+
+## 同专题文章
+
+- [迁移到 GPT-6 后报 400 怎么改：reasoning_effort none、temperature 与 Chat Completions 工具调用](https://a37836323.github.io/openlux-api-guides/news/gpt-6-migration-reasoning-none-temperature-400-fix/)
+- [OpenAI 传 PDF 报 400「You uploaded an invalid file」怎么办：input_file 写法、50 MB 上限与 PDF 内容排查](https://a37836323.github.io/openlux-api-guides/news/openai-pdf-input-file-400-invalid-file-fix/)
+- [OpenAI 调用 MCP 工具报 424「unhandled errors in a TaskGroup」怎么办：outputSchema、structuredContent 与连通性排查](https://a37836323.github.io/openlux-api-guides/news/openai-mcp-424-taskgroup-error-fix/)
+- [OpenAI Responses API 间歇性报 503 怎么办：server_is_overloaded、服务端错误与重试设置](https://a37836323.github.io/openlux-api-guides/news/openai-responses-api-503-retry-fix/)
+- [OpenAI 12 小时提示缓存怎么开：prompt_cache_options.ttl 报 400、类型报错与命中核对](https://a37836323.github.io/openlux-api-guides/news/openai-prompt-cache-12h-ttl-setup/)
+- [OpenAI API 报 CERTIFICATE_VERIFY_FAILED：证书链怎么修？](https://a37836323.github.io/openlux-api-guides/news/openai-python-certificate-verify-failed-fix/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
