@@ -107,3 +107,14 @@ Cline 文档的排错部分列了四类问题，结合中转场景对应如下�
 - Cline 文档：[Networking and Proxies](https://docs.cline.bot/troubleshooting/networking-and-proxies)（代理设置）
 
 还没有 Key 的话，可以先[注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=cline-relay-api-openai-compatible-setup&utm_content=footer)，在「令牌」页创建 Key 后按上面的步骤填进 Cline。
+
+## 同专题文章
+
+- [Open WebUI 怎么接入 OpenAI 兼容 / Claude 中转 API：URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/open-webui-relay-api-openai-compatible-setup/)
+- [Zed 怎么接入 OpenAI 兼容 / Claude 中转 API：API URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/zed-relay-api-openai-compatible-setup/)
+- [Continue 怎么接入 OpenAI 兼容 / Claude 中转 API：apiBase、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/continue-relay-api-openai-compatible-setup/)
+- [Cherry Studio 怎么接入 OpenAI 兼容 / Claude 中转 API：API 地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/cherry-studio-relay-api-custom-provider-setup/)
+- [Codex CLI 怎么接入 OpenAI 兼容中转 API：config.toml 自定义 provider、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/codex-cli-relay-api-config-toml-setup/)
+- [Codex 提示用量到上限怎么办：查剩余额度与重置时间、加购 credits、改用 API Key](https://a37836323.github.io/openlux-api-guides/news/codex-usage-limit-reached-fix/)
+
+[查看「客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等」全部文章](https://a37836323.github.io/openlux-api-guides/topics/clients/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
