@@ -92,3 +92,14 @@ curl https://api.openlux.ai/v1/models \
 - Cherry Studio 文档：[常见问题](https://docs.cherry-ai.com/question-contact/questions)（填了 Key 仍无法对话、列表里没有模型）
 
 还没有 Key 的话，可以先[注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=cherry-studio-relay-api-custom-provider-setup&utm_content=footer)，在「令牌」页创建 Key 后按上面的步骤填进 Cherry Studio。
+
+## 同专题文章
+
+- [Zed 怎么接入 OpenAI 兼容 / Claude 中转 API：API URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/zed-relay-api-openai-compatible-setup/)
+- [Continue 怎么接入 OpenAI 兼容 / Claude 中转 API：apiBase、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/continue-relay-api-openai-compatible-setup/)
+- [Cline 怎么接入 OpenAI 兼容 / Claude 中转 API：Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/cline-relay-api-openai-compatible-setup/)
+- [Codex CLI 怎么接入 OpenAI 兼容中转 API：config.toml 自定义 provider、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/codex-cli-relay-api-config-toml-setup/)
+- [Codex 提示用量到上限怎么办：查剩余额度与重置时间、加购 credits、改用 API Key](https://a37836323.github.io/openlux-api-guides/news/codex-usage-limit-reached-fix/)
+- [Open WebUI 连不上 Ollama？Docker localhost 与 11434 排查](https://a37836323.github.io/openlux-api-guides/news/open-webui-ollama-docker-connection-refused/)
+
+[查看「客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等」全部文章](https://a37836323.github.io/openlux-api-guides/topics/clients/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
