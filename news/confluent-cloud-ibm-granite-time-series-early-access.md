@@ -172,3 +172,14 @@ Kafka 的持久化和可重放特性适合做历史回放。上线前可以：
 
 - https://huggingface.co/blog/ibm-research/real-time-intelligence
 - https://events.confluent.io/early-access-flink-features
+
+## 同专题文章
+
+- [用 GRPO 微调 LFM2.5-350M：提升结构化输出合规率的复现与评测方法](https://a37836323.github.io/openlux-api-guides/news/grpo-structured-output-finetuning-lfm25-350m/)
+- [Qwen 缓存为什么没命中：从请求前缀、usage 到真实账单的排查流程](https://a37836323.github.io/openlux-api-guides/news/qwen-context-cache-hit-troubleshooting/)
+- [Qwen 3.8 Flash 怎么选：API 费用计算、验收样本与 Max 升级条件](https://a37836323.github.io/openlux-api-guides/news/qwen3-8-flash-api-cost-selection/)
+- [Qwen 3.8 Max API 接入指南：区域价格、百万上下文与思考模式](https://a37836323.github.io/openlux-api-guides/news/qwen3-8-max-api-price-region-context-guide/)
+- [在浏览器接入 Hugging Face WebGPU 内核：安装、版本与兼容性检查](https://a37836323.github.io/openlux-api-guides/news/huggingface-webgpu-kernels-browser-inference/)
+- [Compliance API 会话转录正式可用：企业合规接入需要确认的权限与产品面](https://a37836323.github.io/openlux-api-guides/news/compliance-api-session-transcripts-ga/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
