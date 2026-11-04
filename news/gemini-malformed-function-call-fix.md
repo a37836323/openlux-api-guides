@@ -89,3 +89,14 @@ generateContent 接口在 `toolConfig.functionCallingConfig.mode` 里设置调�
 如果通过 OpenLux 这类中转调用 Gemini：上面的 `finishReason`、`finishMessage` 都是 Gemini 原生接口的字段，用 OpenAI 兼容接口时返回格式不同。排查时建议走原生接口复现：Base URL 填 `https://api.openlux.ai`，请求路径是 `/v1beta/models/<模型>:generateContent`，Key 放在 `x-goog-api-key` 请求头里，Key 在控制台「令牌」页创建。中转对原始 `finishMessage` 的透传本文没有实测，以实际响应为准。
 
 想用一个同时支持 Gemini 原生接口和 OpenAI 兼容接口的地址来复现和对比，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-malformed-function-call-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [Gemini 旧 TTS 预览模型最早 11 月 17 日下线：换成 gemini-3.8-flash-tts 要改哪些](https://a37836323.github.io/openlux-api-guides/news/gemini-tts-preview-shutdown-gemini-3-8-flash-tts-migration/)
+- [gemini-3.1-flash-image 已弃用：换成 gemini-nano-banana-2.1 要改哪些（512 分辨率、image_size 大写 K、思考档位）](https://a37836323.github.io/openlux-api-guides/news/gemini-3-1-flash-image-deprecated-nano-banana-2-1-migration/)
+- [Gemini API 新项目默认保存请求怎么关：store=false 写法、AI Studio 日志设置，以及关掉后 previous_interaction_id 和后台执行不能用](https://a37836323.github.io/openlux-api-guides/news/gemini-api-store-default-logging-store-false/)
+- [换成 gemini-4-argon 后回答被截断、返回空文本或报 400：单次 32K/64K 上限与 continuation_token 续写](https://a37836323.github.io/openlux-api-guides/news/gemini-4-argon-output-truncated-continuation-token-fix/)
+- [Gemini Deep Research 突然调不通：deep-research-pro-preview-12-2025 停用后 agent 参数怎么改](https://a37836323.github.io/openlux-api-guides/news/gemini-deep-research-pro-preview-shutdown-agent-migration/)
+- [Google WeatherNext 3 已接入 Maps Platform Weather API：开发者先验证天气数据变化](https://a37836323.github.io/openlux-api-guides/news/googles-weathernext-3-maps-platform-weather-api/)
+
+[查看「Gemini API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
