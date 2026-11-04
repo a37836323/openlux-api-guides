@@ -98,3 +98,14 @@ date: 2026-10-31
 **通过中转调用要改什么？** 只改模型名和上述参数，Base URL 不变。以 OpenLux 为例，Base URL 是 `https://api.openlux.ai/v1`；10-31 查询价格接口时，`gpt-5.6-sol`、`gpt-5.6-terra`、`gpt-5.6-luna` 都标注支持 Chat Completions 和 Responses 两种接口。可以先请求 `/v1/models` 确认模型在列表里。
 
 如需通过中转调用 GPT-5.6 系列，可以[注册 OpenLux 获取 API Key](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gpt-5-o3-shutdown-gpt-5-6-sol-migration&utm_content=footer)，在售模型和价格以价格页为准。
+
+## 同专题文章
+
+- [gpt-realtime 将于 2027 年 1 月 20 日下线：换成 gpt-realtime-2.1 后说完「我查一下」就沉默、话说一半停住怎么办](https://a37836323.github.io/openlux-api-guides/news/gpt-realtime-shutdown-gpt-realtime-2-1-silence-fix/)
+- [whisper-1 将于 2027 年 2 月 26 日下线：换成 gpt-transcribe 要改哪些参数（language、时间戳、字幕格式）](https://a37836323.github.io/openlux-api-guides/news/whisper-1-shutdown-gpt-transcribe-migration/)
+- [gpt-audio、gpt-audio-mini 将于 2027 年 1 月 20 日下线：换成 gpt-audio-1.5 要改哪些](https://a37836323.github.io/openlux-api-guides/news/gpt-audio-mini-shutdown-gpt-audio-1-5-migration/)
+- [OpenAI /v1/audio/translations 将于 2027 年 2 月 26 日下线：换成 gpt-realtime-translate 为什么不能只改模型名](https://a37836323.github.io/openlux-api-guides/news/openai-audio-translations-shutdown-realtime-translate-migration/)
+- [gpt-5.1、gpt-5.3-codex、gpt-5.4-nano 将于 2027 年 4 月 1 日下线：换成 gpt-6-sol、gpt-6-luna 要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-5-1-5-3-codex-5-4-nano-shutdown-migration/)
+- [tts-1、gpt-4o-mini-tts 将于 2027 年 1 月 6 日下线：换成 gpt-realtime-2.1-mini 为什么不能只改模型名](https://a37836323.github.io/openlux-api-guides/news/tts-1-gpt-4o-mini-tts-shutdown-gpt-realtime-migration/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
