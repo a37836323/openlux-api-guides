@@ -83,3 +83,14 @@ gpt-6-sol 的模型页提示有更新的 [GPT-6.1 Sol](https://developers.openai
 迁移步骤和直连 OpenAI 相同，区别只在地址和 Key：Base URL 填 `https://api.openlux.ai/v1`，请求头用 `Authorization: Bearer <你的 Key>`，Key 在 OpenLux 控制台「令牌」页创建。切换前先请求 `/v1/models`，能列出模型说明地址和 Key 都正确，再确认列表里有 `gpt-6-sol`、`gpt-6-luna`。具体在售模型和价格以 OpenLux 价格页为准。
 
 需要一个同时提供 OpenAI 兼容和 Responses 接口的入口，可以[注册 OpenLux 获取 API Key](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gpt-5-1-5-3-codex-5-4-nano-shutdown-migration&utm_content=footer)。
+
+## 同专题文章
+
+- [gpt-audio、gpt-audio-mini 将于 2027 年 1 月 20 日下线：换成 gpt-audio-1.5 要改哪些](https://a37836323.github.io/openlux-api-guides/news/gpt-audio-mini-shutdown-gpt-audio-1-5-migration/)
+- [GPT-5、o3、gpt-5-pro、o3-pro 将于 12 月 11 日下线：换成 gpt-5.6 系列要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-5-o3-shutdown-gpt-5-6-sol-migration/)
+- [OpenAI /v1/audio/translations 将于 2027 年 2 月 26 日下线：换成 gpt-realtime-translate 为什么不能只改模型名](https://a37836323.github.io/openlux-api-guides/news/openai-audio-translations-shutdown-realtime-translate-migration/)
+- [tts-1、gpt-4o-mini-tts 将于 2027 年 1 月 6 日下线：换成 gpt-realtime-2.1-mini 为什么不能只改模型名](https://a37836323.github.io/openlux-api-guides/news/tts-1-gpt-4o-mini-tts-shutdown-gpt-realtime-migration/)
+- [gpt-image-1.5、gpt-image-1-mini 将于 12 月 1 日下线：换成 gpt-image-2.5-sunburst / flare 要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-image-1-5-mini-shutdown-gpt-image-2-5-migration/)
+- [OpenAI API 报 429 先看 error.code：限流、余额用完、消费上限与月度用量上限怎么区分](https://a37836323.github.io/openlux-api-guides/news/openai-api-429-error-code-usage-tier-fix/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
