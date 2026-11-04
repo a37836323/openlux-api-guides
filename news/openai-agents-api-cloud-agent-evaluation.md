@@ -145,3 +145,14 @@ OpenAI Blog 于 2026 年 9 月 10 日发布了 `Introducing the Agents API`。�
 ## 官方一手来源
 
 https://openai.com/index/introducing-the-agents-api
+
+## 同专题文章
+
+- [No tool output found for function call 怎么修？Responses API 回传排查](https://a37836323.github.io/openlux-api-guides/news/responses-no-tool-output-found-fix/)
+- [OpenAI 报 Unsupported parameter: max_tokens 怎么改？两个接口别填错](https://a37836323.github.io/openlux-api-guides/news/openai-unsupported-max-tokens-fix/)
+- [买了 ChatGPT Plus，API 为什么还报 429 insufficient_quota？](https://a37836323.github.io/openlux-api-guides/news/chatgpt-plus-api-insufficient-quota/)
+- [GPT‑Live‑1 已进入 API：评估全双工语音与电话接入](https://a37836323.github.io/openlux-api-guides/news/gpt-live-1-api-voice-experiences/)
+- [GPT-6 Astra API 接入指南：价格、百万上下文与 reasoning.effort 怎么选](https://a37836323.github.io/openlux-api-guides/news/gpt-6-astra-api-price-context-guide/)
+- [OpenAI 高风险 Agent 安全措施：上线前检查沙箱、隔离与审计](https://a37836323.github.io/openlux-api-guides/news/openai-agent-security-deployment-checklist/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
