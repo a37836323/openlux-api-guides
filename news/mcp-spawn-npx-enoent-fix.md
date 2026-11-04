@@ -78,3 +78,14 @@ npx --version
 - [Node.js 官方文档](https://nodejs.org/api/child_process.html)：按当前页面核对解决步骤。历史提问不代表当前所有环境都存在同一问题。
 
 如需要进一步比较云端接口，可[注册 OpenLux 并核对适用能力](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=mcp-spawn-npx-enoent-fix&utm_content=footer)。切换服务前单独验证接口与账户配置，不能据此认定原服务的问题已经修复。
+
+## 同专题文章
+
+- [Continue 怎么接入 OpenAI 兼容 / Claude 中转 API：apiBase、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/continue-relay-api-openai-compatible-setup/)
+- [Cline 怎么接入 OpenAI 兼容 / Claude 中转 API：Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/cline-relay-api-openai-compatible-setup/)
+- [Cherry Studio 怎么接入 OpenAI 兼容 / Claude 中转 API：API 地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/cherry-studio-relay-api-custom-provider-setup/)
+- [Codex CLI 怎么接入 OpenAI 兼容中转 API：config.toml 自定义 provider、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/codex-cli-relay-api-config-toml-setup/)
+- [Codex 提示用量到上限怎么办：查剩余额度与重置时间、加购 credits、改用 API Key](https://a37836323.github.io/openlux-api-guides/news/codex-usage-limit-reached-fix/)
+- [Open WebUI 连不上 Ollama？Docker localhost 与 11434 排查](https://a37836323.github.io/openlux-api-guides/news/open-webui-ollama-docker-connection-refused/)
+
+[查看「客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等」全部文章](https://a37836323.github.io/openlux-api-guides/topics/clients/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
