@@ -116,3 +116,14 @@ Opus 5.5 不支持强制工具调用，`tool_choice` 的 `any` 和 `tool` 都会
 截至 2026 年 10 月 29 日，OpenLux 价格接口的在售列表里有 `claude-opus-5-5`，端点类型包含 Anthropic Messages 和 OpenAI 兼容。用 Anthropic SDK 时，Base URL 填 `https://api.openlux.ai`（不带 `/v1`，客户端会自己拼 `/v1/messages`），Key 在 OpenLux 控制台的令牌页创建，价格以官网价格页为准。本文的参数规则和报错原文出自 Anthropic 官方文档，适用于 Messages 格式的请求；经中转返回的错误包装格式可能不同，走 OpenAI 兼容端点时的参数对应关系本文没有核实，以实际响应为准。先用 `/v1/models` 确认列表里有 `claude-opus-5-5`，再按第七节逐项验证。
 
 需要通过 OpenLux 调用 `claude-opus-5-5` 时，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=claude-opus-5-5-migration-400-thinking-tool-choice-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [Claude Opus 4.8 快速模式 11 月 30 日移除：带 speed: "fast" 的请求会报错，留在 4.8 还是换 Opus 5.5](https://a37836323.github.io/openlux-api-guides/news/claude-opus-4-8-fast-mode-removal-opus-5-5-migration/)
+- [Claude 的 usage_report / cost_report 被标为 legacy，如何迁移到 Analytics API 并正确传 beta header？](https://a37836323.github.io/openlux-api-guides/news/claude-usage-cost-analytics-api-migration/)
+- [Claude API 报 413 request_too_large 怎么办：128 MB 请求上限、图片和 PDF 改用 file_id](https://a37836323.github.io/openlux-api-guides/news/claude-api-413-request-too-large-fix/)
+- [Claude Sonnet 4.5 将于 11 月 30 日退役：换成 Sonnet 5.5 后报 400 怎么改（budget_tokens、temperature、预填充、tool_choice）](https://a37836323.github.io/openlux-api-guides/news/claude-sonnet-4-5-retirement-sonnet-5-5-migration-400-fix/)
+- [Claude API 带 web_fetch 工具报 400 怎么办：组织未开启、域名名单冲突与续轮缺少结果块](https://a37836323.github.io/openlux-api-guides/news/claude-api-web-fetch-400-error-fix/)
+- [Claude Haiku 4.5 换成 Haiku 5.5 后报 400：budget_tokens、temperature、预填充与思维块怎么改](https://a37836323.github.io/openlux-api-guides/news/claude-haiku-5-5-migration-400-errors-fix/)
+
+[查看「Claude API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/claude-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
