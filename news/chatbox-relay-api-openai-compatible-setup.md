@@ -101,3 +101,14 @@ curl https://api.openlux.ai/v1/models \
 - Chatbox 官方指南：[自带 API Key (BYOK)](https://chatboxai.app/zh/guide/byok)、[Claude 配置指南](https://chatboxai.app/en/guide/byok/claude)
 
 还没有 Key 的话，可以先[注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=chatbox-relay-api-openai-compatible-setup&utm_content=footer)，在「令牌」页创建 Key 后按上面的步骤填进 Chatbox。
+
+## 同专题文章
+
+- [Dify 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：API Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/dify-relay-api-openai-compatible-setup/)
+- [LobeHub（LobeChat）怎么接入 OpenAI 兼容 / Claude 中转 API：代理地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/lobehub-lobechat-relay-api-proxy-url-setup/)
+- [VS Code 怎么接入 OpenAI 兼容 / Claude 中转 API：Custom Endpoint、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/vscode-copilot-byok-custom-endpoint-relay-api-setup/)
+- [Open WebUI 怎么接入 OpenAI 兼容 / Claude 中转 API：URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/open-webui-relay-api-openai-compatible-setup/)
+- [Zed 怎么接入 OpenAI 兼容 / Claude 中转 API：API URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/zed-relay-api-openai-compatible-setup/)
+- [Continue 怎么接入 OpenAI 兼容 / Claude 中转 API：apiBase、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/continue-relay-api-openai-compatible-setup/)
+
+[查看「客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等」全部文章](https://a37836323.github.io/openlux-api-guides/topics/clients/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
