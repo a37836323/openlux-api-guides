@@ -92,3 +92,14 @@ def ask_once(model, question):
 - [OpenAI Python 官方仓库](https://github.com/openai/openai-python)：按当前页面核对解决步骤。历史提问不代表当前所有环境都存在同一问题。
 
 如需要进一步比较云端接口，可[注册 OpenLux 并核对适用能力](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=openai-python-apiremovedinv1-fix&utm_content=footer)。切换服务前单独验证接口与账户配置，不能据此认定原服务的问题已经修复。
+
+## 同专题文章
+
+- [Invalid schema：additionalProperties 必须为 false，嵌套对象怎么改？](https://a37836323.github.io/openlux-api-guides/news/structured-outputs-additionalproperties-false-fix/)
+- [Your organization must be verified to stream：已验证为什么还报错？](https://a37836323.github.io/openlux-api-guides/news/openai-organization-verified-stream-error/)
+- [OpenAI Python 报 unexpected keyword argument proxies 怎么解决？](https://a37836323.github.io/openlux-api-guides/news/openai-httpx-unexpected-proxies-fix/)
+- [No tool output found for function call 怎么修？Responses API 回传排查](https://a37836323.github.io/openlux-api-guides/news/responses-no-tool-output-found-fix/)
+- [OpenAI 报 Unsupported parameter: max_tokens 怎么改？两个接口别填错](https://a37836323.github.io/openlux-api-guides/news/openai-unsupported-max-tokens-fix/)
+- [买了 ChatGPT Plus，API 为什么还报 429 insufficient_quota？](https://a37836323.github.io/openlux-api-guides/news/chatgpt-plus-api-insufficient-quota/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
