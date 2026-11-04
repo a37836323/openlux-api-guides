@@ -101,3 +101,14 @@ curl https://api.openlux.ai/v1/models \
 - Continue 文档：[Anthropic 配置](https://docs.continue.dev/customize/model-providers/top-level/anthropic)（Anthropic 服务商写法）
 
 还没有 Key 的话，可以先[注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=continue-relay-api-openai-compatible-setup&utm_content=footer)，在「令牌」页创建 Key 后按上面的步骤写进 Continue 的 `config.yaml`。
+
+## 同专题文章
+
+- [Chatbox 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：API Host、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/chatbox-relay-api-openai-compatible-setup/)
+- [Open WebUI 怎么接入 OpenAI 兼容 / Claude 中转 API：URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/open-webui-relay-api-openai-compatible-setup/)
+- [Zed 怎么接入 OpenAI 兼容 / Claude 中转 API：API URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/zed-relay-api-openai-compatible-setup/)
+- [Cline 怎么接入 OpenAI 兼容 / Claude 中转 API：Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/cline-relay-api-openai-compatible-setup/)
+- [Cherry Studio 怎么接入 OpenAI 兼容 / Claude 中转 API：API 地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/cherry-studio-relay-api-custom-provider-setup/)
+- [Codex CLI 怎么接入 OpenAI 兼容中转 API：config.toml 自定义 provider、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/codex-cli-relay-api-config-toml-setup/)
+
+[查看「客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等」全部文章](https://a37836323.github.io/openlux-api-guides/topics/clients/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
