@@ -232,3 +232,14 @@ llama-server \
 - https://huggingface.co/datasets/LiquidAI/ifstruct-v1.0
 - https://huggingface.co/LiquidAI/LFM2.5-350M
 - https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF
+
+## 同专题文章
+
+- [Qwen 模型找不到怎么办：模型 ID、入口与账户权限排查](https://a37836323.github.io/openlux-api-guides/news/qwen-model-not-found-permission-check/)
+- [用 TRL 与 OpenEnv 部署自定义视觉奖励 GRPO：配置与排错要点](https://a37836323.github.io/openlux-api-guides/news/trl-openenv-watercolour-grpo-training/)
+- [IBM Granite PatchTST-FM-r2 上线：如何用开源权重部署零样本时间序列预测](https://a37836323.github.io/openlux-api-guides/news/ibm-granite-patchtst-fm-r2-deployment/)
+- [Qwen 缓存为什么没命中：从请求前缀、usage 到真实账单的排查流程](https://a37836323.github.io/openlux-api-guides/news/qwen-context-cache-hit-troubleshooting/)
+- [Qwen 3.8 Flash 怎么选：API 费用计算、验收样本与 Max 升级条件](https://a37836323.github.io/openlux-api-guides/news/qwen3-8-flash-api-cost-selection/)
+- [Qwen 3.8 Max API 接入指南：区域价格、百万上下文与思考模式](https://a37836323.github.io/openlux-api-guides/news/qwen3-8-max-api-price-region-context-guide/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
