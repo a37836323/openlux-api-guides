@@ -134,3 +134,14 @@ date: 2026-09-11
 官方一手来源：
 
 https://platform.claude.com/docs/en/release-notes/overview#september-10-2026
+
+## 同专题文章
+
+- [Claude Haiku 4.5 换成 Haiku 5.5 后报 400：budget_tokens、temperature、预填充与思维块怎么改](https://a37836323.github.io/openlux-api-guides/news/claude-haiku-5-5-migration-400-errors-fix/)
+- [Anthropic SDK 升级后报 400 或鉴权失败：API 版本 2026-10-21 迁移排查](https://a37836323.github.io/openlux-api-guides/news/anthropic-api-2026-10-21-upgrade-errors-fix/)
+- [Claude Managed Agents 报 `url_not_allowed`、`url_not_in_prior_context` 或 400：如何配置 `allowed_hosts` 与域名限制](https://a37836323.github.io/openlux-api-guides/news/claude-managed-agents-web-fetch-url-not-allowed-fix/)
+- [用 ant apply 将 Claude Agent 资源纳入代码和 CI 管理](https://a37836323.github.io/openlux-api-guides/news/ant-apply-agent-resources-as-code/)
+- [Claude Fable 5.1 上线：API 迁移需检查 tool_choice、思维块与数据保留](https://a37836323.github.io/openlux-api-guides/news/claude-fable-5-1-api-migration/)
+- [Claude API 电脑与浏览器工具正式可用，Files 和 Skills API 退出 Beta](https://a37836323.github.io/openlux-api-guides/news/claude-api-computer-browser-files-skills-ga/)
+
+[查看「Claude API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/claude-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
