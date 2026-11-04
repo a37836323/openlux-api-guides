@@ -138,3 +138,14 @@ Haiku 5.5 的思维块只在它之前发送的内容都没变时有效。如果�
 - 官方文档：[Effort](https://platform.claude.com/docs/en/build-with-claude/effort)
 
 如果你需要在一个入口里同时调用多家厂商的模型，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=claude-haiku-5-5-migration-400-errors-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [换成 Claude Opus 5.5 后报 400 怎么改：thinking 关不掉、tool_choice 不能强制，按原来的模型逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-opus-5-5-migration-400-thinking-tool-choice-fix/)
+- [Claude Sonnet 4.5 将于 11 月 30 日退役：换成 Sonnet 5.5 后报 400 怎么改（budget_tokens、temperature、预填充、tool_choice）](https://a37836323.github.io/openlux-api-guides/news/claude-sonnet-4-5-retirement-sonnet-5-5-migration-400-fix/)
+- [Claude API 带 web_fetch 工具报 400 怎么办：组织未开启、域名名单冲突与续轮缺少结果块](https://a37836323.github.io/openlux-api-guides/news/claude-api-web-fetch-400-error-fix/)
+- [Anthropic SDK 升级后报 400 或鉴权失败：API 版本 2026-10-21 迁移排查](https://a37836323.github.io/openlux-api-guides/news/anthropic-api-2026-10-21-upgrade-errors-fix/)
+- [Claude Managed Agents 报 `url_not_allowed`、`url_not_in_prior_context` 或 400：如何配置 `allowed_hosts` 与域名限制](https://a37836323.github.io/openlux-api-guides/news/claude-managed-agents-web-fetch-url-not-allowed-fix/)
+- [Claude Managed Agents 新增 `auto` 权限策略：让服务器评估并审批工具调用](https://a37836323.github.io/openlux-api-guides/news/claude-managed-agents-auto-permission-policy/)
+
+[查看「Claude API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/claude-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
