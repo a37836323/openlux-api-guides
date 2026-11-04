@@ -87,3 +87,13 @@ print(estimate(1000, 2000, 300, "2", "6"))         # 5.8
 
 下一步先跑小批次、核对账单，再决定分流规则。[进入 OpenLux 注册并准备测试账户](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=qwen3-8-flash-api-cost-selection&utm_content=footer)。
 
+## 同专题文章
+
+- [IBM Granite PatchTST-FM-r2 上线：如何用开源权重部署零样本时间序列预测](https://a37836323.github.io/openlux-api-guides/news/ibm-granite-patchtst-fm-r2-deployment/)
+- [用 GRPO 微调 LFM2.5-350M：提升结构化输出合规率的复现与评测方法](https://a37836323.github.io/openlux-api-guides/news/grpo-structured-output-finetuning-lfm25-350m/)
+- [Qwen 缓存为什么没命中：从请求前缀、usage 到真实账单的排查流程](https://a37836323.github.io/openlux-api-guides/news/qwen-context-cache-hit-troubleshooting/)
+- [Qwen 3.8 Max API 接入指南：区域价格、百万上下文与思考模式](https://a37836323.github.io/openlux-api-guides/news/qwen3-8-max-api-price-region-context-guide/)
+- [Confluent Cloud 早期接入 IBM Granite：用 Flink SQL 做时序预测与异常检测](https://a37836323.github.io/openlux-api-guides/news/confluent-cloud-ibm-granite-time-series-early-access/)
+- [在浏览器接入 Hugging Face WebGPU 内核：安装、版本与兼容性检查](https://a37836323.github.io/openlux-api-guides/news/huggingface-webgpu-kernels-browser-inference/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
