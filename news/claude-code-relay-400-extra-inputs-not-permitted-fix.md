@@ -111,3 +111,12 @@ curl -sS -w '\n%{http_code}\n' -X POST "$ANTHROPIC_BASE_URL/v1/messages" \
 官方兼容指南给中转运营方的要求是：原样转发 `anthropic-version` 和 `anthropic-beta` 请求头，不要按单个值做白名单，因为 Claude Code 每次发版都可能增加新值；请求头和对应的请求体字段一起转发；做内容审查时只读不改请求体；上游的报错正文原样返回，因为 Claude Code 的自动重试要靠识别这些报错原文；`cache_control` 出现在哪里都要原样保留。
 
 还没有令牌的话，可以先 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=claude-code-relay-400-extra-inputs-not-permitted-fix&utm_content=footer)，在「令牌」页创建后按上面的步骤配置 Claude Code。
+
+## 同专题文章
+
+- [Claude Code 走中转报 401、Invalid API key 或一直让你 /login 怎么办：AUTH_TOKEN 与 API_KEY 怎么选、凭据优先级与 /status 排查](https://a37836323.github.io/openlux-api-guides/news/claude-code-relay-401-invalid-api-key-fix/)
+- [Claude Code 走中转报 Unable to connect to API、Request timed out 怎么办：连接失败、超时与流式中断逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-code-relay-unable-to-connect-timeout-fix/)
+- [Claude Code 走中转后 /model 里看不到或切不了模型：网关模型发现、ANTHROPIC_DEFAULT_*_MODEL 与 Model not found 排查](https://a37836323.github.io/openlux-api-guides/news/claude-code-relay-model-picker-missing-models-fix/)
+- [Claude Code 怎么接入 Claude 中转 API：ANTHROPIC_BASE_URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/claude-code-relay-api-base-url-setup/)
+
+[查看「Claude Code 接入与报错」全部文章](https://a37836323.github.io/openlux-api-guides/topics/claude-code/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
