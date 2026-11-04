@@ -137,3 +137,14 @@ OpenAI 官方博客于 2026 年 9 月 10 日发布了《Build more natural voice
 
 - OpenAI Blog：《Build more natural voice experiences with GPT‑Live‑1 in the API》  
   https://openai.com/index/introducing-gpt-live-1-in-the-api
+
+## 同专题文章
+
+- [OpenAI 报 Unsupported parameter: max_tokens 怎么改？两个接口别填错](https://a37836323.github.io/openlux-api-guides/news/openai-unsupported-max-tokens-fix/)
+- [买了 ChatGPT Plus，API 为什么还报 429 insufficient_quota？](https://a37836323.github.io/openlux-api-guides/news/chatgpt-plus-api-insufficient-quota/)
+- [OpenAI Agents API 发布：如何评估云端 Agent 托管与工具调用](https://a37836323.github.io/openlux-api-guides/news/openai-agents-api-cloud-agent-evaluation/)
+- [GPT-6 Astra API 接入指南：价格、百万上下文与 reasoning.effort 怎么选](https://a37836323.github.io/openlux-api-guides/news/gpt-6-astra-api-price-context-guide/)
+- [OpenAI 高风险 Agent 安全措施：上线前检查沙箱、隔离与审计](https://a37836323.github.io/openlux-api-guides/news/openai-agent-security-deployment-checklist/)
+- [OpenAI API 零数据保留：符合资格客户上线前需核对的边界](https://a37836323.github.io/openlux-api-guides/news/openai-api-zero-data-retention-eligibility-and-boundaries/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
