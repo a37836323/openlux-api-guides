@@ -106,3 +106,14 @@ OpenAI API 返回 429，不一定是调用太快。OpenAI 官方[错误码页](h
 上面的等级、消费上限和用量上限都是 OpenAI 官方组织账号的规则。如果你只想用一个 Key 调用 GPT、Claude 等模型，也可以用 OpenAI 兼容的中转 API：Base URL 填 `https://api.openlux.ai/v1`，Key 在 OpenLux 控制台「令牌」页创建，先请求 `/v1/models`，能列出模型就说明地址和 Key 都正确。
 
 注册入口：[注册 OpenLux 账号](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openai-api-429-error-code-usage-tier-fix&utm_content=footer)
+
+## 同专题文章
+
+- [gpt-5.1、gpt-5.3-codex、gpt-5.4-nano 将于 2027 年 4 月 1 日下线：换成 gpt-6-sol、gpt-6-luna 要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-5-1-5-3-codex-5-4-nano-shutdown-migration/)
+- [tts-1、gpt-4o-mini-tts 将于 2027 年 1 月 6 日下线：换成 gpt-realtime-2.1-mini 为什么不能只改模型名](https://a37836323.github.io/openlux-api-guides/news/tts-1-gpt-4o-mini-tts-shutdown-gpt-realtime-migration/)
+- [gpt-image-1.5、gpt-image-1-mini 将于 12 月 1 日下线：换成 gpt-image-2.5-sunburst / flare 要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-image-1-5-mini-shutdown-gpt-image-2-5-migration/)
+- [gpt-4o、gpt-4o-mini、gpt-4.1 将于 2027 年 1 月 14 日下线：换成 gpt-6-luna 要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-4o-gpt-4-1-shutdown-gpt-6-luna-migration/)
+- [gpt-3.5-turbo、gpt-4、o1、o3-mini、o4-mini 已于 10 月 23 日下线：调用失败后怎么换成 GPT-5.6](https://a37836323.github.io/openlux-api-guides/news/openai-legacy-models-oct-23-shutdown-migration/)
+- [OpenAI 可复用提示词 11 月 30 日停用：Responses 请求里的 prompt 参数怎么改成代码内提示词](https://a37836323.github.io/openlux-api-guides/news/openai-reusable-prompt-object-shutdown-migration/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
