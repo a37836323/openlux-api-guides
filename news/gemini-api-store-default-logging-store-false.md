@@ -90,3 +90,14 @@ Interactions API 的 `store` 也是顶层参数，Python 写作 `client.interact
 上面的项目设置只对你自己的 Google 项目有效。通过第三方服务或中转调用 Gemini 时，请求用的是服务方的项目，项目级日志开关不归你控制，请求里的 `store` 字段会不会原样转发也取决于服务方，本文没有实测。对数据留存有要求时，先向服务方确认。
 
 如果你想用一个同时支持 Gemini 原生接口和 OpenAI 兼容接口的地址来调用和对比，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-api-store-default-logging-store-false&utm_content=footer)。
+
+## 同专题文章
+
+- [gemini-3.1-flash-live-preview 最早 11 月 17 日下线：换成 gemini-3.8-live 要改哪些（thinkingLevel、函数调用、proactive_audio）](https://a37836323.github.io/openlux-api-guides/news/gemini-live-preview-shutdown-gemini-3-8-live-migration/)
+- [Gemini 旧 TTS 预览模型最早 11 月 17 日下线：换成 gemini-3.8-flash-tts 要改哪些](https://a37836323.github.io/openlux-api-guides/news/gemini-tts-preview-shutdown-gemini-3-8-flash-tts-migration/)
+- [gemini-3.1-flash-image 已弃用：换成 gemini-nano-banana-2.1 要改哪些（512 分辨率、image_size 大写 K、思考档位）](https://a37836323.github.io/openlux-api-guides/news/gemini-3-1-flash-image-deprecated-nano-banana-2-1-migration/)
+- [Gemini 函数调用返回 MALFORMED_FUNCTION_CALL 怎么办：调用前的结构化文本、宽松参数结构与调用模式改法](https://a37836323.github.io/openlux-api-guides/news/gemini-malformed-function-call-fix/)
+- [换成 gemini-4-argon 后回答被截断、返回空文本或报 400：单次 32K/64K 上限与 continuation_token 续写](https://a37836323.github.io/openlux-api-guides/news/gemini-4-argon-output-truncated-continuation-token-fix/)
+- [Gemini Deep Research 突然调不通：deep-research-pro-preview-12-2025 停用后 agent 参数怎么改](https://a37836323.github.io/openlux-api-guides/news/gemini-deep-research-pro-preview-shutdown-agent-migration/)
+
+[查看「Gemini API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
