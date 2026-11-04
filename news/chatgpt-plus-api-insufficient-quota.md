@@ -67,3 +67,14 @@ OpenAI 社区在 2025 年 1 月有用户提问：买了 Plus，网页可以使�
 - [OpenAI：What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)，核对订阅与 API 的区别。
 - [OpenAI：429 与速率限制排查](https://help.openai.com/en/articles/5955604)，核对错误分类与组织范围。
 - [OpenAI：预付费计费说明](https://help.openai.com/en/articles/8264644-how-can-i-set-up-prepaid-billing)，核对余额更新延迟。
+
+## 同专题文章
+
+- [APIRemovedInV1 怎么修？openai.ChatCompletion.create 迁移示例](https://a37836323.github.io/openlux-api-guides/news/openai-python-apiremovedinv1-fix/)
+- [No tool output found for function call 怎么修？Responses API 回传排查](https://a37836323.github.io/openlux-api-guides/news/responses-no-tool-output-found-fix/)
+- [OpenAI 报 Unsupported parameter: max_tokens 怎么改？两个接口别填错](https://a37836323.github.io/openlux-api-guides/news/openai-unsupported-max-tokens-fix/)
+- [OpenAI Agents API 发布：如何评估云端 Agent 托管与工具调用](https://a37836323.github.io/openlux-api-guides/news/openai-agents-api-cloud-agent-evaluation/)
+- [GPT‑Live‑1 已进入 API：评估全双工语音与电话接入](https://a37836323.github.io/openlux-api-guides/news/gpt-live-1-api-voice-experiences/)
+- [GPT-6 Astra API 接入指南：价格、百万上下文与 reasoning.effort 怎么选](https://a37836323.github.io/openlux-api-guides/news/gpt-6-astra-api-price-context-guide/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
