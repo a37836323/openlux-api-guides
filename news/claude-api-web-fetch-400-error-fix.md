@@ -138,3 +138,14 @@ web fetch 目前有 `web_fetch_20250910`（基础抓取）、`web_fetch_20260209
 - 官方发布说明：[Claude Platform release notes](https://platform.claude.com/docs/en/release-notes/overview)（2026 年 10 月 20 日条目）
 
 如果你需要在一个入口里同时调用多家厂商的模型，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=claude-api-web-fetch-400-error-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [Claude API 报 413 request_too_large 怎么办：128 MB 请求上限、图片和 PDF 改用 file_id](https://a37836323.github.io/openlux-api-guides/news/claude-api-413-request-too-large-fix/)
+- [换成 Claude Opus 5.5 后报 400 怎么改：thinking 关不掉、tool_choice 不能强制，按原来的模型逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-opus-5-5-migration-400-thinking-tool-choice-fix/)
+- [Claude Sonnet 4.5 将于 11 月 30 日退役：换成 Sonnet 5.5 后报 400 怎么改（budget_tokens、temperature、预填充、tool_choice）](https://a37836323.github.io/openlux-api-guides/news/claude-sonnet-4-5-retirement-sonnet-5-5-migration-400-fix/)
+- [Claude Haiku 4.5 换成 Haiku 5.5 后报 400：budget_tokens、temperature、预填充与思维块怎么改](https://a37836323.github.io/openlux-api-guides/news/claude-haiku-5-5-migration-400-errors-fix/)
+- [Anthropic SDK 升级后报 400 或鉴权失败：API 版本 2026-10-21 迁移排查](https://a37836323.github.io/openlux-api-guides/news/anthropic-api-2026-10-21-upgrade-errors-fix/)
+- [Claude Managed Agents 报 `url_not_allowed`、`url_not_in_prior_context` 或 400：如何配置 `allowed_hosts` 与域名限制](https://a37836323.github.io/openlux-api-guides/news/claude-managed-agents-web-fetch-url-not-allowed-fix/)
+
+[查看「Claude API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/claude-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
