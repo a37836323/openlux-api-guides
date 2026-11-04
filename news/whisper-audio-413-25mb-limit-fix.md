@@ -85,3 +85,14 @@ assert not check_segments(segments[1:], 570)
 - [OpenAI 官方文档](https://developers.openai.com/api/docs/guides/speech-to-text)：按当前页面核对解决步骤。历史提问不代表当前所有环境都存在同一问题。
 
 如需要进一步比较云端接口，可[注册 OpenLux 并核对适用能力](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=whisper-audio-413-25mb-limit-fix&utm_content=footer)。切换服务前单独验证接口与账户配置，不能据此认定原服务的问题已经修复。
+
+## 同专题文章
+
+- [OpenAI Responses API 间歇性报 503 怎么办：server_is_overloaded、服务端错误与重试设置](https://a37836323.github.io/openlux-api-guides/news/openai-responses-api-503-retry-fix/)
+- [OpenAI 12 小时提示缓存怎么开：prompt_cache_options.ttl 报 400、类型报错与命中核对](https://a37836323.github.io/openlux-api-guides/news/openai-prompt-cache-12h-ttl-setup/)
+- [OpenAI API 报 CERTIFICATE_VERIFY_FAILED：证书链怎么修？](https://a37836323.github.io/openlux-api-guides/news/openai-python-certificate-verify-failed-fix/)
+- [OpenAI 图片上传报 invalid_base64 或 Invalid image，怎么排查？](https://a37836323.github.io/openlux-api-guides/news/openai-invalid-base64-image-url-fix/)
+- [Invalid schema：additionalProperties 必须为 false，嵌套对象怎么改？](https://a37836323.github.io/openlux-api-guides/news/structured-outputs-additionalproperties-false-fix/)
+- [Your organization must be verified to stream：已验证为什么还报错？](https://a37836323.github.io/openlux-api-guides/news/openai-organization-verified-stream-error/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
