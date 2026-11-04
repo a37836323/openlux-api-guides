@@ -87,3 +87,14 @@ assert check_model_id("qwen-test", {"qwen-test"}) == "名称匹配，仍需验�
 保留修复前后模型 ID 与配置版本，不在日志中泄露密钥。若只是改了配置但尚未完成调用，就写“配置已调整，调用待验证”，不要提前宣布服务恢复。
 
 继续接入可阅读[基础调用指南](https://a37836323.github.io/openlux-api-guides/quickstart/)，输出格式异常可转到[JSON 字段验收](https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/)。[进入 OpenLux 准备小规模接入验证](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=qwen-model-not-found-permission-check&utm_content=footer)。
+
+## 同专题文章
+
+- [Qwen 回答只出一半：finish_reason、输出上限与流式完整性排查](https://a37836323.github.io/openlux-api-guides/news/qwen-output-truncation-finish-reason/)
+- [Qwen 多轮对话越聊越长：历史裁剪、事实保留与上下文预算](https://a37836323.github.io/openlux-api-guides/news/qwen-chat-history-budget-and-facts/)
+- [Qwen 输出 JSON 仍然不能入库：字段、类型与事实的三层验收](https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/)
+- [用 TRL 与 OpenEnv 部署自定义视觉奖励 GRPO：配置与排错要点](https://a37836323.github.io/openlux-api-guides/news/trl-openenv-watercolour-grpo-training/)
+- [IBM Granite PatchTST-FM-r2 上线：如何用开源权重部署零样本时间序列预测](https://a37836323.github.io/openlux-api-guides/news/ibm-granite-patchtst-fm-r2-deployment/)
+- [用 GRPO 微调 LFM2.5-350M：提升结构化输出合规率的复现与评测方法](https://a37836323.github.io/openlux-api-guides/news/grpo-structured-output-finetuning-lfm25-350m/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
