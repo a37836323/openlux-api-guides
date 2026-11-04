@@ -106,3 +106,14 @@ curl https://api.openai.com/v1/chat/completions \
 **通过 OpenAI 兼容中转调用要改什么？** 只改模型名和上面的参数，Base URL 不变。改之前先请求 `/v1/models`，确认 `gpt-audio-1.5` 在服务商的模型列表里，再发验证请求。
 
 如需通过 OpenAI 兼容中转调用模型，可以[注册 OpenLux 获取 API Key](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gpt-audio-mini-shutdown-gpt-audio-1-5-migration&utm_content=footer)，在售模型和价格以价格页为准。
+
+## 同专题文章
+
+- [OpenAI Agent Builder 将于 11 月 30 日停用：工作流导出成 Agents SDK、ChatKit 改自托管，换 Base URL 后报 404/401/400 怎么改](https://a37836323.github.io/openlux-api-guides/news/agent-builder-shutdown-agents-sdk-chatkit-migration/)
+- [gpt-realtime 将于 2027 年 1 月 20 日下线：换成 gpt-realtime-2.1 后说完「我查一下」就沉默、话说一半停住怎么办](https://a37836323.github.io/openlux-api-guides/news/gpt-realtime-shutdown-gpt-realtime-2-1-silence-fix/)
+- [whisper-1 将于 2027 年 2 月 26 日下线：换成 gpt-transcribe 要改哪些参数（language、时间戳、字幕格式）](https://a37836323.github.io/openlux-api-guides/news/whisper-1-shutdown-gpt-transcribe-migration/)
+- [GPT-5、o3、gpt-5-pro、o3-pro 将于 12 月 11 日下线：换成 gpt-5.6 系列要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-5-o3-shutdown-gpt-5-6-sol-migration/)
+- [OpenAI /v1/audio/translations 将于 2027 年 2 月 26 日下线：换成 gpt-realtime-translate 为什么不能只改模型名](https://a37836323.github.io/openlux-api-guides/news/openai-audio-translations-shutdown-realtime-translate-migration/)
+- [gpt-5.1、gpt-5.3-codex、gpt-5.4-nano 将于 2027 年 4 月 1 日下线：换成 gpt-6-sol、gpt-6-luna 要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-5-1-5-3-codex-5-4-nano-shutdown-migration/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
