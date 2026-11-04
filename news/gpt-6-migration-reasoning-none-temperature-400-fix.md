@@ -107,3 +107,14 @@ GPT-6 Astra、GPT-6.1 Sol、GPT-6.1 Terra 都支持 Chat Completions 端点，�
 - [API 更新日志](https://developers.openai.com/api/docs/changelog)
 
 需要一个 OpenAI 兼容地址来测试 GPT-6 系列模型，可以[注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gpt-6-migration-reasoning-none-temperature-400-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [OpenAI 可复用提示词 11 月 30 日停用：Responses 请求里的 prompt 参数怎么改成代码内提示词](https://a37836323.github.io/openlux-api-guides/news/openai-reusable-prompt-object-shutdown-migration/)
+- [OpenAI 报 400「Invalid service_tier argument」怎么办：项目限制了服务等级的排查与改法](https://a37836323.github.io/openlux-api-guides/news/openai-invalid-service-tier-argument-400-fix/)
+- [gpt-4o-transcribe-diarize 将于 2027-02-26 下线：换成 gpt-transcribe 后拿不到 diarized_json 说话人标签怎么办](https://a37836323.github.io/openlux-api-guides/news/gpt-4o-transcribe-diarize-shutdown-diarized-json-migration/)
+- [OpenAI 传 PDF 报 400「You uploaded an invalid file」怎么办：input_file 写法、50 MB 上限与 PDF 内容排查](https://a37836323.github.io/openlux-api-guides/news/openai-pdf-input-file-400-invalid-file-fix/)
+- [OpenAI 调用 MCP 工具报 424「unhandled errors in a TaskGroup」怎么办：outputSchema、structuredContent 与连通性排查](https://a37836323.github.io/openlux-api-guides/news/openai-mcp-424-taskgroup-error-fix/)
+- [OpenAI Decisions API 缓存没命中怎么办：questions 不进缓存、1024 token 门槛与 30m 限制](https://a37836323.github.io/openlux-api-guides/news/openai-decisions-api-prompt-cache-not-hit/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
