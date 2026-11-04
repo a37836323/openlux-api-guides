@@ -103,3 +103,14 @@ curl https://api.openai.com/v1/audio/transcriptions \
 - [OpenAI 开发者社区讨论帖](https://community.openai.com/t/gpt-4o-transcribe-diarize-deprecation-diarize-json/1407710)
 
 需要一个 OpenAI 兼容地址来调用 GPT、Claude 等模型，可以[注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gpt-4o-transcribe-diarize-shutdown-diarized-json-migration&utm_content=footer)。
+
+## 同专题文章
+
+- [gpt-3.5-turbo、gpt-4、o1、o3-mini、o4-mini 已于 10 月 23 日下线：调用失败后怎么换成 GPT-5.6](https://a37836323.github.io/openlux-api-guides/news/openai-legacy-models-oct-23-shutdown-migration/)
+- [OpenAI 可复用提示词 11 月 30 日停用：Responses 请求里的 prompt 参数怎么改成代码内提示词](https://a37836323.github.io/openlux-api-guides/news/openai-reusable-prompt-object-shutdown-migration/)
+- [OpenAI 报 400「Invalid service_tier argument」怎么办：项目限制了服务等级的排查与改法](https://a37836323.github.io/openlux-api-guides/news/openai-invalid-service-tier-argument-400-fix/)
+- [迁移到 GPT-6 后报 400 怎么改：reasoning_effort none、temperature 与 Chat Completions 工具调用](https://a37836323.github.io/openlux-api-guides/news/gpt-6-migration-reasoning-none-temperature-400-fix/)
+- [OpenAI 传 PDF 报 400「You uploaded an invalid file」怎么办：input_file 写法、50 MB 上限与 PDF 内容排查](https://a37836323.github.io/openlux-api-guides/news/openai-pdf-input-file-400-invalid-file-fix/)
+- [OpenAI 调用 MCP 工具报 424「unhandled errors in a TaskGroup」怎么办：outputSchema、structuredContent 与连通性排查](https://a37836323.github.io/openlux-api-guides/news/openai-mcp-424-taskgroup-error-fix/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
