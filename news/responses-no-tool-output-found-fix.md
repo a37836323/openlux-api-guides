@@ -110,3 +110,14 @@ else:
 - [OpenAI 社区：流式连接中断后的工具结果缺失，2025-10-06](https://community.openai.com/t/how-to-handle-hanging-connection-conditions/1361157)。
 - [OpenAI：Function calling](https://developers.openai.com/api/docs/guides/function-calling)，核对调用、回传和推理项要求。
 - [OpenAI：Conversation state](https://developers.openai.com/api/docs/guides/conversation-state)，核对会话状态维护方式。
+
+## 同专题文章
+
+- [Your organization must be verified to stream：已验证为什么还报错？](https://a37836323.github.io/openlux-api-guides/news/openai-organization-verified-stream-error/)
+- [OpenAI Python 报 unexpected keyword argument proxies 怎么解决？](https://a37836323.github.io/openlux-api-guides/news/openai-httpx-unexpected-proxies-fix/)
+- [APIRemovedInV1 怎么修？openai.ChatCompletion.create 迁移示例](https://a37836323.github.io/openlux-api-guides/news/openai-python-apiremovedinv1-fix/)
+- [OpenAI 报 Unsupported parameter: max_tokens 怎么改？两个接口别填错](https://a37836323.github.io/openlux-api-guides/news/openai-unsupported-max-tokens-fix/)
+- [买了 ChatGPT Plus，API 为什么还报 429 insufficient_quota？](https://a37836323.github.io/openlux-api-guides/news/chatgpt-plus-api-insufficient-quota/)
+- [OpenAI Agents API 发布：如何评估云端 Agent 托管与工具调用](https://a37836323.github.io/openlux-api-guides/news/openai-agents-api-cloud-agent-evaluation/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
