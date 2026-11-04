@@ -85,3 +85,14 @@ Vision 文档明确说，用 `file_id` 引用图片可以让请求体保持很�
 官方的 128 MB 是第一方 Claude API 的数值。如果你通过云平台、企业网关或第三方中转服务调用，中间每一层都可能有自己的请求体上限，Files API 是否可用、`file_id` 能否透传，也以该服务的说明为准。遇到 413 时，先按上面的方法缩小请求体；如果请求明显低于官方上限仍然报 413，再向你使用的服务方确认它的请求体上限。
 
 如果需要一个同时提供 Claude、GPT 等模型的 OpenAI 兼容 / Anthropic 兼容接口，可以[注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=claude-api-413-request-too-large-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [Claude 提示缓存没命中怎么查：用 diagnostics 找出是 system、tools 还是 messages 变了](https://a37836323.github.io/openlux-api-guides/news/claude-prompt-cache-miss-diagnostics-fix/)
+- [Claude Opus 4.8 快速模式 11 月 30 日移除：带 speed: "fast" 的请求会报错，留在 4.8 还是换 Opus 5.5](https://a37836323.github.io/openlux-api-guides/news/claude-opus-4-8-fast-mode-removal-opus-5-5-migration/)
+- [Claude 的 usage_report / cost_report 被标为 legacy，如何迁移到 Analytics API 并正确传 beta header？](https://a37836323.github.io/openlux-api-guides/news/claude-usage-cost-analytics-api-migration/)
+- [换成 Claude Opus 5.5 后报 400 怎么改：thinking 关不掉、tool_choice 不能强制，按原来的模型逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-opus-5-5-migration-400-thinking-tool-choice-fix/)
+- [Claude Sonnet 4.5 将于 11 月 30 日退役：换成 Sonnet 5.5 后报 400 怎么改（budget_tokens、temperature、预填充、tool_choice）](https://a37836323.github.io/openlux-api-guides/news/claude-sonnet-4-5-retirement-sonnet-5-5-migration-400-fix/)
+- [Claude API 带 web_fetch 工具报 400 怎么办：组织未开启、域名名单冲突与续轮缺少结果块](https://a37836323.github.io/openlux-api-guides/news/claude-api-web-fetch-400-error-fix/)
+
+[查看「Claude API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/claude-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
