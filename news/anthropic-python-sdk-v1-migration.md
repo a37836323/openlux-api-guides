@@ -157,3 +157,14 @@ v1.0 对异步客户端的 `with_raw_response` 结果改变了使用方式：拿
 ## 官方一手来源
 
 - Claude Platform release notes：https://platform.claude.com/docs/en/release-notes/overview#august-20-2026
+
+## 同专题文章
+
+- [Anthropic SDK 升级后报 400 或鉴权失败：API 版本 2026-10-21 迁移排查](https://a37836323.github.io/openlux-api-guides/news/anthropic-api-2026-10-21-upgrade-errors-fix/)
+- [Claude Managed Agents 报 `url_not_allowed`、`url_not_in_prior_context` 或 400：如何配置 `allowed_hosts` 与域名限制](https://a37836323.github.io/openlux-api-guides/news/claude-managed-agents-web-fetch-url-not-allowed-fix/)
+- [Claude Managed Agents 新增 `auto` 权限策略：让服务器评估并审批工具调用](https://a37836323.github.io/openlux-api-guides/news/claude-managed-agents-auto-permission-policy/)
+- [用 ant apply 将 Claude Agent 资源纳入代码和 CI 管理](https://a37836323.github.io/openlux-api-guides/news/ant-apply-agent-resources-as-code/)
+- [Claude Fable 5.1 上线：API 迁移需检查 tool_choice、思维块与数据保留](https://a37836323.github.io/openlux-api-guides/news/claude-fable-5-1-api-migration/)
+- [Claude API 电脑与浏览器工具正式可用，Files 和 Skills API 退出 Beta](https://a37836323.github.io/openlux-api-guides/news/claude-api-computer-browser-files-skills-ga/)
+
+[查看「Claude API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/claude-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
