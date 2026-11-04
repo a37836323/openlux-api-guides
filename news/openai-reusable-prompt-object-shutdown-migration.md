@@ -102,3 +102,14 @@ response = client.responses.create(
 这次停用影响的是“按提示词 ID 调用”的写法：把提示词正文搬进代码，把 `variables` 换成函数参数，请求里显式写 `model` 和 `input`，版本交给 git 管理，静态内容放前面保住缓存。在 11 月 30 日前改完并验证，就不会受停用影响。
 
 想用同一套 Responses 写法调用多家模型，可以 [注册 OpenLux 获取 API Key](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openai-reusable-prompt-object-shutdown-migration&utm_content=footer)。
+
+## 同专题文章
+
+- [OpenAI API 报 429 先看 error.code：限流、余额用完、消费上限与月度用量上限怎么区分](https://a37836323.github.io/openlux-api-guides/news/openai-api-429-error-code-usage-tier-fix/)
+- [gpt-4o、gpt-4o-mini、gpt-4.1 将于 2027 年 1 月 14 日下线：换成 gpt-6-luna 要改哪些参数](https://a37836323.github.io/openlux-api-guides/news/gpt-4o-gpt-4-1-shutdown-gpt-6-luna-migration/)
+- [gpt-3.5-turbo、gpt-4、o1、o3-mini、o4-mini 已于 10 月 23 日下线：调用失败后怎么换成 GPT-5.6](https://a37836323.github.io/openlux-api-guides/news/openai-legacy-models-oct-23-shutdown-migration/)
+- [OpenAI 报 400「Invalid service_tier argument」怎么办：项目限制了服务等级的排查与改法](https://a37836323.github.io/openlux-api-guides/news/openai-invalid-service-tier-argument-400-fix/)
+- [gpt-4o-transcribe-diarize 将于 2027-02-26 下线：换成 gpt-transcribe 后拿不到 diarized_json 说话人标签怎么办](https://a37836323.github.io/openlux-api-guides/news/gpt-4o-transcribe-diarize-shutdown-diarized-json-migration/)
+- [迁移到 GPT-6 后报 400 怎么改：reasoning_effort none、temperature 与 Chat Completions 工具调用](https://a37836323.github.io/openlux-api-guides/news/gpt-6-migration-reasoning-none-temperature-400-fix/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
