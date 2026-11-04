@@ -223,3 +223,14 @@ low / medium / high / xhigh / max
 ## 官方一手来源
 
 - https://developers.openai.com/api/docs/models/gpt-6-astra
+
+## 同专题文章
+
+- [买了 ChatGPT Plus，API 为什么还报 429 insufficient_quota？](https://a37836323.github.io/openlux-api-guides/news/chatgpt-plus-api-insufficient-quota/)
+- [OpenAI Agents API 发布：如何评估云端 Agent 托管与工具调用](https://a37836323.github.io/openlux-api-guides/news/openai-agents-api-cloud-agent-evaluation/)
+- [GPT‑Live‑1 已进入 API：评估全双工语音与电话接入](https://a37836323.github.io/openlux-api-guides/news/gpt-live-1-api-voice-experiences/)
+- [OpenAI 高风险 Agent 安全措施：上线前检查沙箱、隔离与审计](https://a37836323.github.io/openlux-api-guides/news/openai-agent-security-deployment-checklist/)
+- [OpenAI API 零数据保留：符合资格客户上线前需核对的边界](https://a37836323.github.io/openlux-api-guides/news/openai-api-zero-data-retention-eligibility-and-boundaries/)
+- [GPT-5.6 Sol API 与 credit pricing 未来三个月下调超20%，开发者该怎么评估](https://a37836323.github.io/openlux-api-guides/news/gpt-5-6-sol-api-credit-pricing-cut/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
