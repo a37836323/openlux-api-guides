@@ -167,3 +167,14 @@ hf jobs uv run train/watercolour_grpo.py --flavor h200 --timeout 48h --secrets H
 ## 官方一手来源
 
 - https://huggingface.co/blog/train-to-paint-with-code
+
+## 同专题文章
+
+- [Qwen 多轮对话越聊越长：历史裁剪、事实保留与上下文预算](https://a37836323.github.io/openlux-api-guides/news/qwen-chat-history-budget-and-facts/)
+- [Qwen 输出 JSON 仍然不能入库：字段、类型与事实的三层验收](https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/)
+- [Qwen 模型找不到怎么办：模型 ID、入口与账户权限排查](https://a37836323.github.io/openlux-api-guides/news/qwen-model-not-found-permission-check/)
+- [IBM Granite PatchTST-FM-r2 上线：如何用开源权重部署零样本时间序列预测](https://a37836323.github.io/openlux-api-guides/news/ibm-granite-patchtst-fm-r2-deployment/)
+- [用 GRPO 微调 LFM2.5-350M：提升结构化输出合规率的复现与评测方法](https://a37836323.github.io/openlux-api-guides/news/grpo-structured-output-finetuning-lfm25-350m/)
+- [Qwen 缓存为什么没命中：从请求前缀、usage 到真实账单的排查流程](https://a37836323.github.io/openlux-api-guides/news/qwen-context-cache-hit-troubleshooting/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
