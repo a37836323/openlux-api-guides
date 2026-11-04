@@ -116,3 +116,14 @@ Cline 文档还提到可以在 VS Code 里关掉 `http.proxyStrictSSL`，但官�
 - VS Code 文档：[Network Connections in Visual Studio Code](https://code.visualstudio.com/docs/setup/network)（代理支持、`http.proxy` 适用范围、证书处理）
 
 还没有 Key 的话，可以先[注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=cline-relay-connection-timeout-proxy-certificate-fix&utm_content=footer)，在「令牌」页创建 Key 后按接入教程在 Cline 里填写。
+
+## 同专题文章
+
+- [Codex CLI 接中转后流式卡住不结束、第二轮或工具调用失败怎么办：Responses 兼容、response.completed 与模型名逐项排查](https://a37836323.github.io/openlux-api-guides/news/codex-cli-relay-stream-stall-tool-call-fix/)
+- [n8n 接中转后 OpenAI Chat Model 报「Bad request - please check your parameters」怎么办：429、Insufficient quota 与 Responses API 提示怎么排查](https://a37836323.github.io/openlux-api-guides/news/n8n-openai-chat-model-bad-request-error-fix/)
+- [n8n 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/n8n-relay-api-openai-compatible-setup/)
+- [Dify 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：API Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/dify-relay-api-openai-compatible-setup/)
+- [LobeHub（LobeChat）怎么接入 OpenAI 兼容 / Claude 中转 API：代理地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/lobehub-lobechat-relay-api-proxy-url-setup/)
+- [VS Code 怎么接入 OpenAI 兼容 / Claude 中转 API：Custom Endpoint、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/vscode-copilot-byok-custom-endpoint-relay-api-setup/)
+
+[查看「客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等」全部文章](https://a37836323.github.io/openlux-api-guides/topics/clients/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
