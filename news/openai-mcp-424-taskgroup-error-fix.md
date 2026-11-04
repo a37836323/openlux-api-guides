@@ -108,3 +108,14 @@ npx @modelcontextprotocol/inspector@latest
 通过 OpenAI 兼容的中转服务调用 Responses API 时，是否支持 `mcp` 工具类型、`mcp_call` 的 `error` 字段是否原样返回，以实际响应为准。排查时可以先用 MCP Inspector 确认服务器本身合规，再判断问题在哪一段。
 
 如果你需要一个 OpenAI 兼容的 API 入口来调试和对比多个模型，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openai-mcp-424-taskgroup-error-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [gpt-4o-transcribe-diarize 将于 2027-02-26 下线：换成 gpt-transcribe 后拿不到 diarized_json 说话人标签怎么办](https://a37836323.github.io/openlux-api-guides/news/gpt-4o-transcribe-diarize-shutdown-diarized-json-migration/)
+- [迁移到 GPT-6 后报 400 怎么改：reasoning_effort none、temperature 与 Chat Completions 工具调用](https://a37836323.github.io/openlux-api-guides/news/gpt-6-migration-reasoning-none-temperature-400-fix/)
+- [OpenAI 传 PDF 报 400「You uploaded an invalid file」怎么办：input_file 写法、50 MB 上限与 PDF 内容排查](https://a37836323.github.io/openlux-api-guides/news/openai-pdf-input-file-400-invalid-file-fix/)
+- [OpenAI Decisions API 缓存没命中怎么办：questions 不进缓存、1024 token 门槛与 30m 限制](https://a37836323.github.io/openlux-api-guides/news/openai-decisions-api-prompt-cache-not-hit/)
+- [OpenAI Responses API 间歇性报 503 怎么办：server_is_overloaded、服务端错误与重试设置](https://a37836323.github.io/openlux-api-guides/news/openai-responses-api-503-retry-fix/)
+- [OpenAI 12 小时提示缓存怎么开：prompt_cache_options.ttl 报 400、类型报错与命中核对](https://a37836323.github.io/openlux-api-guides/news/openai-prompt-cache-12h-ttl-setup/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
