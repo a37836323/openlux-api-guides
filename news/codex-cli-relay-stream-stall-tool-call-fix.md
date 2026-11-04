@@ -95,3 +95,14 @@ curl -N https://api.openlux.ai/v1/responses \
 官方建议求助时附上去掉令牌和敏感提示词的报错原文。可以一起带上：`codex --version` 的输出、`/status` 里的模型和提供方、上面 curl 测试最后几行事件、出错发生在第几轮以及是不是刚调用过工具。会话记录默认在 `~/.codex/sessions`，分享前先检查里面有没有敏感内容。
 
 还没有令牌的话，可以先 [注册 OpenLux 并创建令牌](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=codex-cli-relay-stream-stall-tool-call-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [Cline 接中转 API 连不上、超时或报证书错误怎么办：VS Code、CLI、JetBrains 的代理与 CA 证书设置](https://a37836323.github.io/openlux-api-guides/news/cline-relay-connection-timeout-proxy-certificate-fix/)
+- [n8n 接中转后 OpenAI Chat Model 报「Bad request - please check your parameters」怎么办：429、Insufficient quota 与 Responses API 提示怎么排查](https://a37836323.github.io/openlux-api-guides/news/n8n-openai-chat-model-bad-request-error-fix/)
+- [n8n 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/n8n-relay-api-openai-compatible-setup/)
+- [Dify 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：API Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/dify-relay-api-openai-compatible-setup/)
+- [LobeHub（LobeChat）怎么接入 OpenAI 兼容 / Claude 中转 API：代理地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/lobehub-lobechat-relay-api-proxy-url-setup/)
+- [VS Code 怎么接入 OpenAI 兼容 / Claude 中转 API：Custom Endpoint、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/vscode-copilot-byok-custom-endpoint-relay-api-setup/)
+
+[查看「客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等」全部文章](https://a37836323.github.io/openlux-api-guides/topics/clients/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
