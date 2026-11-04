@@ -94,3 +94,14 @@ assert result["duplicates"] == ["a"]
 对结果字段检查可参考[JSON 业务验收](https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/)。需要比较整批投入，可继续看[每个成功任务成本](https://a37836323.github.io/openlux-api-guides/model-cost-per-success/)。
 
 [进入 OpenLux 核对账户能力并测试小批次](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=batch-ai-jobs-result-reconciliation&utm_content=footer)，把结果核对跑通后再扩大数据量。
+
+## 同专题文章
+
+- [会议录音转文字再生成纪要：怎样核对人名、数字和行动项](https://a37836323.github.io/openlux-api-guides/news/meeting-audio-transcription-action-items/)
+- [图片转表格总有错字怎么办：OCR 输入、单元格对应与质量验收](https://a37836323.github.io/openlux-api-guides/news/image-ocr-table-extraction-quality/)
+- [AI 翻译商品页如何保持术语一致：术语表、数字与占位符检查](https://a37836323.github.io/openlux-api-guides/news/ai-product-translation-glossary-workflow/)
+- [企业知识库答非所问怎么办：先测检索召回，再决定是否加 Rerank](https://a37836323.github.io/openlux-api-guides/news/rag-retrieval-rerank-evaluation/)
+- [Qwen 回答只出一半：finish_reason、输出上限与流式完整性排查](https://a37836323.github.io/openlux-api-guides/news/qwen-output-truncation-finish-reason/)
+- [Qwen 多轮对话越聊越长：历史裁剪、事实保留与上下文预算](https://a37836323.github.io/openlux-api-guides/news/qwen-chat-history-budget-and-facts/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
