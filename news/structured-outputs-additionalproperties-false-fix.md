@@ -90,3 +90,14 @@ Chat Completions 与 Responses 的结构化输出封装位置不同。Schema 本
 - [OpenAI 官方文档](https://developers.openai.com/api/docs/guides/structured-outputs)：按当前页面核对解决步骤。历史提问不代表当前所有环境都存在同一问题。
 
 如需要进一步比较云端接口，可[注册 OpenLux 并核对适用能力](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=structured-outputs-additionalproperties-false-fix&utm_content=footer)。切换服务前单独验证接口与账户配置，不能据此认定原服务的问题已经修复。
+
+## 同专题文章
+
+- [OpenAI API 报 CERTIFICATE_VERIFY_FAILED：证书链怎么修？](https://a37836323.github.io/openlux-api-guides/news/openai-python-certificate-verify-failed-fix/)
+- [Whisper API 报 413、音频超过 25MB：怎么压缩和分段？](https://a37836323.github.io/openlux-api-guides/news/whisper-audio-413-25mb-limit-fix/)
+- [OpenAI 图片上传报 invalid_base64 或 Invalid image，怎么排查？](https://a37836323.github.io/openlux-api-guides/news/openai-invalid-base64-image-url-fix/)
+- [Your organization must be verified to stream：已验证为什么还报错？](https://a37836323.github.io/openlux-api-guides/news/openai-organization-verified-stream-error/)
+- [OpenAI Python 报 unexpected keyword argument proxies 怎么解决？](https://a37836323.github.io/openlux-api-guides/news/openai-httpx-unexpected-proxies-fix/)
+- [APIRemovedInV1 怎么修？openai.ChatCompletion.create 迁移示例](https://a37836323.github.io/openlux-api-guides/news/openai-python-apiremovedinv1-fix/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
