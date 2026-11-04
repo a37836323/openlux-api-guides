@@ -139,3 +139,14 @@ OpenLux 当前公开目录快照没有匹配条目，因此不能据此声称相
 
 - OpenAI Blog：https://openai.com/index/pacing-model-development-cyber-capabilities/
 - OpenLux 归因链接：[注册并创建 API Key](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openai-agent-security-deployment-checklist&utm_content=footer)
+
+## 同专题文章
+
+- [买了 ChatGPT Plus，API 为什么还报 429 insufficient_quota？](https://a37836323.github.io/openlux-api-guides/news/chatgpt-plus-api-insufficient-quota/)
+- [OpenAI Agents API 发布：如何评估云端 Agent 托管与工具调用](https://a37836323.github.io/openlux-api-guides/news/openai-agents-api-cloud-agent-evaluation/)
+- [GPT‑Live‑1 已进入 API：评估全双工语音与电话接入](https://a37836323.github.io/openlux-api-guides/news/gpt-live-1-api-voice-experiences/)
+- [GPT-6 Astra API 接入指南：价格、百万上下文与 reasoning.effort 怎么选](https://a37836323.github.io/openlux-api-guides/news/gpt-6-astra-api-price-context-guide/)
+- [OpenAI API 零数据保留：符合资格客户上线前需核对的边界](https://a37836323.github.io/openlux-api-guides/news/openai-api-zero-data-retention-eligibility-and-boundaries/)
+- [GPT-5.6 Sol API 与 credit pricing 未来三个月下调超20%，开发者该怎么评估](https://a37836323.github.io/openlux-api-guides/news/gpt-5-6-sol-api-credit-pricing-cut/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
