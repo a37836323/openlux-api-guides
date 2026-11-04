@@ -113,3 +113,14 @@ curl https://api.openlux.ai/v1/models \
 - Zed 文档：[Authentication](https://zed.dev/docs/authentication)（自带 Key 不需要登录）
 
 还没有 Key 的话，可以先[注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=zed-relay-api-openai-compatible-setup&utm_content=footer)，在「令牌」页创建 Key 后按上面的步骤添加到 Zed。
+
+## 同专题文章
+
+- [VS Code 怎么接入 OpenAI 兼容 / Claude 中转 API：Custom Endpoint、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/vscode-copilot-byok-custom-endpoint-relay-api-setup/)
+- [Chatbox 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：API Host、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/chatbox-relay-api-openai-compatible-setup/)
+- [Open WebUI 怎么接入 OpenAI 兼容 / Claude 中转 API：URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/open-webui-relay-api-openai-compatible-setup/)
+- [Continue 怎么接入 OpenAI 兼容 / Claude 中转 API：apiBase、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/continue-relay-api-openai-compatible-setup/)
+- [Cline 怎么接入 OpenAI 兼容 / Claude 中转 API：Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/cline-relay-api-openai-compatible-setup/)
+- [Cherry Studio 怎么接入 OpenAI 兼容 / Claude 中转 API：API 地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/cherry-studio-relay-api-custom-provider-setup/)
+
+[查看「客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等」全部文章](https://a37836323.github.io/openlux-api-guides/topics/clients/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
