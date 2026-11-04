@@ -84,3 +84,14 @@ assert next_check("tool_calls", True) == "进入工具流程并核对结果"
 若发现根因是历史占满预算，可阅读[多轮对话历史裁剪](https://a37836323.github.io/openlux-api-guides/news/qwen-chat-history-budget-and-facts/)；确定属于连接中断则继续看[流式中断与重试](https://a37836323.github.io/openlux-api-guides/rate-limit-stream-retry/)。
 
 [进入 OpenLux 开始小规模验证](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=qwen-output-truncation-finish-reason&utm_content=footer)。验收应落到任务是否完整交付，而不是只看 HTTP 是否成功。
+
+## 同专题文章
+
+- [AI 翻译商品页如何保持术语一致：术语表、数字与占位符检查](https://a37836323.github.io/openlux-api-guides/news/ai-product-translation-glossary-workflow/)
+- [一万条文本怎样批量交给 AI：任务编号、结果核对与失败补跑](https://a37836323.github.io/openlux-api-guides/news/batch-ai-jobs-result-reconciliation/)
+- [企业知识库答非所问怎么办：先测检索召回，再决定是否加 Rerank](https://a37836323.github.io/openlux-api-guides/news/rag-retrieval-rerank-evaluation/)
+- [Qwen 多轮对话越聊越长：历史裁剪、事实保留与上下文预算](https://a37836323.github.io/openlux-api-guides/news/qwen-chat-history-budget-and-facts/)
+- [Qwen 输出 JSON 仍然不能入库：字段、类型与事实的三层验收](https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/)
+- [Qwen 模型找不到怎么办：模型 ID、入口与账户权限排查](https://a37836323.github.io/openlux-api-guides/news/qwen-model-not-found-permission-check/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
