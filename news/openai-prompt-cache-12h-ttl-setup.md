@@ -140,3 +140,14 @@ SDK 修复类型之后，再改回普通参数。
 - 用户反馈（非官方结论）：[openai-python issue #4156](https://github.com/openai/openai-python/issues/4156)
 
 如果你需要在一个入口里同时调用多家厂商的模型，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=openai-prompt-cache-12h-ttl-setup&utm_content=footer)。
+
+## 同专题文章
+
+- [OpenAI 调用 MCP 工具报 424「unhandled errors in a TaskGroup」怎么办：outputSchema、structuredContent 与连通性排查](https://a37836323.github.io/openlux-api-guides/news/openai-mcp-424-taskgroup-error-fix/)
+- [OpenAI Decisions API 缓存没命中怎么办：questions 不进缓存、1024 token 门槛与 30m 限制](https://a37836323.github.io/openlux-api-guides/news/openai-decisions-api-prompt-cache-not-hit/)
+- [OpenAI Responses API 间歇性报 503 怎么办：server_is_overloaded、服务端错误与重试设置](https://a37836323.github.io/openlux-api-guides/news/openai-responses-api-503-retry-fix/)
+- [OpenAI API 报 CERTIFICATE_VERIFY_FAILED：证书链怎么修？](https://a37836323.github.io/openlux-api-guides/news/openai-python-certificate-verify-failed-fix/)
+- [Whisper API 报 413、音频超过 25MB：怎么压缩和分段？](https://a37836323.github.io/openlux-api-guides/news/whisper-audio-413-25mb-limit-fix/)
+- [OpenAI 图片上传报 invalid_base64 或 Invalid image，怎么排查？](https://a37836323.github.io/openlux-api-guides/news/openai-invalid-base64-image-url-fix/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
