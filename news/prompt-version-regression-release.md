@@ -89,3 +89,14 @@ assert result["regressed"] == ["edge"]
 结构化任务可结合[字段与事实验收](https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/)，知识库题目可参考[召回与重排评估](https://a37836323.github.io/openlux-api-guides/news/rag-retrieval-rerank-evaluation/)。
 
 [进入 OpenLux 准备固定样本测试](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=prompt-version-regression-release&utm_content=footer)，先保留一个能还原的基线，再开始下一次提示词修改。
+
+## 同专题文章
+
+- [Pinecone 报 Vector dimension does not match 怎么办？](https://a37836323.github.io/openlux-api-guides/news/pinecone-vector-dimension-mismatch-fix/)
+- [API 用量和账单为什么对不上：时间窗口、计费单位与重试记录核对](https://a37836323.github.io/openlux-api-guides/news/api-usage-billing-reconciliation-workflow/)
+- [工具调用返回了参数却执行失败：函数名、字段和业务范围怎么校验](https://a37836323.github.io/openlux-api-guides/news/tool-call-arguments-validation-contract/)
+- [会议录音转文字再生成纪要：怎样核对人名、数字和行动项](https://a37836323.github.io/openlux-api-guides/news/meeting-audio-transcription-action-items/)
+- [图片转表格总有错字怎么办：OCR 输入、单元格对应与质量验收](https://a37836323.github.io/openlux-api-guides/news/image-ocr-table-extraction-quality/)
+- [AI 翻译商品页如何保持术语一致：术语表、数字与占位符检查](https://a37836323.github.io/openlux-api-guides/news/ai-product-translation-glossary-workflow/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
