@@ -103,3 +103,14 @@ else:
 - [OpenAI：Chat Completions 参数参考](https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create)。
 - [OpenAI：429 排查中的接口输出参数说明](https://help.openai.com/en/articles/5955604)。
 - [OpenAI：迁移到 Responses API](https://developers.openai.com/api/docs/guides/migrate-to-responses)。迁移还涉及输入与输出结构，不能只替换长度字段。
+
+## 同专题文章
+
+- [OpenAI Python 报 unexpected keyword argument proxies 怎么解决？](https://a37836323.github.io/openlux-api-guides/news/openai-httpx-unexpected-proxies-fix/)
+- [APIRemovedInV1 怎么修？openai.ChatCompletion.create 迁移示例](https://a37836323.github.io/openlux-api-guides/news/openai-python-apiremovedinv1-fix/)
+- [No tool output found for function call 怎么修？Responses API 回传排查](https://a37836323.github.io/openlux-api-guides/news/responses-no-tool-output-found-fix/)
+- [买了 ChatGPT Plus，API 为什么还报 429 insufficient_quota？](https://a37836323.github.io/openlux-api-guides/news/chatgpt-plus-api-insufficient-quota/)
+- [OpenAI Agents API 发布：如何评估云端 Agent 托管与工具调用](https://a37836323.github.io/openlux-api-guides/news/openai-agents-api-cloud-agent-evaluation/)
+- [GPT‑Live‑1 已进入 API：评估全双工语音与电话接入](https://a37836323.github.io/openlux-api-guides/news/gpt-live-1-api-voice-experiences/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
