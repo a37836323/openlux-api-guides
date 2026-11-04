@@ -107,3 +107,14 @@ curl "https://api.openlux.ai/v1beta/models/gemini-3.8-flash:generateContent" \
 **价格会变吗？** 3.8 新特性页提到 3.8 Flash 和 3.6 Flash 的优惠价执行到 2026-12-31，2027-01-01 起按标准价，具体数字以官方和服务商的价格页为准。
 
 如需通过中转调用 Gemini、GPT、Claude 等模型，可以[注册 OpenLux 获取 API Key](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-3-7-3-5-flash-deprecated-auto-routing-fix&utm_content=footer)，在售模型和价格以价格页为准。
+
+## 同专题文章
+
+- [Gemini API 报 503 UNAVAILABLE、500、504 怎么办：服务过载、服务端错误与超时怎么区分，重试和超时怎么设](https://a37836323.github.io/openlux-api-guides/news/gemini-api-503-unavailable-500-504-fix/)
+- [Gemini API 报 429 RESOURCE_EXHAUSTED 怎么办：RPM、TPM、每日配额与 10 分钟消费限额怎么区分，重试怎么写](https://a37836323.github.io/openlux-api-guides/news/gemini-api-429-resource-exhausted-fix/)
+- [gemini-3.1-flash-lite 最早 2027 年 5 月 7 日下线：换成 gemini-3.5-flash-lite 要改哪些（thinking_level、采样参数、预填 400）](https://a37836323.github.io/openlux-api-guides/news/gemini-3-1-flash-lite-shutdown-gemini-3-5-flash-lite-migration/)
+- [gemini-3.1-flash-live-preview 最早 11 月 17 日下线：换成 gemini-3.8-live 要改哪些（thinkingLevel、函数调用、proactive_audio）](https://a37836323.github.io/openlux-api-guides/news/gemini-live-preview-shutdown-gemini-3-8-live-migration/)
+- [Gemini 旧 TTS 预览模型最早 11 月 17 日下线：换成 gemini-3.8-flash-tts 要改哪些](https://a37836323.github.io/openlux-api-guides/news/gemini-tts-preview-shutdown-gemini-3-8-flash-tts-migration/)
+- [gemini-3.1-flash-image 已弃用：换成 gemini-nano-banana-2.1 要改哪些（512 分辨率、image_size 大写 K、思考档位）](https://a37836323.github.io/openlux-api-guides/news/gemini-3-1-flash-image-deprecated-nano-banana-2-1-migration/)
+
+[查看「Gemini API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
