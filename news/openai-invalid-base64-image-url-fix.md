@@ -86,3 +86,14 @@ assert base64.b64decode(payload, validate=True) == png
 - [OpenAI 官方文档](https://developers.openai.com/api/docs/guides/images-vision)：按当前页面核对解决步骤。历史提问不代表当前所有环境都存在同一问题。
 
 如需要进一步比较云端接口，可[注册 OpenLux 并核对适用能力](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=openai-invalid-base64-image-url-fix&utm_content=footer)。切换服务前单独验证接口与账户配置，不能据此认定原服务的问题已经修复。
+
+## 同专题文章
+
+- [OpenAI 12 小时提示缓存怎么开：prompt_cache_options.ttl 报 400、类型报错与命中核对](https://a37836323.github.io/openlux-api-guides/news/openai-prompt-cache-12h-ttl-setup/)
+- [OpenAI API 报 CERTIFICATE_VERIFY_FAILED：证书链怎么修？](https://a37836323.github.io/openlux-api-guides/news/openai-python-certificate-verify-failed-fix/)
+- [Whisper API 报 413、音频超过 25MB：怎么压缩和分段？](https://a37836323.github.io/openlux-api-guides/news/whisper-audio-413-25mb-limit-fix/)
+- [Invalid schema：additionalProperties 必须为 false，嵌套对象怎么改？](https://a37836323.github.io/openlux-api-guides/news/structured-outputs-additionalproperties-false-fix/)
+- [Your organization must be verified to stream：已验证为什么还报错？](https://a37836323.github.io/openlux-api-guides/news/openai-organization-verified-stream-error/)
+- [OpenAI Python 报 unexpected keyword argument proxies 怎么解决？](https://a37836323.github.io/openlux-api-guides/news/openai-httpx-unexpected-proxies-fix/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
