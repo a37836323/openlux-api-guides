@@ -91,3 +91,14 @@ interaction = client.interactions.create(
 OpenLux 的价格接口里，`gemini-nano-banana-2.1` 和 `gemini-3.1-flash-image` 都在售，`supported_endpoint_types` 标注为 `gemini` 和 `openai`。走 Gemini 原生接口时，Base URL 填 `https://api.openlux.ai`，请求路径是 `/v1beta/models/<模型>:generateContent`，Key 放在 `x-goog-api-key` 请求头里，Key 在控制台「令牌」页创建。官方图片生成指南的示例都是 Interactions 写法，经中转调用时建议按上面 generateContent 的 `imageConfig`、`thinkingConfig` 字段来改；中转对 Interactions 接口的支持本文没有核实，以实际返回为准。
 
 想用同一个 Key 同时测试新旧两个图片模型，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=gemini-3-1-flash-image-deprecated-nano-banana-2-1-migration&utm_content=footer)。
+
+## 同专题文章
+
+- [gemini-3.7-flash、gemini-3.5-flash 已弃用并自动转到新模型：thinking_level 报错、token 变多怎么处理](https://a37836323.github.io/openlux-api-guides/news/gemini-3-7-3-5-flash-deprecated-auto-routing-fix/)
+- [gemini-3.1-flash-live-preview 最早 11 月 17 日下线：换成 gemini-3.8-live 要改哪些（thinkingLevel、函数调用、proactive_audio）](https://a37836323.github.io/openlux-api-guides/news/gemini-live-preview-shutdown-gemini-3-8-live-migration/)
+- [Gemini 旧 TTS 预览模型最早 11 月 17 日下线：换成 gemini-3.8-flash-tts 要改哪些](https://a37836323.github.io/openlux-api-guides/news/gemini-tts-preview-shutdown-gemini-3-8-flash-tts-migration/)
+- [Gemini API 新项目默认保存请求怎么关：store=false 写法、AI Studio 日志设置，以及关掉后 previous_interaction_id 和后台执行不能用](https://a37836323.github.io/openlux-api-guides/news/gemini-api-store-default-logging-store-false/)
+- [Gemini 函数调用返回 MALFORMED_FUNCTION_CALL 怎么办：调用前的结构化文本、宽松参数结构与调用模式改法](https://a37836323.github.io/openlux-api-guides/news/gemini-malformed-function-call-fix/)
+- [换成 gemini-4-argon 后回答被截断、返回空文本或报 400：单次 32K/64K 上限与 continuation_token 续写](https://a37836323.github.io/openlux-api-guides/news/gemini-4-argon-output-truncated-continuation-token-fix/)
+
+[查看「Gemini API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
