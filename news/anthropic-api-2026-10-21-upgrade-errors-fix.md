@@ -152,3 +152,14 @@ client = Anthropic(api_key=api_key, http_client=DefaultHttpxClient(auth=send_x_a
 - 用户反馈（非官方结论）：[anthropic-sdk-python issue #2031](https://github.com/anthropics/anthropic-sdk-python/issues/2031)
 
 如果你同时调用多家厂商的模型，也可以 [注册 OpenLux 拿一个统一的 API 入口](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=anthropic-api-2026-10-21-upgrade-errors-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [Claude Sonnet 4.5 将于 11 月 30 日退役：换成 Sonnet 5.5 后报 400 怎么改（budget_tokens、temperature、预填充、tool_choice）](https://a37836323.github.io/openlux-api-guides/news/claude-sonnet-4-5-retirement-sonnet-5-5-migration-400-fix/)
+- [Claude API 带 web_fetch 工具报 400 怎么办：组织未开启、域名名单冲突与续轮缺少结果块](https://a37836323.github.io/openlux-api-guides/news/claude-api-web-fetch-400-error-fix/)
+- [Claude Haiku 4.5 换成 Haiku 5.5 后报 400：budget_tokens、temperature、预填充与思维块怎么改](https://a37836323.github.io/openlux-api-guides/news/claude-haiku-5-5-migration-400-errors-fix/)
+- [Claude Managed Agents 报 `url_not_allowed`、`url_not_in_prior_context` 或 400：如何配置 `allowed_hosts` 与域名限制](https://a37836323.github.io/openlux-api-guides/news/claude-managed-agents-web-fetch-url-not-allowed-fix/)
+- [Claude Managed Agents 新增 `auto` 权限策略：让服务器评估并审批工具调用](https://a37836323.github.io/openlux-api-guides/news/claude-managed-agents-auto-permission-policy/)
+- [用 ant apply 将 Claude Agent 资源纳入代码和 CI 管理](https://a37836323.github.io/openlux-api-guides/news/ant-apply-agent-resources-as-code/)
+
+[查看「Claude API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/claude-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
