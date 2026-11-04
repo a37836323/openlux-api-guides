@@ -142,3 +142,14 @@ date: 2026-08-29
 ## 官方一手来源
 
 - https://platform.claude.com/docs/en/release-notes/overview#august-26-2026
+
+## 同专题文章
+
+- [用 GRPO 微调 LFM2.5-350M：提升结构化输出合规率的复现与评测方法](https://a37836323.github.io/openlux-api-guides/news/grpo-structured-output-finetuning-lfm25-350m/)
+- [Qwen 缓存为什么没命中：从请求前缀、usage 到真实账单的排查流程](https://a37836323.github.io/openlux-api-guides/news/qwen-context-cache-hit-troubleshooting/)
+- [Qwen 3.8 Flash 怎么选：API 费用计算、验收样本与 Max 升级条件](https://a37836323.github.io/openlux-api-guides/news/qwen3-8-flash-api-cost-selection/)
+- [Qwen 3.8 Max API 接入指南：区域价格、百万上下文与思考模式](https://a37836323.github.io/openlux-api-guides/news/qwen3-8-max-api-price-region-context-guide/)
+- [Confluent Cloud 早期接入 IBM Granite：用 Flink SQL 做时序预测与异常检测](https://a37836323.github.io/openlux-api-guides/news/confluent-cloud-ibm-granite-time-series-early-access/)
+- [在浏览器接入 Hugging Face WebGPU 内核：安装、版本与兼容性检查](https://a37836323.github.io/openlux-api-guides/news/huggingface-webgpu-kernels-browser-inference/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
