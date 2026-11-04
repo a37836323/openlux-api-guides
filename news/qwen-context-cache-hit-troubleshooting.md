@@ -94,3 +94,14 @@ assert cached_tokens({}) is None
 排查结束后应得到一个可以验证的结论，例如“字段未透传，暂时无法判断”，或者“同一模板在测试批次中出现缓存读取”。不要把少量请求的结果写成持续命中承诺。
 
 模型选择可参考 [Qwen 3.8 Flash 费用与验收指南](https://a37836323.github.io/openlux-api-guides/news/qwen3-8-flash-api-cost-selection/)，整体预算可阅读[每个成功任务成本](https://a37836323.github.io/openlux-api-guides/model-cost-per-success/)。准备实践时，[进入 OpenLux 注册并核对自己的调用账单](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=qwen-context-cache-hit-troubleshooting&utm_content=footer)。
+
+## 同专题文章
+
+- [用 TRL 与 OpenEnv 部署自定义视觉奖励 GRPO：配置与排错要点](https://a37836323.github.io/openlux-api-guides/news/trl-openenv-watercolour-grpo-training/)
+- [IBM Granite PatchTST-FM-r2 上线：如何用开源权重部署零样本时间序列预测](https://a37836323.github.io/openlux-api-guides/news/ibm-granite-patchtst-fm-r2-deployment/)
+- [用 GRPO 微调 LFM2.5-350M：提升结构化输出合规率的复现与评测方法](https://a37836323.github.io/openlux-api-guides/news/grpo-structured-output-finetuning-lfm25-350m/)
+- [Qwen 3.8 Flash 怎么选：API 费用计算、验收样本与 Max 升级条件](https://a37836323.github.io/openlux-api-guides/news/qwen3-8-flash-api-cost-selection/)
+- [Qwen 3.8 Max API 接入指南：区域价格、百万上下文与思考模式](https://a37836323.github.io/openlux-api-guides/news/qwen3-8-max-api-price-region-context-guide/)
+- [Confluent Cloud 早期接入 IBM Granite：用 Flink SQL 做时序预测与异常检测](https://a37836323.github.io/openlux-api-guides/news/confluent-cloud-ibm-granite-time-series-early-access/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
