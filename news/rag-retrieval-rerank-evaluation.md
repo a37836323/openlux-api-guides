@@ -84,3 +84,14 @@ assert recall_at_k(["a"], set(), 1) is None
 需要把证据整理成数据库字段，可参考[结构化结果验收](https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/)；需要限制送入模型的内容，可阅读[上下文预算](https://a37836323.github.io/openlux-api-guides/news/qwen-chat-history-budget-and-facts/)。
 
 [进入 OpenLux 准备小规模验证账户](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=rag-retrieval-rerank-evaluation&utm_content=footer)，先核对所需模型与接口，再用固定题集评估实际效果。
+
+## 同专题文章
+
+- [图片转表格总有错字怎么办：OCR 输入、单元格对应与质量验收](https://a37836323.github.io/openlux-api-guides/news/image-ocr-table-extraction-quality/)
+- [AI 翻译商品页如何保持术语一致：术语表、数字与占位符检查](https://a37836323.github.io/openlux-api-guides/news/ai-product-translation-glossary-workflow/)
+- [一万条文本怎样批量交给 AI：任务编号、结果核对与失败补跑](https://a37836323.github.io/openlux-api-guides/news/batch-ai-jobs-result-reconciliation/)
+- [Qwen 回答只出一半：finish_reason、输出上限与流式完整性排查](https://a37836323.github.io/openlux-api-guides/news/qwen-output-truncation-finish-reason/)
+- [Qwen 多轮对话越聊越长：历史裁剪、事实保留与上下文预算](https://a37836323.github.io/openlux-api-guides/news/qwen-chat-history-budget-and-facts/)
+- [Qwen 输出 JSON 仍然不能入库：字段、类型与事实的三层验收](https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
