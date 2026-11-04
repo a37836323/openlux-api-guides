@@ -75,3 +75,14 @@ HTTP 状态码本身不能说明是哪种权限问题。保存 `error.message`�
 - [OpenAI 官方帮助](https://help.openai.com/en/articles/10910291-api-organization-verification)：按当前页面核对解决步骤。历史提问不代表当前所有环境都存在同一问题。
 
 如需要进一步比较云端接口，可[注册 OpenLux 并核对适用能力](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=openai-organization-verified-stream-error&utm_content=footer)。切换服务前单独验证接口与账户配置，不能据此认定原服务的问题已经修复。
+
+## 同专题文章
+
+- [Whisper API 报 413、音频超过 25MB：怎么压缩和分段？](https://a37836323.github.io/openlux-api-guides/news/whisper-audio-413-25mb-limit-fix/)
+- [OpenAI 图片上传报 invalid_base64 或 Invalid image，怎么排查？](https://a37836323.github.io/openlux-api-guides/news/openai-invalid-base64-image-url-fix/)
+- [Invalid schema：additionalProperties 必须为 false，嵌套对象怎么改？](https://a37836323.github.io/openlux-api-guides/news/structured-outputs-additionalproperties-false-fix/)
+- [OpenAI Python 报 unexpected keyword argument proxies 怎么解决？](https://a37836323.github.io/openlux-api-guides/news/openai-httpx-unexpected-proxies-fix/)
+- [APIRemovedInV1 怎么修？openai.ChatCompletion.create 迁移示例](https://a37836323.github.io/openlux-api-guides/news/openai-python-apiremovedinv1-fix/)
+- [No tool output found for function call 怎么修？Responses API 回传排查](https://a37836323.github.io/openlux-api-guides/news/responses-no-tool-output-found-fix/)
+
+[查看「OpenAI API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/openai-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
