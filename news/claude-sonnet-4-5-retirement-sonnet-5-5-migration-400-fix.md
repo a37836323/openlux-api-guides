@@ -129,3 +129,14 @@ Sonnet 4.5 接受最后一轮是 assistant 的预填充，Sonnet 5.5 不接受�
 截至 2026 年 10 月 29 日，OpenLux 价格接口的在售列表里同时有 `claude-sonnet-4-5-20250929` 和 `claude-sonnet-5-5`，两者的端点类型都包含 Anthropic Messages。用 Anthropic SDK 时，Base URL 填 `https://api.openlux.ai`（不带 `/v1`，客户端会自己拼 `/v1/messages`），Key 在 OpenLux 控制台的令牌页创建，价格以官网价格页为准。官方 11 月 30 日退役后，经 OpenLux 调用 Sonnet 4.5 是否还可用，以 OpenLux 的公告为准；本文的报错原文出自 Anthropic 官方文档，经中转返回的错误包装格式可能不同，以实际响应为准。建议趁现在按上面的清单把代码切到 `claude-sonnet-5-5`。
 
 需要通过 OpenLux 调用 `claude-sonnet-5-5` 时，可以 [注册 OpenLux](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=claude-sonnet-4-5-retirement-sonnet-5-5-migration-400-fix&utm_content=footer)。
+
+## 同专题文章
+
+- [Claude 的 usage_report / cost_report 被标为 legacy，如何迁移到 Analytics API 并正确传 beta header？](https://a37836323.github.io/openlux-api-guides/news/claude-usage-cost-analytics-api-migration/)
+- [Claude API 报 413 request_too_large 怎么办：128 MB 请求上限、图片和 PDF 改用 file_id](https://a37836323.github.io/openlux-api-guides/news/claude-api-413-request-too-large-fix/)
+- [换成 Claude Opus 5.5 后报 400 怎么改：thinking 关不掉、tool_choice 不能强制，按原来的模型逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-opus-5-5-migration-400-thinking-tool-choice-fix/)
+- [Claude API 带 web_fetch 工具报 400 怎么办：组织未开启、域名名单冲突与续轮缺少结果块](https://a37836323.github.io/openlux-api-guides/news/claude-api-web-fetch-400-error-fix/)
+- [Claude Haiku 4.5 换成 Haiku 5.5 后报 400：budget_tokens、temperature、预填充与思维块怎么改](https://a37836323.github.io/openlux-api-guides/news/claude-haiku-5-5-migration-400-errors-fix/)
+- [Anthropic SDK 升级后报 400 或鉴权失败：API 版本 2026-10-21 迁移排查](https://a37836323.github.io/openlux-api-guides/news/anthropic-api-2026-10-21-upgrade-errors-fix/)
+
+[查看「Claude API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/claude-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
