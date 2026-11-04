@@ -101,3 +101,14 @@ curl https://api.openlux.ai/v1/models \
 - 插件源码：[openai_api_compatible.yaml](https://github.com/langgenius/dify-official-plugins/blob/main/models/openai_api_compatible/provider/openai_api_compatible.yaml)（字段名、默认值与说明）、[llm.py](https://github.com/langgenius/dify-official-plugins/blob/main/models/openai_api_compatible/models/llm/llm.py)（地址拼接、凭据验证、工具调用字段）
 
 配好后想直接试：[注册 OpenLux 获取 API Key](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=dify-relay-api-openai-compatible-setup&utm_content=footer)，在「令牌」页创建 Key 后按上面的表格填进 Dify。
+
+## 同专题文章
+
+- [Codex CLI 接中转后流式卡住不结束、第二轮或工具调用失败怎么办：Responses 兼容、response.completed 与模型名逐项排查](https://a37836323.github.io/openlux-api-guides/news/codex-cli-relay-stream-stall-tool-call-fix/)
+- [n8n 接中转后 OpenAI Chat Model 报「Bad request - please check your parameters」怎么办：429、Insufficient quota 与 Responses API 提示怎么排查](https://a37836323.github.io/openlux-api-guides/news/n8n-openai-chat-model-bad-request-error-fix/)
+- [n8n 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/n8n-relay-api-openai-compatible-setup/)
+- [LobeHub（LobeChat）怎么接入 OpenAI 兼容 / Claude 中转 API：代理地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/lobehub-lobechat-relay-api-proxy-url-setup/)
+- [VS Code 怎么接入 OpenAI 兼容 / Claude 中转 API：Custom Endpoint、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/vscode-copilot-byok-custom-endpoint-relay-api-setup/)
+- [Chatbox 怎么接入 OpenAI 兼容中转 API 调用 GPT、Claude 模型：API Host、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/chatbox-relay-api-openai-compatible-setup/)
+
+[查看「客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等」全部文章](https://a37836323.github.io/openlux-api-guides/topics/clients/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
