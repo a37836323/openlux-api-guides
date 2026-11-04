@@ -107,3 +107,14 @@ model_provider = "openlux"
 ## 开始使用
 
 按上面四步走完，curl 能列出模型、`codex` 发消息能正常回复，就说明接入成功。还没有令牌的话，可以先 [注册 OpenLux 并创建令牌](https://api.openlux.ai/register?channel=c_tiu9nw5h&utm_source=openlux_api_guides&utm_medium=owned_content&utm_campaign=codex-cli-relay-api-config-toml-setup&utm_content=footer)。
+
+## 同专题文章
+
+- [Continue 怎么接入 OpenAI 兼容 / Claude 中转 API：apiBase、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/continue-relay-api-openai-compatible-setup/)
+- [Cline 怎么接入 OpenAI 兼容 / Claude 中转 API：Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/cline-relay-api-openai-compatible-setup/)
+- [Cherry Studio 怎么接入 OpenAI 兼容 / Claude 中转 API：API 地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/cherry-studio-relay-api-custom-provider-setup/)
+- [Codex 提示用量到上限怎么办：查剩余额度与重置时间、加购 credits、改用 API Key](https://a37836323.github.io/openlux-api-guides/news/codex-usage-limit-reached-fix/)
+- [Open WebUI 连不上 Ollama？Docker localhost 与 11434 排查](https://a37836323.github.io/openlux-api-guides/news/open-webui-ollama-docker-connection-refused/)
+- [MCP 报 spawn npx ENOENT：终端能用，客户端为什么找不到？](https://a37836323.github.io/openlux-api-guides/news/mcp-spawn-npx-enoent-fix/)
+
+[查看「客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等」全部文章](https://a37836323.github.io/openlux-api-guides/topics/clients/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
