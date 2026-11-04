@@ -85,3 +85,14 @@ assert len(sample) == 2
 上线后先观察有限流量，保存策略版本。如果新策略增加了事实错误，应能够回到上一版本，而不是继续扩大压缩比例。需要分析重复材料的费用时可看[缓存命中排查](https://a37836323.github.io/openlux-api-guides/news/qwen-context-cache-hit-troubleshooting/)；回答短缺则参考[结束原因判断](https://a37836323.github.io/openlux-api-guides/news/qwen-output-truncation-finish-reason/)。
 
 [进入 OpenLux 准备对话测试账户](https://api.openlux.ai/register?channel=c_lkv0gzwj&utm_source=content_site&utm_medium=article&utm_campaign=qwen-chat-history-budget-and-facts&utm_content=footer)，先验证历史是否正确传入，再讨论缩减成本。
+
+## 同专题文章
+
+- [一万条文本怎样批量交给 AI：任务编号、结果核对与失败补跑](https://a37836323.github.io/openlux-api-guides/news/batch-ai-jobs-result-reconciliation/)
+- [企业知识库答非所问怎么办：先测检索召回，再决定是否加 Rerank](https://a37836323.github.io/openlux-api-guides/news/rag-retrieval-rerank-evaluation/)
+- [Qwen 回答只出一半：finish_reason、输出上限与流式完整性排查](https://a37836323.github.io/openlux-api-guides/news/qwen-output-truncation-finish-reason/)
+- [Qwen 输出 JSON 仍然不能入库：字段、类型与事实的三层验收](https://a37836323.github.io/openlux-api-guides/news/qwen-json-output-business-validation/)
+- [Qwen 模型找不到怎么办：模型 ID、入口与账户权限排查](https://a37836323.github.io/openlux-api-guides/news/qwen-model-not-found-permission-check/)
+- [用 TRL 与 OpenEnv 部署自定义视觉奖励 GRPO：配置与排错要点](https://a37836323.github.io/openlux-api-guides/news/trl-openenv-watercolour-grpo-training/)
+
+[查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
