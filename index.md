@@ -69,7 +69,7 @@ permalink: /
 - [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（17 篇）
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（18 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（40 篇）
-- [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（16 篇）
+- [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（17 篇）
 - [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（24 篇）
 - [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-05 · [Gemini API 报 401、403 PERMISSION_DENIED 怎么办：Key 无效、被封、项目受限与 Key 限制逐项排查](./news/gemini-api-401-403-permission-denied-fix/)
 - 2026-11-05 · [Claude Code 走中转报 401、Invalid API key 或一直让你 /login 怎么办：AUTH_TOKEN 与 API_KEY 怎么选、凭据优先级与 /status 排查](./news/claude-code-relay-401-invalid-api-key-fix/)
 - 2026-11-04 · [Gemini API 报 503 UNAVAILABLE、500、504 怎么办：服务过载、服务端错误与超时怎么区分，重试和超时怎么设](./news/gemini-api-503-unavailable-500-504-fix/)
 - 2026-11-04 · [Cline 接中转 API 连不上、超时或报证书错误怎么办：VS Code、CLI、JetBrains 的代理与 CA 证书设置](./news/cline-relay-connection-timeout-proxy-certificate-fix/)
