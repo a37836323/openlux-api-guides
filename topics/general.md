@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "其他模型与通用实践 | OpenLux API 实战指南"
-description: "其他模型与通用实践：共 24 篇，按发布时间从新到旧排列。"
+description: "其他模型与通用实践：共 25 篇，按发布时间从新到旧排列。"
 permalink: /topics/general/
 ---
 
 # 其他模型与通用实践
 
-共 24 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 25 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-06 · [Transformers 如何调用 Phonon TTS？先核对模型许可和版本](https://a37836323.github.io/openlux-api-guides/news/hugging-face-phonon-transformers-integration/)：Hugging Face 发布 Phonon TTS 接入说明：检查 Transformers 版本、模型 ID、离线推理与商业许可差异，并按官方示例生成音频。
 - 2026-11-01 · [grok-imagine-image-quality 11 月 2 日退役：请求会转到 grok-imagine-image-2.0 的 low 档，要不要改 model 和 quality](https://a37836323.github.io/openlux-api-guides/news/grok-imagine-image-quality-retirement-image-2-0-migration/)：xAI 的 grok-imagine-image-quality 于 2026-11-02 退役：按官方迁移指南说明请求会转到 grok-imagine-image-2.0 并固定 quality=low，生成和编辑都受影响；如何改 model、选 low/medium/auto、核对 n/aspect_ratio/resolution/response_format，并用响应 model 字段验收。
 - 2026-10-27 · [Transformers 模型能在 AWS Trainium2 上运行吗？torch-neuronx 编译失败或首次运行过慢怎么排查](https://a37836323.github.io/openlux-api-guides/news/check-transformers-model-trainium-support/)：用 Hugging Face 支持 Space 和数据集检查模型兼容性，获取 neuronx-cc 版本、运行脚本及 NEFF 缓存命令。
 - 2026-09-12 · [Pinecone 报 Vector dimension does not match 怎么办？](https://a37836323.github.io/openlux-api-guides/news/pinecone-vector-dimension-mismatch-fix/)：向量入库或查询维度不匹配：核对实际向量长度、索引配置与模型，保留旧索引后迁移。
