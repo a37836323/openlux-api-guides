@@ -92,11 +92,11 @@ assert check_vectors([{"id": "bad", "values": [True, 0.2, 0.3]}], 3)
 
 ## 同专题文章
 
+- [Transformers 如何调用 Phonon TTS？先核对模型许可和版本](https://a37836323.github.io/openlux-api-guides/news/hugging-face-phonon-transformers-integration/)
 - [grok-imagine-image-quality 11 月 2 日退役：请求会转到 grok-imagine-image-2.0 的 low 档，要不要改 model 和 quality](https://a37836323.github.io/openlux-api-guides/news/grok-imagine-image-quality-retirement-image-2-0-migration/)
 - [Transformers 模型能在 AWS Trainium2 上运行吗？torch-neuronx 编译失败或首次运行过慢怎么排查](https://a37836323.github.io/openlux-api-guides/news/check-transformers-model-trainium-support/)
 - [API 用量和账单为什么对不上：时间窗口、计费单位与重试记录核对](https://a37836323.github.io/openlux-api-guides/news/api-usage-billing-reconciliation-workflow/)
 - [工具调用返回了参数却执行失败：函数名、字段和业务范围怎么校验](https://a37836323.github.io/openlux-api-guides/news/tool-call-arguments-validation-contract/)
 - [提示词改好了一题却弄坏其他题：版本管理与回归测试怎么做](https://a37836323.github.io/openlux-api-guides/news/prompt-version-regression-release/)
-- [会议录音转文字再生成纪要：怎样核对人名、数字和行动项](https://a37836323.github.io/openlux-api-guides/news/meeting-audio-transcription-action-items/)
 
 [查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
