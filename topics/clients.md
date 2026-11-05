@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等 | OpenLux API 实战指南"
-description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 17 篇，按发布时间从新到旧排列。"
+description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 18 篇，按发布时间从新到旧排列。"
 permalink: /topics/clients/
 ---
 
 # 客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等
 
-共 17 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 18 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-06 · [Continue 接中转 API 报 fetch failed、证书错误或 401 怎么办：caBundlePath、代理与 secrets 读不到 Key 逐项排查](https://a37836323.github.io/openlux-api-guides/news/continue-relay-fetch-failed-certificate-401-fix/)：Continue 接中转 API 报 fetch failed、unable to verify the first certificate 或 401 时，按官方文档查日志、用 requestOptions.caBundlePath 指定 CA 证书、配置 VS Code 代理或 requestOptions.proxy，并用 .env 解决 IDE 读不到 secrets 中 Key 的问题。
 - 2026-11-04 · [Cline 接中转 API 连不上、超时或报证书错误怎么办：VS Code、CLI、JetBrains 的代理与 CA 证书设置](https://a37836323.github.io/openlux-api-guides/news/cline-relay-connection-timeout-proxy-certificate-fix/)：Cline 接中转 API 后连不上、请求超时或报 SSL/TLS 证书错误怎么办：先用 curl 分清网络问题和地址、Key 填错，再按 Cline 官方文档分别设置 VS Code 扩展的 http.proxy、CLI 的 https_proxy 与 NODE_EXTRA_CA_CERTS、JetBrains 的 HTTP Proxy，以及证书导入与日志查看。
 - 2026-11-04 · [Codex CLI 接中转后流式卡住不结束、第二轮或工具调用失败怎么办：Responses 兼容、response.completed 与模型名逐项排查](https://a37836323.github.io/openlux-api-guides/news/codex-cli-relay-stream-stall-tool-call-fix/)：Codex CLI 接中转后文字出来却一直转圈、最后报流中断，或第一轮正常、第二轮和工具调用出错时，按 Codex 官方网关兼容要求逐项排查：Responses 端点、response.completed 事件、工具调用结果回传、模型名与模型目录，并给出 curl 流式自测方法。
 - 2026-11-02 · [n8n 接中转后 OpenAI Chat Model 报「Bad request - please check your parameters」怎么办：429、Insufficient quota 与 Responses API 提示怎么排查](https://a37836323.github.io/openlux-api-guides/news/n8n-openai-chat-model-bad-request-error-fix/)：n8n 接 OpenAI 兼容中转后，OpenAI Chat Model 节点报 Bad request - please check your parameters、The service is receiving too many requests、Insufficient quota 或要求开启 Responses API 时，如何找到服务端原始报错、用 HTTP Request 节点复现，并按状态码修改 Base URL、Key、模型与 Use Responses API。
