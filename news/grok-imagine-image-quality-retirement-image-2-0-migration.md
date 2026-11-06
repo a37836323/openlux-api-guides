@@ -129,11 +129,11 @@ print(resp.data[0].url)
 
 ## 同专题文章
 
+- [Cosmos3-Sim-Bimanual 如何用 vLLM-Omni 推理？59 个动作控制值怎么补齐、如何与输入帧对齐？](https://a37836323.github.io/openlux-api-guides/news/cosmos3-sim-bimanual-vllm-omni-inference/)
 - [Transformers 如何调用 Phonon TTS？先核对模型许可和版本](https://a37836323.github.io/openlux-api-guides/news/hugging-face-phonon-transformers-integration/)
 - [Transformers 模型能在 AWS Trainium2 上运行吗？torch-neuronx 编译失败或首次运行过慢怎么排查](https://a37836323.github.io/openlux-api-guides/news/check-transformers-model-trainium-support/)
 - [Pinecone 报 Vector dimension does not match 怎么办？](https://a37836323.github.io/openlux-api-guides/news/pinecone-vector-dimension-mismatch-fix/)
 - [API 用量和账单为什么对不上：时间窗口、计费单位与重试记录核对](https://a37836323.github.io/openlux-api-guides/news/api-usage-billing-reconciliation-workflow/)
 - [工具调用返回了参数却执行失败：函数名、字段和业务范围怎么校验](https://a37836323.github.io/openlux-api-guides/news/tool-call-arguments-validation-contract/)
-- [提示词改好了一题却弄坏其他题：版本管理与回归测试怎么做](https://a37836323.github.io/openlux-api-guides/news/prompt-version-regression-release/)
 
 [查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
