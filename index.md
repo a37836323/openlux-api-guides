@@ -70,7 +70,7 @@ permalink: /
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（18 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（40 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（18 篇）
-- [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（25 篇）
+- [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（26 篇）
 - [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
 ## 基础指南
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-07 · [Cosmos3-Sim-Bimanual 如何用 vLLM-Omni 推理？59 个动作控制值怎么补齐、如何与输入帧对齐？](./news/cosmos3-sim-bimanual-vllm-omni-inference/)
 - 2026-11-06 · [Gemini API 报 404 model_not_found 或 not_found 怎么办：模型名写错、旧模型已关停、Base URL 与 API 版本逐项排查](./news/gemini-api-404-model-not-found-fix/)
 - 2026-11-06 · [Continue 接中转 API 报 fetch failed、证书错误或 401 怎么办：caBundlePath、代理与 secrets 读不到 Key 逐项排查](./news/continue-relay-fetch-failed-certificate-401-fix/)
 - 2026-11-06 · [Transformers 如何调用 Phonon TTS？先核对模型许可和版本](./news/hugging-face-phonon-transformers-integration/)
