@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "Claude API 报错与迁移 | OpenLux API 实战指南"
-description: "Claude API 报错与迁移：共 19 篇，按发布时间从新到旧排列。"
+description: "Claude API 报错与迁移：共 20 篇，按发布时间从新到旧排列。"
 permalink: /topics/claude-api/
 ---
 
 # Claude API 报错与迁移
 
-共 19 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 20 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-08 · [Claude API 报 404 not_found_error 怎么办：请求路径、Base URL 多写 /v1、模型 ID 与文件 ID 逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-api-404-not-found-error-fix/)：Claude API 报 404 not_found_error：按官方 Errors 文档先核对完整请求地址（Base URL 多写或少写 /v1、/v1/v1/messages），再查 URL 里的文件 ID、批处理 ID 是否过期或不在当前工作区，最后核对模型 ID 格式与官方退役表，并用 Models API 验证。
 - 2026-11-07 · [Claude API 报 429 rate_limit_error 怎么办：RPM、ITPM、OTPM 限流、月度消费上限与加速限制怎么区分](https://a37836323.github.io/openlux-api-guides/news/claude-api-429-rate-limit-error-fix/)：Claude API 报 429 rate_limit_error 怎么办：超过 RPM、ITPM、OTPM 速率限制、加速限制和月度消费上限（enforced_spend_limit_reached）怎么区分，用 retry-after 和 anthropic-ratelimit-* 响应头确认撞的是哪条线，SDK 默认重试 2 次与 max_retries，以及用提示缓存、削峰、批处理和提额减少 429。
 - 2026-11-04 · [Claude API 报 401 authentication_error 怎么办：Key 过期、被停用、请求头与 Base URL 逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-api-401-authentication-error-fix/)：Claude API 报 401 authentication_error 怎么办：按官方错误说明与鉴权文档区分 401、403、404，检查 Authorization / x-api-key 请求头、Key 有效期与停用删除状态、工作区请求头，用最小请求验证，以及走 Anthropic 兼容中转地址时 401 Invalid token 与多写 /v1 的改法。
 - 2026-11-03 · [Claude API 报 400「prompt is too long」怎么办：上下文窗口多大、怎么数 token、历史怎么裁](https://a37836323.github.io/openlux-api-guides/news/claude-api-prompt-is-too-long-400-fix/)：Claude API 返回 400 invalid_request_error、提示 prompt is too long，是输入超过了模型上下文窗口：先区分 413 和 stop_reason 截断，再查各模型窗口大小、用 count_tokens 数 token，最后换 1M 模型或用 compaction、context editing 减输入。
