@@ -109,6 +109,7 @@ curl -sS -w '\n%{http_code}\n' -X POST "$ANTHROPIC_BASE_URL/v1/messages" \
 
 ## 同专题文章
 
+- [Claude Code 走中转报 429、Repeated 529 Overloaded 或一直 Retrying 怎么办：限流、过载与重试变量逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-code-relay-429-529-overloaded-retry-fix/)
 - [Claude Code 走中转报 Unable to connect to API、Request timed out 怎么办：连接失败、超时与流式中断逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-code-relay-unable-to-connect-timeout-fix/)
 - [Claude Code 走中转后 /model 里看不到或切不了模型：网关模型发现、ANTHROPIC_DEFAULT_*_MODEL 与 Model not found 排查](https://a37836323.github.io/openlux-api-guides/news/claude-code-relay-model-picker-missing-models-fix/)
 - [Claude Code 走中转报 400「Extra inputs are not permitted」怎么办：context_management、output_config 与 thinking 逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-code-relay-400-extra-inputs-not-permitted-fix/)
