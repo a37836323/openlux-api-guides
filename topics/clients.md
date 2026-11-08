@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等 | OpenLux API 实战指南"
-description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 19 篇，按发布时间从新到旧排列。"
+description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 20 篇，按发布时间从新到旧排列。"
 permalink: /topics/clients/
 ---
 
 # 客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等
 
-共 19 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 20 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-09 · [Dify 接中转 API 后 LLM 节点报 InvokeConnectionError、InvokeRateLimitError 或超时怎么办：错误类型、重试与失败分支逐项排查](https://a37836323.github.io/openlux-api-guides/news/dify-relay-llm-node-invoke-error-retry-fix/)：Dify 用 OpenAI-API-compatible 插件接中转后，工作流 LLM 节点报 InvokeConnectionError、InvokeRateLimitError、InvokeServerUnavailableError、QuotaExceededError、LLMModeRequiredError 或超时时，按 Dify 官方错误类型、处理错误、LLM 节点和环境变量文档，说明各错误含义、哪些能重试、重试与失败分支怎么设、迭代节点错误模式和自部署超时变量。
 - 2026-11-07 · [Open WebUI 接中转 API 报 Unexpected token 'd'、回复乱码、Model not found 或证书错误怎么办：反向代理、DNS 与 CA 证书逐项排查](https://a37836323.github.io/openlux-api-guides/news/open-webui-relay-stream-unexpected-token-dns-certificate-fix/)：Open WebUI 接中转 API 后回复是 {}、报 Unexpected token 'd' is not valid JSON、流式 Markdown 乱码、偶发 Model not found、管理员连接 502 或 CERTIFICATE_VERIFY_FAILED 时，按官方 Connection Errors 排错页和环境变量文档逐项排查反向代理、nginx 代理缓冲、c-ares DNS 解析、前后端连接差异、CA 证书与流式空闲超时，并用 /v1/models 和流式请求确认中转本身正常。
 - 2026-11-06 · [Continue 接中转 API 报 fetch failed、证书错误或 401 怎么办：caBundlePath、代理与 secrets 读不到 Key 逐项排查](https://a37836323.github.io/openlux-api-guides/news/continue-relay-fetch-failed-certificate-401-fix/)：Continue 接中转 API 报 fetch failed、unable to verify the first certificate 或 401 时，按官方文档查日志、用 requestOptions.caBundlePath 指定 CA 证书、配置 VS Code 代理或 requestOptions.proxy，并用 .env 解决 IDE 读不到 secrets 中 Key 的问题。
 - 2026-11-04 · [Cline 接中转 API 连不上、超时或报证书错误怎么办：VS Code、CLI、JetBrains 的代理与 CA 证书设置](https://a37836323.github.io/openlux-api-guides/news/cline-relay-connection-timeout-proxy-certificate-fix/)：Cline 接中转 API 后连不上、请求超时或报 SSL/TLS 证书错误怎么办：先用 curl 分清网络问题和地址、Key 填错，再按 Cline 官方文档分别设置 VS Code 扩展的 http.proxy、CLI 的 https_proxy 与 NODE_EXTRA_CA_CERTS、JetBrains 的 HTTP Proxy，以及证书导入与日志查看。
