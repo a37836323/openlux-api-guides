@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "Gemini API 报错与迁移 | OpenLux API 实战指南"
-description: "Gemini API 报错与迁移：共 18 篇，按发布时间从新到旧排列。"
+description: "Gemini API 报错与迁移：共 19 篇，按发布时间从新到旧排列。"
 permalink: /topics/gemini-api/
 ---
 
 # Gemini API 报错与迁移
 
-共 18 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 19 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-09 · [Gemini API 报 400 INVALID_ARGUMENT 怎么办：请求体写错、未知参数、API 版本、新模型规则与 Schema 太复杂逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-400-invalid-argument-fix/)：Gemini API 报 400 INVALID_ARGUMENT、invalid_request 或 parameter_unknown 的排查方法：读懂 message 与 reason，核对字段、API 版本、新模型的预填充与思考参数规则、思维签名、Schema 复杂度，并附最小请求验证与中转调用检查。
 - 2026-11-06 · [Gemini API 报 404 model_not_found 或 not_found 怎么办：模型名写错、旧模型已关停、Base URL 与 API 版本逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-404-model-not-found-fix/)：Gemini API 报 404 model_not_found 或 not_found 时，按官方错误码、模型页、弃用页和 API 版本说明逐项排查：模型名写错或用了显示名、旧模型已关停、Base URL 少了 /openai/ 或方法名、只在 v1beta 的功能用了 v1，以及走中转时怎么核对模型 ID。
 - 2026-11-05 · [Gemini API 报 401、403 PERMISSION_DENIED 怎么办：Key 无效、被封、项目受限与 Key 限制逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-401-403-permission-denied-fix/)：Gemini API 报 401 或 403 PERMISSION_DENIED 时，按官方错误码、排错指南和 API Key 文档逐项排查：Key 缺失或失效、GEMINI_API_KEY 与 GOOGLE_API_KEY 冲突、Key 泄露或未加限制被封、项目需要验证或计费，以及走中转时怎么查令牌。
 - 2026-11-04 · [Gemini API 报 503 UNAVAILABLE、500、504 怎么办：服务过载、服务端错误与超时怎么区分，重试和超时怎么设](https://a37836323.github.io/openlux-api-guides/news/gemini-api-503-unavailable-500-504-fix/)：Gemini API 返回 503 UNAVAILABLE、500 或 504 时，按 Google 官方错误码页与排错指南区分服务过载、服务端错误和超时，说明 Flex/Priority 档位下 503 的差别、SDK 超时怎么设、流式错误事件和退避重试怎么写。
