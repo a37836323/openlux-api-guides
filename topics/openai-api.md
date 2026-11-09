@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "OpenAI API 报错与迁移 | OpenLux API 实战指南"
-description: "OpenAI API 报错与迁移：共 40 篇，按发布时间从新到旧排列。"
+description: "OpenAI API 报错与迁移：共 41 篇，按发布时间从新到旧排列。"
 permalink: /topics/openai-api/
 ---
 
 # OpenAI API 报错与迁移
 
-共 40 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 41 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-10 · [OpenAI Python 报 APIConnectionError: Connection error 或 APITimeoutError: Request timed out 怎么办：Base URL、代理、证书与超时重试逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-python-apiconnectionerror-timeout-fix/)：OpenAI Python SDK 报 APIConnectionError: Connection error 或 APITimeoutError: Request timed out 时，先用 e.__cause__ 和 OPENAI_LOG 看底层原因，再按 Base URL、代理、HTTPX2 证书信任库、超时与重试逐项排查。
 - 2026-11-02 · [OpenAI API 报 401 Incorrect API key provided 怎么办：Key 写错、项目不对、已撤销与 Base URL 指错逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-401-incorrect-api-key-fix/)：OpenAI API 报 401 Incorrect API key provided、Invalid Authentication、IP not authorized 怎么办：按官方错误码页对照四种 401 的原因，检查 OPENAI_API_KEY 与 base_url 实际取值、组织和项目请求头、Key 撤销与生效时间，以及中转 Key 和地址不匹配时的改法。
 - 2026-11-01 · [OpenAI Evals 10 月 31 日起只读、11 月 30 日停用：评测迁到 Promptfoo 要改哪些](https://a37836323.github.io/openlux-api-guides/news/openai-evals-read-only-shutdown-promptfoo-migration/)：OpenAI Evals 平台 2026-10-31 起只读、11-30 停用：按官方弃用页和迁移指南，说明要先保留哪些数据，如何用 Promptfoo 重建评测、对应 string_check/text_similarity/score_model/python 评分器，并用 OpenAI 兼容地址运行与验收。
 - 2026-11-01 · [OpenAI Responses API 返回 status: incomplete、只有推理没有正文：max_output_tokens 被推理用光怎么办](https://a37836323.github.io/openlux-api-guides/news/openai-responses-incomplete-max-output-tokens-fix/)：OpenAI Responses API 返回 status: incomplete、incomplete_details.reason 为 max_output_tokens，output_text 只有半截或为空时，按官方推理指南判断原因，调高 max_output_tokens、降低 reasoning.effort、给上下文窗口留空间，并说明 Chat Completions 的 finish_reason: length 与验证方法。
