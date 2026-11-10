@@ -69,7 +69,7 @@ permalink: /
 - [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（21 篇）
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（20 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（41 篇）
-- [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（19 篇）
+- [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（20 篇）
 - [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（26 篇）
 - [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-11 · [Gemini 4 Carbon API 何时涨价？11 月 30 日后输入、输出 token 多少钱](./news/gemini-4-carbon-api-price-november-30/)
 - 2026-11-10 · [VS Code 用自带 Key 接中转后模型选择器看不到模型、只显示 Models 或提示配置辅助模型怎么办：工作区信任、工具调用、组织策略与 harness 逐项排查](./news/vscode-byok-relay-model-not-showing-utility-model-fix/)
 - 2026-11-10 · [OpenAI Python 报 APIConnectionError: Connection error 或 APITimeoutError: Request timed out 怎么办：Base URL、代理、证书与超时重试逐项排查](./news/openai-python-apiconnectionerror-timeout-fix/)
 - 2026-11-09 · [Dify 接中转 API 后 LLM 节点报 InvokeConnectionError、InvokeRateLimitError 或超时怎么办：错误类型、重试与失败分支逐项排查](./news/dify-relay-llm-node-invoke-error-retry-fix/)
