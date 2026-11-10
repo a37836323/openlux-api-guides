@@ -66,7 +66,7 @@ permalink: /
 ## 按专题浏览
 
 - [Claude Code 接入与报错](https://a37836323.github.io/openlux-api-guides/topics/claude-code/)（6 篇）
-- [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（20 篇）
+- [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（21 篇）
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（20 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（41 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（19 篇）
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-10 · [VS Code 用自带 Key 接中转后模型选择器看不到模型、只显示 Models 或提示配置辅助模型怎么办：工作区信任、工具调用、组织策略与 harness 逐项排查](./news/vscode-byok-relay-model-not-showing-utility-model-fix/)
 - 2026-11-10 · [OpenAI Python 报 APIConnectionError: Connection error 或 APITimeoutError: Request timed out 怎么办：Base URL、代理、证书与超时重试逐项排查](./news/openai-python-apiconnectionerror-timeout-fix/)
 - 2026-11-09 · [Dify 接中转 API 后 LLM 节点报 InvokeConnectionError、InvokeRateLimitError 或超时怎么办：错误类型、重试与失败分支逐项排查](./news/dify-relay-llm-node-invoke-error-retry-fix/)
 - 2026-11-09 · [Gemini API 报 400 INVALID_ARGUMENT 怎么办：请求体写错、未知参数、API 版本、新模型规则与 Schema 太复杂逐项排查](./news/gemini-api-400-invalid-argument-fix/)
