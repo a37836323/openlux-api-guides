@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等 | OpenLux API 实战指南"
-description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 21 篇，按发布时间从新到旧排列。"
+description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 22 篇，按发布时间从新到旧排列。"
 permalink: /topics/clients/
 ---
 
 # 客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等
 
-共 21 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 22 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-11 · [Chatbox 接中转 API 后图片发不出去、模型说看不到图片或知识库用不了怎么办：模型能力勾选、OCR、文档解析器与嵌入模型逐项排查](https://a37836323.github.io/openlux-api-guides/news/chatbox-relay-image-file-vision-knowledge-base-fix/)：Chatbox 用自定义提供方接中转 API 后，图片发不出去、模型说看不到图片、文件上传没反应或知识库用不了时，按模型能力勾选、视觉模型、OCR 设置、文档解析器、嵌入模型和 MCP 工具调用逐项排查，并用 /v1/models 和小图验证。
 - 2026-11-10 · [VS Code 用自带 Key 接中转后模型选择器看不到模型、只显示 Models 或提示配置辅助模型怎么办：工作区信任、工具调用、组织策略与 harness 逐项排查](https://a37836323.github.io/openlux-api-guides/news/vscode-byok-relay-model-not-showing-utility-model-fix/)：VS Code 用自带 Key（Custom Endpoint）接中转后，模型选择器看不到模型、只显示 Models，或提示配置辅助模型时，按工作区信任、toolCalling、组织 BYOK 策略、harness、辅助模型设置和地址/Key 逐项排查。
 - 2026-11-09 · [Dify 接中转 API 后 LLM 节点报 InvokeConnectionError、InvokeRateLimitError 或超时怎么办：错误类型、重试与失败分支逐项排查](https://a37836323.github.io/openlux-api-guides/news/dify-relay-llm-node-invoke-error-retry-fix/)：Dify 用 OpenAI-API-compatible 插件接中转后，工作流 LLM 节点报 InvokeConnectionError、InvokeRateLimitError、InvokeServerUnavailableError、QuotaExceededError、LLMModeRequiredError 或超时时，按 Dify 官方错误类型、处理错误、LLM 节点和环境变量文档，说明各错误含义、哪些能重试、重试与失败分支怎么设、迭代节点错误模式和自部署超时变量。
 - 2026-11-07 · [Open WebUI 接中转 API 报 Unexpected token 'd'、回复乱码、Model not found 或证书错误怎么办：反向代理、DNS 与 CA 证书逐项排查](https://a37836323.github.io/openlux-api-guides/news/open-webui-relay-stream-unexpected-token-dns-certificate-fix/)：Open WebUI 接中转 API 后回复是 {}、报 Unexpected token 'd' is not valid JSON、流式 Markdown 乱码、偶发 Model not found、管理员连接 502 或 CERTIFICATE_VERIFY_FAILED 时，按官方 Connection Errors 排错页和环境变量文档逐项排查反向代理、nginx 代理缓冲、c-ares DNS 解析、前后端连接差异、CA 证书与流式空闲超时，并用 /v1/models 和流式请求确认中转本身正常。
