@@ -67,7 +67,7 @@ permalink: /
 
 - [Claude Code 接入与报错](https://a37836323.github.io/openlux-api-guides/topics/claude-code/)（6 篇）
 - [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（22 篇）
-- [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（20 篇）
+- [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（21 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（41 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（20 篇）
 - [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（26 篇）
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-11 · [Claude API 报 400「tool_use ids were found without tool_result blocks immediately after」怎么办：漏回结果、中间插了消息、文本放在结果前逐项排查](./news/claude-api-tool-use-without-tool-result-fix/)
 - 2026-11-11 · [Chatbox 接中转 API 后图片发不出去、模型说看不到图片或知识库用不了怎么办：模型能力勾选、OCR、文档解析器与嵌入模型逐项排查](./news/chatbox-relay-image-file-vision-knowledge-base-fix/)
 - 2026-11-11 · [Gemini 4 Carbon API 何时涨价？11 月 30 日后输入、输出 token 多少钱](./news/gemini-4-carbon-api-price-november-30/)
 - 2026-11-10 · [VS Code 用自带 Key 接中转后模型选择器看不到模型、只显示 Models 或提示配置辅助模型怎么办：工作区信任、工具调用、组织策略与 harness 逐项排查](./news/vscode-byok-relay-model-not-showing-utility-model-fix/)
