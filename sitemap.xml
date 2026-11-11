@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://a37836323.github.io/openlux-api-guides/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/quickstart/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/organization-disabled/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/rate-limit-stream-retry/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/model-cost-per-success/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/news/claude-api-tool-use-without-tool-result-fix/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/chatbox-relay-image-file-vision-knowledge-base-fix/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/gemini-4-carbon-api-price-november-30/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/vscode-byok-relay-model-not-showing-utility-model-fix/</loc><lastmod>2026-11-10</lastmod></url>
@@ -142,7 +143,7 @@
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/gpt-5-6-sol-api-credit-pricing-cut/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/topics/claude-code/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/topics/clients/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://a37836323.github.io/openlux-api-guides/topics/claude-api/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/topics/claude-api/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/topics/openai-api/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/topics/gemini-api/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/topics/general/</loc><lastmod>2026-11-07</lastmod></url>
