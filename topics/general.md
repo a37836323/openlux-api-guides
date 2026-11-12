@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "其他模型与通用实践 | OpenLux API 实战指南"
-description: "其他模型与通用实践：共 26 篇，按发布时间从新到旧排列。"
+description: "其他模型与通用实践：共 27 篇，按发布时间从新到旧排列。"
 permalink: /topics/general/
 ---
 
 # 其他模型与通用实践
 
-共 26 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 27 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-13 · [如何用 Hugging Face Jobs 微调 TRELLIS.2？遇到“需要 HF_TOKEN 和 DINOv3 权限”怎么处理](https://a37836323.github.io/openlux-api-guides/news/how-to-finetune-trellis2-with-hugging-face-jobs/)：Hugging Face 发布 TRELLIS.2 LoRA 微调流程，涵盖数据预处理、Jobs 或 Docker 运行、ss 与 shape 训练配置及必要权限。
 - 2026-11-07 · [Cosmos3-Sim-Bimanual 如何用 vLLM-Omni 推理？59 个动作控制值怎么补齐、如何与输入帧对齐？](https://a37836323.github.io/openlux-api-guides/news/cosmos3-sim-bimanual-vllm-omni-inference/)：说明 Cosmos3-Sim-Bimanual 的动作序列、帧数对齐与部署前提，并区分已验证环境和最低硬件要求。
 - 2026-11-06 · [Transformers 如何调用 Phonon TTS？先核对模型许可和版本](https://a37836323.github.io/openlux-api-guides/news/hugging-face-phonon-transformers-integration/)：Hugging Face 发布 Phonon TTS 接入说明：检查 Transformers 版本、模型 ID、离线推理与商业许可差异，并按官方示例生成音频。
 - 2026-11-01 · [grok-imagine-image-quality 11 月 2 日退役：请求会转到 grok-imagine-image-2.0 的 low 档，要不要改 model 和 quality](https://a37836323.github.io/openlux-api-guides/news/grok-imagine-image-quality-retirement-image-2-0-migration/)：xAI 的 grok-imagine-image-quality 于 2026-11-02 退役：按官方迁移指南说明请求会转到 grok-imagine-image-2.0 并固定 quality=low，生成和编辑都受影响；如何改 model、选 low/medium/auto、核对 n/aspect_ratio/resolution/response_format，并用响应 model 字段验收。
