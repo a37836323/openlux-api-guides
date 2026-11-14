@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "其他模型与通用实践 | OpenLux API 实战指南"
-description: "其他模型与通用实践：共 28 篇，按发布时间从新到旧排列。"
+description: "其他模型与通用实践：共 29 篇，按发布时间从新到旧排列。"
 permalink: /topics/general/
 ---
 
 # 其他模型与通用实践
 
-共 28 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 29 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-15 · [如何获取 Google DeepMind 的 SatWeave 和 PARDIG 天气数据集？](https://a37836323.github.io/openlux-api-guides/news/how-to-access-pardig-satweave-weather-datasets/)：SatWeave 与 PARDIG 已通过 Google Cloud Storage 开放实时流和历史档案，本文梳理数据范围、更新延迟与接入入口。
 - 2026-11-14 · [llama.cpp 升级 v1.0.0 会破坏 C API/ABI 吗？如何固定 libllama/libggml 版本并安排迁移](https://a37836323.github.io/openlux-api-guides/news/llama-cpp-v1-api-abi-migration/)：llama.cpp 与 ggml 进入 v1.0.0，后续公共 C API 破坏性变更将升级主版本号，开发者应检查头文件和库的版本固定策略。
 - 2026-11-13 · [如何用 Hugging Face Jobs 微调 TRELLIS.2？遇到“需要 HF_TOKEN 和 DINOv3 权限”怎么处理](https://a37836323.github.io/openlux-api-guides/news/how-to-finetune-trellis2-with-hugging-face-jobs/)：Hugging Face 发布 TRELLIS.2 LoRA 微调流程，涵盖数据预处理、Jobs 或 Docker 运行、ss 与 shape 训练配置及必要权限。
 - 2026-11-07 · [Cosmos3-Sim-Bimanual 如何用 vLLM-Omni 推理？59 个动作控制值怎么补齐、如何与输入帧对齐？](https://a37836323.github.io/openlux-api-guides/news/cosmos3-sim-bimanual-vllm-omni-inference/)：说明 Cosmos3-Sim-Bimanual 的动作序列、帧数对齐与部署前提，并区分已验证环境和最低硬件要求。
