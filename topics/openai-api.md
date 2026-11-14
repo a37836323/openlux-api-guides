@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "OpenAI API 报错与迁移 | OpenLux API 实战指南"
-description: "OpenAI API 报错与迁移：共 41 篇，按发布时间从新到旧排列。"
+description: "OpenAI API 报错与迁移：共 42 篇，按发布时间从新到旧排列。"
 permalink: /topics/openai-api/
 ---
 
 # OpenAI API 报错与迁移
 
-共 41 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 42 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-14 · [OpenAI API 报 404「The model `xxx` does not exist or you do not have access to it」怎么办：模型 ID、项目权限、Key 与已下线模型逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-404-model-not-found-fix/)：OpenAI API 报 404「The model xxx does not exist or you do not have access to it」（model_not_found）时怎么办：按官方排查顺序核对模型 ID 和接口、用同一个 Key 和项目调 /v1/models 对比、检查项目模型权限 allow_list/deny_list、查 Deprecations 看模型是否已下线，以及走中转时 Base URL 多写 /v1 的 404 怎么区分。
 - 2026-11-10 · [OpenAI Python 报 APIConnectionError: Connection error 或 APITimeoutError: Request timed out 怎么办：Base URL、代理、证书与超时重试逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-python-apiconnectionerror-timeout-fix/)：OpenAI Python SDK 报 APIConnectionError: Connection error 或 APITimeoutError: Request timed out 时，先用 e.__cause__ 和 OPENAI_LOG 看底层原因，再按 Base URL、代理、HTTPX2 证书信任库、超时与重试逐项排查。
 - 2026-11-02 · [OpenAI API 报 401 Incorrect API key provided 怎么办：Key 写错、项目不对、已撤销与 Base URL 指错逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-401-incorrect-api-key-fix/)：OpenAI API 报 401 Incorrect API key provided、Invalid Authentication、IP not authorized 怎么办：按官方错误码页对照四种 401 的原因，检查 OPENAI_API_KEY 与 base_url 实际取值、组织和项目请求头、Key 撤销与生效时间，以及中转 Key 和地址不匹配时的改法。
 - 2026-11-01 · [OpenAI Evals 10 月 31 日起只读、11 月 30 日停用：评测迁到 Promptfoo 要改哪些](https://a37836323.github.io/openlux-api-guides/news/openai-evals-read-only-shutdown-promptfoo-migration/)：OpenAI Evals 平台 2026-10-31 起只读、11-30 停用：按官方弃用页和迁移指南，说明要先保留哪些数据，如何用 Promptfoo 重建评测、对应 string_check/text_similarity/score_model/python 评分器，并用 OpenAI 兼容地址运行与验收。
