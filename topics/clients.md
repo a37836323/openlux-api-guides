@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等 | OpenLux API 实战指南"
-description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 25 篇，按发布时间从新到旧排列。"
+description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 26 篇，按发布时间从新到旧排列。"
 permalink: /topics/clients/
 ---
 
 # 客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等
 
-共 25 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 26 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-15 · [LobeHub 接中转 API 后没有图片上传按钮、技能用不了或深度思考用不了怎么办：自定义模型能力开关与 MODEL_LIST 扩展配置](https://a37836323.github.io/openlux-api-guides/news/lobehub-relay-vision-skills-model-capabilities-fix/)：LobeHub（LobeChat）接中转 API 后输入框没有图片上传按钮、技能用不了或深度思考用不了，按官方文档在「配置模型」里打开支持视觉识别、支持技能使用、支持深度思考，自部署用 OPENAI_MODEL_LIST 的 <上下文窗口:vision:fc> 扩展能力，附验证方法与常见问题。
 - 2026-11-14 · [n8n AI Agent 接中转 API 报 400 Invalid value for 'content'、No prompt specified 或 No sessionId 怎么办：Prompt、Chat Model 与 Simple Memory 逐项排查](https://a37836323.github.io/openlux-api-guides/news/n8n-ai-agent-relay-prompt-content-null-session-fix/)：n8n 用 AI Agent 节点接 OpenAI 兼容中转 API 时，报 400 Invalid value for 'content': expected a string, got null、No prompt specified、A Chat Model sub-node must be connected、Error in sub-node Simple Memory 或 No sessionId，按 n8n 官方常见问题逐项检查 Prompt 来源、Chat Model 子节点、工具、Simple Memory 与会话 ID，并给出验证步骤。
 - 2026-11-13 · [Cline CLI 怎么接入 OpenAI 兼容中转 API：cline auth --baseurl、Key 与模型设置，报 invalid provider 或 base URL is only supported 怎么办](https://a37836323.github.io/openlux-api-guides/news/cline-cli-relay-api-auth-baseurl-setup/)：Cline CLI（终端版）接入 OpenAI 兼容中转 API：用 cline auth --provider openai-compatible --apikey --modelid --baseurl 一条命令配置，Base URL 带 /v1，配置保存位置、验证方法、-p 与 -P 的区别，以及 invalid provider、base URL is only supported for OpenAI and OpenAI-compatible providers、requires a TTY 等报错的处理。
 - 2026-11-12 · [Zed 接中转 API 用 DeepSeek 思考模型时续轮报 400、看不到思考过程或图片发不出去怎么办：interleaved_reasoning、reasoning_effort 与 capabilities 逐项设置](https://a37836323.github.io/openlux-api-guides/news/zed-relay-deepseek-reasoning-content-400-capabilities-fix/)：Zed 接 OpenAI 兼容中转 API 后，DeepSeek 思考模型调用工具后续轮报 400、看不到思考过程、图片发不出去、max_completion_tokens 不被接受或提示缓存报错时，按 Zed 官方文档逐项设置 interleaved_reasoning、reasoning_effort、max_tokens_parameter、chat_completions、images 与 prompt_caching，并用最小请求验证。
