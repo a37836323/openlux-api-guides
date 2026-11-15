@@ -66,7 +66,7 @@ permalink: /
 ## 按专题浏览
 
 - [Claude Code 接入与报错](https://a37836323.github.io/openlux-api-guides/topics/claude-code/)（6 篇）
-- [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（25 篇）
+- [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（26 篇）
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（23 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（43 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（20 篇）
@@ -82,8 +82,9 @@ permalink: /
 
 ## 最新 API 与模型动态
 
-- 2026-11-15 · [OpenAI API 回答只出一半或返回空、status 是 incomplete 或 finish_reason 是 length 怎么办：输出上限、推理 token 与上下文逐项排查](./news/openai-api-incomplete-max-output-tokens-truncated-fix/)
+- 2026-11-15 · [LobeHub 接中转 API 后没有图片上传按钮、技能用不了或深度思考用不了怎么办：自定义模型能力开关与 MODEL_LIST 扩展配置](./news/lobehub-relay-vision-skills-model-capabilities-fix/)
 - 2026-11-15 · [如何获取 Google DeepMind 的 SatWeave 和 PARDIG 天气数据集？](./news/how-to-access-pardig-satweave-weather-datasets/)
+- 2026-11-15 · [OpenAI API 回答只出一半或返回空、status 是 incomplete 或 finish_reason 是 length 怎么办：输出上限、推理 token 与上下文逐项排查](./news/openai-api-incomplete-max-output-tokens-truncated-fix/)
 - 2026-11-14 · [OpenAI API 报 404「The model `xxx` does not exist or you do not have access to it」怎么办：模型 ID、项目权限、Key 与已下线模型逐项排查](./news/openai-api-404-model-not-found-fix/)
 - 2026-11-14 · [n8n AI Agent 接中转 API 报 400 Invalid value for 'content'、No prompt specified 或 No sessionId 怎么办：Prompt、Chat Model 与 Simple Memory 逐项排查](./news/n8n-ai-agent-relay-prompt-content-null-session-fix/)
 - 2026-11-14 · [llama.cpp 升级 v1.0.0 会破坏 C API/ABI 吗？如何固定 libllama/libggml 版本并安排迁移](./news/llama-cpp-v1-api-abi-migration/)
