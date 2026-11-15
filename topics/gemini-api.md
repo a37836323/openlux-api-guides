@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "Gemini API 报错与迁移 | OpenLux API 实战指南"
-description: "Gemini API 报错与迁移：共 20 篇，按发布时间从新到旧排列。"
+description: "Gemini API 报错与迁移：共 21 篇，按发布时间从新到旧排列。"
 permalink: /topics/gemini-api/
 ---
 
 # Gemini API 报错与迁移
 
-共 20 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 21 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-16 · [Gemini API 返回空、finishReason 是 SAFETY 或 RECITATION、报「Request blocked due to safety violations」怎么办：提示被拦、回答被拦与安全设置逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-safety-recitation-blocked-empty-response-fix/)：Gemini API 返回 200 却没有正文、finishReason 是 SAFETY/RECITATION/PROHIBITED_CONTENT，或 Interactions API 报 400 Request blocked due to safety violations：按官方文档区分提示被拦与回答被拦，打印 promptFeedback、finishReason、safetyRatings，再决定改写输入还是调整 safetySettings。
 - 2026-11-11 · [Gemini 4 Carbon API 何时涨价？11 月 30 日后输入、输出 token 多少钱](https://a37836323.github.io/openlux-api-guides/news/gemini-4-carbon-api-price-november-30/)：Gemini 4 Carbon API 目前与 Argon 同为每百万输入 token 2 美元、输出 token 10 美元；介绍价于 11 月 30 日结束，之后分别为 4 美元和 20 美元。
 - 2026-11-09 · [Gemini API 报 400 INVALID_ARGUMENT 怎么办：请求体写错、未知参数、API 版本、新模型规则与 Schema 太复杂逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-400-invalid-argument-fix/)：Gemini API 报 400 INVALID_ARGUMENT、invalid_request 或 parameter_unknown 的排查方法：读懂 message 与 reason，核对字段、API 版本、新模型的预填充与思考参数规则、思维签名、Schema 复杂度，并附最小请求验证与中转调用检查。
 - 2026-11-06 · [Gemini API 报 404 model_not_found 或 not_found 怎么办：模型名写错、旧模型已关停、Base URL 与 API 版本逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-404-model-not-found-fix/)：Gemini API 报 404 model_not_found 或 not_found 时，按官方错误码、模型页、弃用页和 API 版本说明逐项排查：模型名写错或用了显示名、旧模型已关停、Base URL 少了 /openai/ 或方法名、只在 v1beta 的功能用了 v1，以及走中转时怎么核对模型 ID。
