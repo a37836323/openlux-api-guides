@@ -69,7 +69,7 @@ permalink: /
 - [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（26 篇）
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（23 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（43 篇）
-- [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（20 篇）
+- [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（21 篇）
 - [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（29 篇）
 - [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-16 · [Gemini API 返回空、finishReason 是 SAFETY 或 RECITATION、报「Request blocked due to safety violations」怎么办：提示被拦、回答被拦与安全设置逐项排查](./news/gemini-api-safety-recitation-blocked-empty-response-fix/)
 - 2026-11-15 · [LobeHub 接中转 API 后没有图片上传按钮、技能用不了或深度思考用不了怎么办：自定义模型能力开关与 MODEL_LIST 扩展配置](./news/lobehub-relay-vision-skills-model-capabilities-fix/)
 - 2026-11-15 · [如何获取 Google DeepMind 的 SatWeave 和 PARDIG 天气数据集？](./news/how-to-access-pardig-satweave-weather-datasets/)
 - 2026-11-15 · [OpenAI API 回答只出一半或返回空、status 是 incomplete 或 finish_reason 是 length 怎么办：输出上限、推理 token 与上下文逐项排查](./news/openai-api-incomplete-max-output-tokens-truncated-fix/)
