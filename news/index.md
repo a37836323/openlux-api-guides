@@ -143,6 +143,7 @@ permalink: /news/
 
 ## [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)
 
+- [中转站检测：怎么判断 API 中转站是不是官方原模型（6 个自测方法，含降智排查）](https://a37836323.github.io/openlux-api-guides/news/check-api-relay-real-model/)
 - [如何获取 Google DeepMind 的 SatWeave 和 PARDIG 天气数据集？](https://a37836323.github.io/openlux-api-guides/news/how-to-access-pardig-satweave-weather-datasets/)
 - [llama.cpp 升级 v1.0.0 会破坏 C API/ABI 吗？如何固定 libllama/libggml 版本并安排迁移](https://a37836323.github.io/openlux-api-guides/news/llama-cpp-v1-api-abi-migration/)
 - [如何用 Hugging Face Jobs 微调 TRELLIS.2？遇到“需要 HF_TOKEN 和 DINOv3 权限”怎么处理](https://a37836323.github.io/openlux-api-guides/news/how-to-finetune-trellis2-with-hugging-face-jobs/)
