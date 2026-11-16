@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "OpenAI API 报错与迁移 | OpenLux API 实战指南"
-description: "OpenAI API 报错与迁移：共 43 篇，按发布时间从新到旧排列。"
+description: "OpenAI API 报错与迁移：共 44 篇，按发布时间从新到旧排列。"
 permalink: /topics/openai-api/
 ---
 
 # OpenAI API 报错与迁移
 
-共 43 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 44 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-17 · [OpenAI API 输入太长报 400、超出上下文窗口怎么办：token 计数、服务器端压缩、truncation 与历史裁剪逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-400-context-window-exceeded-fix/)：OpenAI API 输入超过上下文窗口时请求会报 400。本文按官方文档讲清怎么用计数接口确认 token、Responses API 怎么开服务器端压缩或调用 /responses/compact、truncation auto 的局限，以及 Chat Completions 怎么自己裁剪历史。
 - 2026-11-15 · [OpenAI API 回答只出一半或返回空、status 是 incomplete 或 finish_reason 是 length 怎么办：输出上限、推理 token 与上下文逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-incomplete-max-output-tokens-truncated-fix/)：OpenAI API 回答只出一半或返回空文本时怎么办：先看 Responses 的 status: incomplete 与 incomplete_details.reason（max_output_tokens），或 Chat Completions 的 finish_reason: length；按官方文档排查输出上限包含推理 token、推理把额度用光、上下文窗口不够、结构化输出 JSON 不完整，并给出判断代码和修复步骤。
 - 2026-11-14 · [OpenAI API 报 404「The model `xxx` does not exist or you do not have access to it」怎么办：模型 ID、项目权限、Key 与已下线模型逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-404-model-not-found-fix/)：OpenAI API 报 404「The model xxx does not exist or you do not have access to it」（model_not_found）时怎么办：按官方排查顺序核对模型 ID 和接口、用同一个 Key 和项目调 /v1/models 对比、检查项目模型权限 allow_list/deny_list、查 Deprecations 看模型是否已下线，以及走中转时 Base URL 多写 /v1 的 404 怎么区分。
 - 2026-11-10 · [OpenAI Python 报 APIConnectionError: Connection error 或 APITimeoutError: Request timed out 怎么办：Base URL、代理、证书与超时重试逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-python-apiconnectionerror-timeout-fix/)：OpenAI Python SDK 报 APIConnectionError: Connection error 或 APITimeoutError: Request timed out 时，先用 e.__cause__ 和 OPENAI_LOG 看底层原因，再按 Base URL、代理、HTTPX2 证书信任库、超时与重试逐项排查。
