@@ -66,7 +66,7 @@ permalink: /
 ## 按专题浏览
 
 - [Claude Code 接入与报错](https://a37836323.github.io/openlux-api-guides/topics/claude-code/)（6 篇）
-- [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（26 篇）
+- [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（27 篇）
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（23 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（43 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（21 篇）
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-17 · [Cherry Studio 智能体接中转 API 选不到模型、提示必须启用 API 网关或一直等待怎么办：Anthropic 端点、运行模式与 API 网关逐项排查](./news/cherry-studio-agent-relay-anthropic-endpoint-api-gateway-fix/)
 - 2026-11-16 · [中转站检测：怎么判断 API 中转站是不是官方原模型（6 个自测方法，含降智排查）](./news/check-api-relay-real-model/)
 - 2026-11-16 · [Gemini API 返回空、finishReason 是 SAFETY 或 RECITATION、报「Request blocked due to safety violations」怎么办：提示被拦、回答被拦与安全设置逐项排查](./news/gemini-api-safety-recitation-blocked-empty-response-fix/)
 - 2026-11-15 · [LobeHub 接中转 API 后没有图片上传按钮、技能用不了或深度思考用不了怎么办：自定义模型能力开关与 MODEL_LIST 扩展配置](./news/lobehub-relay-vision-skills-model-capabilities-fix/)
