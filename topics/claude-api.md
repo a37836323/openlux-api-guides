@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "Claude API 报错与迁移 | OpenLux API 实战指南"
-description: "Claude API 报错与迁移：共 23 篇，按发布时间从新到旧排列。"
+description: "Claude API 报错与迁移：共 24 篇，按发布时间从新到旧排列。"
 permalink: /topics/claude-api/
 ---
 
 # Claude API 报错与迁移
 
-共 23 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 24 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-18 · [Claude API 设置 temperature、top_p 或 top_k 后为什么可能没有文本水印？](https://a37836323.github.io/openlux-api-guides/news/claude-api-sampling-parameters-text-watermark/)：Anthropic 说明，指定模型的 API 请求若将 temperature、top_p 或 top_k 设为非默认值，生成文本可能不带文本水印；检查采样参数及水印平台支持情况。
 - 2026-11-13 · [Claude API 报 400「thinking blocks cannot be modified」或「Invalid signature in thinking block」怎么办：原样回传思考块、redacted_thinking 与改了历史逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-api-thinking-blocks-cannot-be-modified-fix/)：Claude API 报 400「thinking or redacted_thinking blocks in the latest assistant message cannot be modified」或「Invalid signature in thinking block. The block is bound to a different conversation」时怎么办：工具调用时原样回传思考块、别漏 redacted_thinking 和空 thinking 块、历史只追加不修改，已出错的对话用 drop_block 或删块恢复。
 - 2026-11-12 · [Claude API 回答只出一半、stop_reason 是 max_tokens 怎么办：调大上限、续写与思考占用逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-api-stop-reason-max-tokens-truncated-fix/)：Claude API 回答被截断、stop_reason 为 max_tokens 时怎么办：区分 max_tokens 与上下文窗口满、思考占用 max_tokens、大 max_tokens 改流式、续写不能用预填充、tool_use 被截断要调大上限重发。
 - 2026-11-11 · [Claude API 报 400「tool_use ids were found without tool_result blocks immediately after」怎么办：漏回结果、中间插了消息、文本放在结果前逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-api-tool-use-without-tool-result-fix/)：Claude API 报 400「tool_use ids were found without tool_result blocks immediately after」时，按官方格式要求逐项检查：每个 tool_use 是否都回了 tool_result、调用和结果之间是否插了消息、tool_result 是否排在文字前面、tool_use_id 是否对应，以及服务端工具混用、max_tokens 截断和裁剪历史的处理。
