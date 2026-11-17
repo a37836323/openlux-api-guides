@@ -67,7 +67,7 @@ permalink: /
 
 - [Claude Code 接入与报错](https://a37836323.github.io/openlux-api-guides/topics/claude-code/)（6 篇）
 - [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（27 篇）
-- [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（23 篇）
+- [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（24 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（44 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（21 篇）
 - [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（30 篇）
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-18 · [Claude API 设置 temperature、top_p 或 top_k 后为什么可能没有文本水印？](./news/claude-api-sampling-parameters-text-watermark/)
 - 2026-11-17 · [OpenAI API 输入太长报 400、超出上下文窗口怎么办：token 计数、服务器端压缩、truncation 与历史裁剪逐项排查](./news/openai-api-400-context-window-exceeded-fix/)
 - 2026-11-17 · [Cherry Studio 智能体接中转 API 选不到模型、提示必须启用 API 网关或一直等待怎么办：Anthropic 端点、运行模式与 API 网关逐项排查](./news/cherry-studio-agent-relay-anthropic-endpoint-api-gateway-fix/)
 - 2026-11-16 · [中转站检测：怎么判断 API 中转站是不是官方原模型（6 个自测方法，含降智排查）](./news/check-api-relay-real-model/)
