@@ -70,7 +70,7 @@ permalink: /
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（25 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（44 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（21 篇）
-- [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（30 篇）
+- [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（31 篇）
 - [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
 ## 基础指南
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-19 · [怎么用 Transformers 部署 Rumble-2-Flash 语音识别模型？](./news/how-to-deploy-rumble-2-flash-with-transformers/)
 - 2026-11-18 · [Claude API 传图片报 400 invalid_request_error 怎么办：单图 10 MB、8000 像素、超过 20 张图的尺寸限制与格式逐项排查](./news/claude-api-image-400-size-dimension-limit-fix/)
 - 2026-11-18 · [Open WebUI 知识库接中转 API 的嵌入模型：RAG_OPENAI_API_BASE_URL、Key 与 text-embedding-3 设置，报 'NoneType' object has no attribute 'encode' 或 429 怎么办](./news/open-webui-relay-embedding-knowledge-base-rag-setup/)
 - 2026-11-18 · [Claude API 设置 temperature、top_p 或 top_k 后为什么可能没有文本水印？](./news/claude-api-sampling-parameters-text-watermark/)
