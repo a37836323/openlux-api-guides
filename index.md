@@ -66,7 +66,7 @@ permalink: /
 ## 按专题浏览
 
 - [Claude Code 接入与报错](https://a37836323.github.io/openlux-api-guides/topics/claude-code/)（6 篇）
-- [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（27 篇）
+- [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（28 篇）
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（24 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（44 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（21 篇）
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-18 · [Open WebUI 知识库接中转 API 的嵌入模型：RAG_OPENAI_API_BASE_URL、Key 与 text-embedding-3 设置，报 'NoneType' object has no attribute 'encode' 或 429 怎么办](./news/open-webui-relay-embedding-knowledge-base-rag-setup/)
 - 2026-11-18 · [Claude API 设置 temperature、top_p 或 top_k 后为什么可能没有文本水印？](./news/claude-api-sampling-parameters-text-watermark/)
 - 2026-11-17 · [OpenAI API 输入太长报 400、超出上下文窗口怎么办：token 计数、服务器端压缩、truncation 与历史裁剪逐项排查](./news/openai-api-400-context-window-exceeded-fix/)
 - 2026-11-17 · [Cherry Studio 智能体接中转 API 选不到模型、提示必须启用 API 网关或一直等待怎么办：Anthropic 端点、运行模式与 API 网关逐项排查](./news/cherry-studio-agent-relay-anthropic-endpoint-api-gateway-fix/)
