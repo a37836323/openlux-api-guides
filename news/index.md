@@ -80,6 +80,7 @@ permalink: /news/
 
 ## [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)
 
+- [OpenAI API 开 JSON 模式报 400「'messages' must contain the word 'json'」怎么办：json_object 的提示词要求、Responses 写法与改用 Structured Outputs](https://a37836323.github.io/openlux-api-guides/news/openai-api-400-json-object-must-contain-word-json-fix/)
 - [OpenAI API 输入太长报 400、超出上下文窗口怎么办：token 计数、服务器端压缩、truncation 与历史裁剪逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-400-context-window-exceeded-fix/)
 - [OpenAI API 回答只出一半或返回空、status 是 incomplete 或 finish_reason 是 length 怎么办：输出上限、推理 token 与上下文逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-incomplete-max-output-tokens-truncated-fix/)
 - [OpenAI API 报 404「The model `xxx` does not exist or you do not have access to it」怎么办：模型 ID、项目权限、Key 与已下线模型逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-404-model-not-found-fix/)
