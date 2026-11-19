@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等 | OpenLux API 实战指南"
-description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 28 篇，按发布时间从新到旧排列。"
+description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 29 篇，按发布时间从新到旧排列。"
 permalink: /topics/clients/
 ---
 
 # 客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等
 
-共 28 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 29 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-19 · [Continue 接中转 API 后 Tab 自动补全不出来、补得乱或很慢怎么办：autocomplete 角色、FIM 模型与开关逐项排查](https://a37836323.github.io/openlux-api-guides/news/continue-relay-tab-autocomplete-not-working-fix/)：Continue 接中转 API 后 Tab 自动补全不出建议、补得乱或很慢的排查：roles 默认不含 autocomplete、官方不建议用 GPT/Claude 聊天模型补全、FIM 补全模型（Qwen2.5-Coder、Codestral）单独配置、思考模型、多行补全与日志。
 - 2026-11-18 · [Open WebUI 知识库接中转 API 的嵌入模型：RAG_OPENAI_API_BASE_URL、Key 与 text-embedding-3 设置，报 'NoneType' object has no attribute 'encode' 或 429 怎么办](https://a37836323.github.io/openlux-api-guides/news/open-webui-relay-embedding-knowledge-base-rag-setup/)：Open WebUI 知识库改用中转 API 的 OpenAI 嵌入模型：设置 > 文档里切换引擎、RAG_OPENAI_API_BASE_URL 与 Key、text-embedding-3 维度与 pgvector、换模型后重建索引，以及 'NoneType' object has no attribute 'encode'、429 等报错处理。
 - 2026-11-17 · [Cherry Studio 智能体接中转 API 选不到模型、提示必须启用 API 网关或一直等待怎么办：Anthropic 端点、运行模式与 API 网关逐项排查](https://a37836323.github.io/openlux-api-guides/news/cherry-studio-agent-relay-anthropic-endpoint-api-gateway-fix/)：Cherry Studio 智能体（工作）接中转 API 时选不到模型、提示必须启用 API 网关或任务一直等待：按官方文档给服务商配 Anthropic 端点、选支持 Anthropic 协议的模型、确认运行模式、启动 API 网关，并用状态面板和调用链排查 401、404。
 - 2026-11-15 · [LobeHub 接中转 API 后没有图片上传按钮、技能用不了或深度思考用不了怎么办：自定义模型能力开关与 MODEL_LIST 扩展配置](https://a37836323.github.io/openlux-api-guides/news/lobehub-relay-vision-skills-model-capabilities-fix/)：LobeHub（LobeChat）接中转 API 后输入框没有图片上传按钮、技能用不了或深度思考用不了，按官方文档在「配置模型」里打开支持视觉识别、支持技能使用、支持深度思考，自部署用 OPENAI_MODEL_LIST 的 <上下文窗口:vision:fc> 扩展能力，附验证方法与常见问题。
