@@ -67,7 +67,7 @@ permalink: /
 
 - [Claude Code 接入与报错](https://a37836323.github.io/openlux-api-guides/topics/claude-code/)（6 篇）
 - [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（29 篇）
-- [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（25 篇）
+- [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（26 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（44 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（21 篇）
 - [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（31 篇）
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-19 · [Claude API 报 400「This model does not support assistant message prefill」怎么办：预填充为什么不能用、改成结构化输出与续写的写法](./news/claude-api-400-assistant-message-prefill-not-supported-fix/)
 - 2026-11-19 · [Continue 接中转 API 后 Tab 自动补全不出来、补得乱或很慢怎么办：autocomplete 角色、FIM 模型与开关逐项排查](./news/continue-relay-tab-autocomplete-not-working-fix/)
 - 2026-11-19 · [怎么用 Transformers 部署 Rumble-2-Flash 语音识别模型？](./news/how-to-deploy-rumble-2-flash-with-transformers/)
 - 2026-11-18 · [Claude API 传图片报 400 invalid_request_error 怎么办：单图 10 MB、8000 像素、超过 20 张图的尺寸限制与格式逐项排查](./news/claude-api-image-400-size-dimension-limit-fix/)
