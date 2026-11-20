@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等 | OpenLux API 实战指南"
-description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 30 篇，按发布时间从新到旧排列。"
+description: "客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等：共 31 篇，按发布时间从新到旧排列。"
 permalink: /topics/clients/
 ---
 
 # 客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等
 
-共 30 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 31 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-21 · [Cherry Studio 知识库怎么接中转 API 的嵌入模型：添加 text-embedding-3、选嵌入模型与重建知识库，资料一直处理中怎么办](https://a37836323.github.io/openlux-api-guides/news/cherry-studio-relay-embedding-knowledge-base-setup/)：Cherry Studio 知识库接中转 API 嵌入模型的设置步骤：在模型服务里添加 text-embedding-3、创建知识库时选嵌入模型、换模型要重建，以及资料一直处理中、知识库入口不可用、召回无结果的排查。
 - 2026-11-20 · [Dify 知识库怎么接中转 API 的嵌入模型：OpenAI-API-compatible 添加 Text Embedding、API Base URL 与 text-embedding-3 设置](https://a37836323.github.io/openlux-api-guides/news/dify-relay-embedding-knowledge-base-setup/)：Dify 知识库用高质量索引时，怎么让嵌入模型走 OpenAI 兼容中转 API：在 OpenAI-API-compatible 插件里添加嵌入类型模型，API Base URL 填到 /v1，模型名称填 text-embedding-3-small 等在售 ID，上下文长度、encoding format 等字段怎么填，设为默认 Embedding 模型后用检索测试验证，并附 401、404、选不到模型、超时的排查。
 - 2026-11-19 · [Continue 接中转 API 后 Tab 自动补全不出来、补得乱或很慢怎么办：autocomplete 角色、FIM 模型与开关逐项排查](https://a37836323.github.io/openlux-api-guides/news/continue-relay-tab-autocomplete-not-working-fix/)：Continue 接中转 API 后 Tab 自动补全不出建议、补得乱或很慢的排查：roles 默认不含 autocomplete、官方不建议用 GPT/Claude 聊天模型补全、FIM 补全模型（Qwen2.5-Coder、Codestral）单独配置、思考模型、多行补全与日志。
 - 2026-11-18 · [Open WebUI 知识库接中转 API 的嵌入模型：RAG_OPENAI_API_BASE_URL、Key 与 text-embedding-3 设置，报 'NoneType' object has no attribute 'encode' 或 429 怎么办](https://a37836323.github.io/openlux-api-guides/news/open-webui-relay-embedding-knowledge-base-rag-setup/)：Open WebUI 知识库改用中转 API 的 OpenAI 嵌入模型：设置 > 文档里切换引擎、RAG_OPENAI_API_BASE_URL 与 Key、text-embedding-3 维度与 pgvector、换模型后重建索引，以及 'NoneType' object has no attribute 'encode'、429 等报错处理。
