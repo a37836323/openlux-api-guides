@@ -5,6 +5,7 @@
   <url><loc>https://a37836323.github.io/openlux-api-guides/organization-disabled/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/rate-limit-stream-retry/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/model-cost-per-success/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/news/claude-api-streaming-required-10-minutes-max-tokens-fix/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/cherry-studio-relay-embedding-knowledge-base-setup/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/openai-api-400-json-object-must-contain-word-json-fix/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/dify-relay-embedding-knowledge-base-setup/</loc><lastmod>2026-11-20</lastmod></url>
@@ -167,7 +168,7 @@
   <url><loc>https://a37836323.github.io/openlux-api-guides/news/gpt-5-6-sol-api-credit-pricing-cut/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/topics/claude-code/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/topics/clients/</loc><lastmod>2026-11-21</lastmod></url>
-  <url><loc>https://a37836323.github.io/openlux-api-guides/topics/claude-api/</loc><lastmod>2026-11-19</lastmod></url>
+  <url><loc>https://a37836323.github.io/openlux-api-guides/topics/claude-api/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/topics/openai-api/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/topics/gemini-api/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://a37836323.github.io/openlux-api-guides/topics/general/</loc><lastmod>2026-11-19</lastmod></url>
