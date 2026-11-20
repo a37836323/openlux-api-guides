@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "Claude API 报错与迁移 | OpenLux API 实战指南"
-description: "Claude API 报错与迁移：共 26 篇，按发布时间从新到旧排列。"
+description: "Claude API 报错与迁移：共 27 篇，按发布时间从新到旧排列。"
 permalink: /topics/claude-api/
 ---
 
 # Claude API 报错与迁移
 
-共 26 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 27 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-21 · [Claude API 报「Streaming is required for operations that may take longer than 10 minutes」怎么办：max_tokens 阈值、流式拿完整结果、timeout 与 Batches 逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-api-streaming-required-10-minutes-max-tokens-fix/)：Anthropic SDK 报 Streaming is required for operations that may take longer than 10 minutes 是 SDK 发请求前的本地检查：非流式、默认超时且 max_tokens 过大时触发。本文按官方文档讲触发条件、改用流式并用 get_final_message 拿完整结果、显式 timeout 的风险、调小 max_tokens 或用 Message Batches，以及流式中途断开怎么续写。
 - 2026-11-19 · [Claude API 报 400「This model does not support assistant message prefill」怎么办：预填充为什么不能用、改成结构化输出与续写的写法](https://a37836323.github.io/openlux-api-guides/news/claude-api-400-assistant-message-prefill-not-supported-fix/)：Claude API 报 400「This model does not support assistant message prefill. The conversation must end with a user message.」的原因与改法：Claude 4.6 及之后模型不支持最后一条 assistant 预填充，按用途改成结构化输出 output_config.format、user 消息续写、system 提示去开场白，以及经中转调用时的注意事项。
 - 2026-11-18 · [Claude API 传图片报 400 invalid_request_error 怎么办：单图 10 MB、8000 像素、超过 20 张图的尺寸限制与格式逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-api-image-400-size-dimension-limit-fix/)：Claude API 发送图片返回 400 invalid_request_error 时，按官方 Vision 文档逐项排查：单图 10 MB（base64 后）、8000 像素上限、超过 20 张图的更严尺寸限制、tool_result 截图不自动缩放、oversized_image 报错与支持格式。
 - 2026-11-18 · [Claude API 设置 temperature、top_p 或 top_k 后为什么可能没有文本水印？](https://a37836323.github.io/openlux-api-guides/news/claude-api-sampling-parameters-text-watermark/)：Anthropic 说明，指定模型的 API 请求若将 temperature、top_p 或 top_k 设为非默认值，生成文本可能不带文本水印；检查采样参数及水印平台支持情况。
