@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "其他模型与通用实践 | OpenLux API 实战指南"
-description: "其他模型与通用实践：共 31 篇，按发布时间从新到旧排列。"
+description: "其他模型与通用实践：共 32 篇，按发布时间从新到旧排列。"
 permalink: /topics/general/
 ---
 
 # 其他模型与通用实践
 
-共 31 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 32 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-22 · [GitHub Copilot CLI 怎么接入 OpenAI 兼容 / Claude 中转 API：providers.json、Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/github-copilot-cli-relay-api-providers-json-setup/)：GitHub Copilot CLI 接入 OpenAI 兼容或 Claude 中转 API 的步骤：在 ~/.copilot/providers.json 配置 openai / anthropic 类型提供方、baseUrl 是否带 /v1、apiKey 与模型 ID，或用 COPILOT_PROVIDER_* 环境变量，并给出 /v1/models 验证方法和 401、404、模型看不到、配置不生效等报错处理。
 - 2026-11-19 · [怎么用 Transformers 部署 Rumble-2-Flash 语音识别模型？](https://a37836323.github.io/openlux-api-guides/news/how-to-deploy-rumble-2-flash-with-transformers/)：Rumble-2-Flash 已开源，支持 Transformers 和 vLLM；本文给出安装、加载模型、音频输入与自动语言检测的接入步骤。
 - 2026-11-16 · [中转站检测：怎么判断 API 中转站是不是官方原模型（6 个自测方法，含降智排查）](https://a37836323.github.io/openlux-api-guides/news/check-api-relay-real-model/)：中转站检测：用 Token 计数、固定题对照、上下文长度、功能探测和账单核对，判断 API 中转站给的是不是官方原模型、有没有降智。
 - 2026-11-15 · [如何获取 Google DeepMind 的 SatWeave 和 PARDIG 天气数据集？](https://a37836323.github.io/openlux-api-guides/news/how-to-access-pardig-satweave-weather-datasets/)：SatWeave 与 PARDIG 已通过 Google Cloud Storage 开放实时流和历史档案，本文梳理数据范围、更新延迟与接入入口。
