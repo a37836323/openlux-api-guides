@@ -139,11 +139,11 @@ PARDIG 官方条款写明：它是仍在研究中的实验性 AI 数据集，按
 
 ## 同专题文章
 
+- [GitHub Copilot CLI 怎么接入 OpenAI 兼容 / Claude 中转 API：providers.json、Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/github-copilot-cli-relay-api-providers-json-setup/)
 - [怎么用 Transformers 部署 Rumble-2-Flash 语音识别模型？](https://a37836323.github.io/openlux-api-guides/news/how-to-deploy-rumble-2-flash-with-transformers/)
 - [中转站检测：怎么判断 API 中转站是不是官方原模型（6 个自测方法，含降智排查）](https://a37836323.github.io/openlux-api-guides/news/check-api-relay-real-model/)
 - [llama.cpp 升级 v1.0.0 会破坏 C API/ABI 吗？如何固定 libllama/libggml 版本并安排迁移](https://a37836323.github.io/openlux-api-guides/news/llama-cpp-v1-api-abi-migration/)
 - [如何用 Hugging Face Jobs 微调 TRELLIS.2？遇到“需要 HF_TOKEN 和 DINOv3 权限”怎么处理](https://a37836323.github.io/openlux-api-guides/news/how-to-finetune-trellis2-with-hugging-face-jobs/)
 - [Cosmos3-Sim-Bimanual 如何用 vLLM-Omni 推理？59 个动作控制值怎么补齐、如何与输入帧对齐？](https://a37836323.github.io/openlux-api-guides/news/cosmos3-sim-bimanual-vllm-omni-inference/)
-- [Transformers 如何调用 Phonon TTS？先核对模型许可和版本](https://a37836323.github.io/openlux-api-guides/news/hugging-face-phonon-transformers-integration/)
 
 [查看「其他模型与通用实践」全部文章](https://a37836323.github.io/openlux-api-guides/topics/general/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
