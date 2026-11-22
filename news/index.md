@@ -18,6 +18,7 @@ permalink: /news/
 
 ## [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)
 
+- [n8n 知识库（RAG）怎么接中转 API 的嵌入模型：Embeddings OpenAI 节点、Base URL、text-embedding-3 与 Dimensions 设置](https://a37836323.github.io/openlux-api-guides/news/n8n-relay-embeddings-openai-vector-store-setup/)
 - [Cherry Studio 知识库怎么接中转 API 的嵌入模型：添加 text-embedding-3、选嵌入模型与重建知识库，资料一直处理中怎么办](https://a37836323.github.io/openlux-api-guides/news/cherry-studio-relay-embedding-knowledge-base-setup/)
 - [Dify 知识库怎么接中转 API 的嵌入模型：OpenAI-API-compatible 添加 Text Embedding、API Base URL 与 text-embedding-3 设置](https://a37836323.github.io/openlux-api-guides/news/dify-relay-embedding-knowledge-base-setup/)
 - [Continue 接中转 API 后 Tab 自动补全不出来、补得乱或很慢怎么办：autocomplete 角色、FIM 模型与开关逐项排查](https://a37836323.github.io/openlux-api-guides/news/continue-relay-tab-autocomplete-not-working-fix/)
