@@ -69,7 +69,7 @@ permalink: /
 - [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（32 篇）
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（29 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（46 篇）
-- [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（21 篇）
+- [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（22 篇）
 - [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（33 篇）
 - [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-24 · [Gemini API 回答一直重复、表格横线刷屏或 JSON 里一串换行怎么办：按官方排错指南改提示词、Schema 与工具调用](./news/gemini-api-repetitive-output-table-loop-fix/)
 - 2026-11-24 · [Claude Agent SDK 怎么接入 Claude 中转 API：ANTHROPIC_BASE_URL、env 选项与模型设置（Python / TypeScript）](./news/claude-agent-sdk-relay-api-base-url-env-setup/)
 - 2026-11-23 · [OpenAI Embeddings 接口报 400、输入太长或数组超限怎么办：单条 8192 token、一次 2048 条、每请求 30 万 token 与空字符串逐项排查](./news/openai-embeddings-400-input-too-long-8192-token-fix/)
 - 2026-11-23 · [n8n 知识库（RAG）怎么接中转 API 的嵌入模型：Embeddings OpenAI 节点、Base URL、text-embedding-3 与 Dimensions 设置](./news/n8n-relay-embeddings-openai-vector-store-setup/)
