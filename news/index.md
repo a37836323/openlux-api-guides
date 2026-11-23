@@ -84,6 +84,7 @@ permalink: /news/
 
 ## [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)
 
+- [OpenAI Embeddings 接口报 400、输入太长或数组超限怎么办：单条 8192 token、一次 2048 条、每请求 30 万 token 与空字符串逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-embeddings-400-input-too-long-8192-token-fix/)
 - [OpenAI API 开 JSON 模式报 400「'messages' must contain the word 'json'」怎么办：json_object 的提示词要求、Responses 写法与改用 Structured Outputs](https://a37836323.github.io/openlux-api-guides/news/openai-api-400-json-object-must-contain-word-json-fix/)
 - [OpenAI API 输入太长报 400、超出上下文窗口怎么办：token 计数、服务器端压缩、truncation 与历史裁剪逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-400-context-window-exceeded-fix/)
 - [OpenAI API 回答只出一半或返回空、status 是 incomplete 或 finish_reason 是 length 怎么办：输出上限、推理 token 与上下文逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-incomplete-max-output-tokens-truncated-fix/)
