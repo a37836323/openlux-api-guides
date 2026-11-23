@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "OpenAI API 报错与迁移 | OpenLux API 实战指南"
-description: "OpenAI API 报错与迁移：共 45 篇，按发布时间从新到旧排列。"
+description: "OpenAI API 报错与迁移：共 46 篇，按发布时间从新到旧排列。"
 permalink: /topics/openai-api/
 ---
 
 # OpenAI API 报错与迁移
 
-共 45 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 46 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-23 · [OpenAI Embeddings 接口报 400、输入太长或数组超限怎么办：单条 8192 token、一次 2048 条、每请求 30 万 token 与空字符串逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-embeddings-400-input-too-long-8192-token-fix/)：OpenAI Embeddings 接口报 400 / BadRequestError、输入太长怎么办：按官方 API 参考核对单条 8192 token、不能是空字符串、数组最多 2048 项、单请求合计 30 万 token 四条限制，用 tiktoken cl100k_base 计数、切分与分批发送，dimensions 只支持 text-embedding-3 及之后模型。
 - 2026-11-20 · [OpenAI API 开 JSON 模式报 400「'messages' must contain the word 'json'」怎么办：json_object 的提示词要求、Responses 写法与改用 Structured Outputs](https://a37836323.github.io/openlux-api-guides/news/openai-api-400-json-object-must-contain-word-json-fix/)：OpenAI API 用 json_object（Chat Completions 的 response_format 或 Responses 的 text.format）报 400「'messages' must contain the word 'json'」或「Response input messages must contain the word 'json'」：按官方 JSON 模式说明在 system 或 user 消息里写明要 JSON，或改用 Structured Outputs，并处理截断、拒绝等边界情况。
 - 2026-11-17 · [OpenAI API 输入太长报 400、超出上下文窗口怎么办：token 计数、服务器端压缩、truncation 与历史裁剪逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-400-context-window-exceeded-fix/)：OpenAI API 输入超过上下文窗口时请求会报 400。本文按官方文档讲清怎么用计数接口确认 token、Responses API 怎么开服务器端压缩或调用 /responses/compact、truncation auto 的局限，以及 Chat Completions 怎么自己裁剪历史。
 - 2026-11-15 · [OpenAI API 回答只出一半或返回空、status 是 incomplete 或 finish_reason 是 length 怎么办：输出上限、推理 token 与上下文逐项排查](https://a37836323.github.io/openlux-api-guides/news/openai-api-incomplete-max-output-tokens-truncated-fix/)：OpenAI API 回答只出一半或返回空文本时怎么办：先看 Responses 的 status: incomplete 与 incomplete_details.reason（max_output_tokens），或 Chat Completions 的 finish_reason: length；按官方文档排查输出上限包含推理 token、推理把额度用光、上下文窗口不够、结构化输出 JSON 不完整，并给出判断代码和修复步骤。
