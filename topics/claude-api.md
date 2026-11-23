@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "Claude API 报错与迁移 | OpenLux API 实战指南"
-description: "Claude API 报错与迁移：共 28 篇，按发布时间从新到旧排列。"
+description: "Claude API 报错与迁移：共 29 篇，按发布时间从新到旧排列。"
 permalink: /topics/claude-api/
 ---
 
 # Claude API 报错与迁移
 
-共 28 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 29 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-24 · [Claude Agent SDK 怎么接入 Claude 中转 API：ANTHROPIC_BASE_URL、env 选项与模型设置（Python / TypeScript）](https://a37836323.github.io/openlux-api-guides/news/claude-agent-sdk-relay-api-base-url-env-setup/)：Claude Agent SDK（Python / TypeScript）接 Claude 中转 API：没有专门的网关参数，给它启动的 Claude Code 进程设 ANTHROPIC_BASE_URL=https://api.openlux.ai（不带 /v1）和 ANTHROPIC_AUTH_TOKEN，model 填完整模型 ID；TypeScript 的 options.env 会整个替换环境变量要展开 process.env；附 settings.json 覆盖、401、404、模型不存在、找不到 CLI 的排查。
 - 2026-11-23 · [Claude 客户管理加密密钥被 KMS 拒绝时，如何用 Webhook 发现与恢复告警？](https://a37836323.github.io/openlux-api-guides/news/claude-external-key-webhook-events/)：Claude 组织 Webhook 新增 external_key.failed 与 external_key.recovered，用于监测客户管理加密密钥被 KMS 拒绝及恢复。
 - 2026-11-21 · [Claude API 报「Streaming is required for operations that may take longer than 10 minutes」怎么办：max_tokens 阈值、流式拿完整结果、timeout 与 Batches 逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-api-streaming-required-10-minutes-max-tokens-fix/)：Anthropic SDK 报 Streaming is required for operations that may take longer than 10 minutes 是 SDK 发请求前的本地检查：非流式、默认超时且 max_tokens 过大时触发。本文按官方文档讲触发条件、改用流式并用 get_final_message 拿完整结果、显式 timeout 的风险、调小 max_tokens 或用 Message Batches，以及流式中途断开怎么续写。
 - 2026-11-19 · [Claude API 报 400「This model does not support assistant message prefill」怎么办：预填充为什么不能用、改成结构化输出与续写的写法](https://a37836323.github.io/openlux-api-guides/news/claude-api-400-assistant-message-prefill-not-supported-fix/)：Claude API 报 400「This model does not support assistant message prefill. The conversation must end with a user message.」的原因与改法：Claude 4.6 及之后模型不支持最后一条 assistant 预填充，按用途改成结构化输出 output_config.format、user 消息续写、system 提示去开场白，以及经中转调用时的注意事项。
