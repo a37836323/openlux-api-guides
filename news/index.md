@@ -134,6 +134,7 @@ permalink: /news/
 
 ## [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)
 
+- [Gemini API 回答一直重复、表格横线刷屏或 JSON 里一串换行怎么办：按官方排错指南改提示词、Schema 与工具调用](https://a37836323.github.io/openlux-api-guides/news/gemini-api-repetitive-output-table-loop-fix/)
 - [Gemini API 返回空、finishReason 是 SAFETY 或 RECITATION、报「Request blocked due to safety violations」怎么办：提示被拦、回答被拦与安全设置逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-safety-recitation-blocked-empty-response-fix/)
 - [Gemini 4 Carbon API 何时涨价？11 月 30 日后输入、输出 token 多少钱](https://a37836323.github.io/openlux-api-guides/news/gemini-4-carbon-api-price-november-30/)
 - [Gemini API 报 400 INVALID_ARGUMENT 怎么办：请求体写错、未知参数、API 版本、新模型规则与 Schema 太复杂逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-400-invalid-argument-fix/)
