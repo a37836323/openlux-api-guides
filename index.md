@@ -68,7 +68,7 @@ permalink: /
 - [Claude Code 接入与报错](https://a37836323.github.io/openlux-api-guides/topics/claude-code/)（6 篇）
 - [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（32 篇）
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（28 篇）
-- [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（45 篇）
+- [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（46 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（21 篇）
 - [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（33 篇）
 - [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-23 · [OpenAI Embeddings 接口报 400、输入太长或数组超限怎么办：单条 8192 token、一次 2048 条、每请求 30 万 token 与空字符串逐项排查](./news/openai-embeddings-400-input-too-long-8192-token-fix/)
 - 2026-11-23 · [n8n 知识库（RAG）怎么接中转 API 的嵌入模型：Embeddings OpenAI 节点、Base URL、text-embedding-3 与 Dimensions 设置](./news/n8n-relay-embeddings-openai-vector-store-setup/)
 - 2026-11-23 · [Claude 客户管理加密密钥被 KMS 拒绝时，如何用 Webhook 发现与恢复告警？](./news/claude-external-key-webhook-events/)
 - 2026-11-22 · [调用 API 报 400「Invalid 'tools[0].function.name'」怎么办：工具名只能用字母、数字、下划线和横线，OpenAI 最长 64 字符](./news/api-400-invalid-tools-function-name-fix/)
