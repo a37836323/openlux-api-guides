@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "Gemini API 报错与迁移 | OpenLux API 实战指南"
-description: "Gemini API 报错与迁移：共 22 篇，按发布时间从新到旧排列。"
+description: "Gemini API 报错与迁移：共 23 篇，按发布时间从新到旧排列。"
 permalink: /topics/gemini-api/
 ---
 
 # Gemini API 报错与迁移
 
-共 22 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 23 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-25 · [Gemini API 函数调用报 400「content block is missing a thought_signature」怎么办：思维签名的回传规则与改法](https://a37836323.github.io/openlux-api-guides/news/gemini-api-400-missing-thought-signature-function-call-fix/)：Gemini 4、Gemini 3 函数调用续轮报 400「Function call ... content block is missing a thought_signature」：原因是回传历史时丢了 functionCall 部分的 thoughtSignature。按官方文档讲清当前轮校验规则、并行与顺序调用、SDK 追加完整响应、REST 原样回传、迁移历史用占位签名，以及经中转或 OpenAI 兼容格式调用时怎么排查。
 - 2026-11-24 · [Gemini API 回答一直重复、表格横线刷屏或 JSON 里一串换行怎么办：按官方排错指南改提示词、Schema 与工具调用](https://a37836323.github.io/openlux-api-guides/news/gemini-api-repetitive-output-table-loop-fix/)：Gemini API 回答一直重复、Markdown 表格分隔线变成一长串横线、结构化输出里一串 \n 或反复调用工具怎么办：按 Google 官方排错指南的六种重复情况对号入座，改表格格式规范、转义序列、字段顺序与必填、系统指令，并检查 temperature、frequencyPenalty 与 thinking_level。
 - 2026-11-16 · [Gemini API 返回空、finishReason 是 SAFETY 或 RECITATION、报「Request blocked due to safety violations」怎么办：提示被拦、回答被拦与安全设置逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-safety-recitation-blocked-empty-response-fix/)：Gemini API 返回 200 却没有正文、finishReason 是 SAFETY/RECITATION/PROHIBITED_CONTENT，或 Interactions API 报 400 Request blocked due to safety violations：按官方文档区分提示被拦与回答被拦，打印 promptFeedback、finishReason、safetyRatings，再决定改写输入还是调整 safetySettings。
 - 2026-11-11 · [Gemini 4 Carbon API 何时涨价？11 月 30 日后输入、输出 token 多少钱](https://a37836323.github.io/openlux-api-guides/news/gemini-4-carbon-api-price-november-30/)：Gemini 4 Carbon API 目前与 Argon 同为每百万输入 token 2 美元、输出 token 10 美元；介绍价于 11 月 30 日结束，之后分别为 4 美元和 20 美元。
