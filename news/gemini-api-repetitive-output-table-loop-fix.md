@@ -93,11 +93,11 @@ When thinking silently: ALWAYS start the thought with a brief (one sentence) rec
 
 ## 同专题文章
 
+- [Gemini API 用工具检索报 400「tool_search tool must be specified when using defer_loading」怎么办：defer_loading、tool_search 与无状态回传逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-400-tool-search-defer-loading-fix/)
 - [Gemini API 函数调用报 400「content block is missing a thought_signature」怎么办：思维签名的回传规则与改法](https://a37836323.github.io/openlux-api-guides/news/gemini-api-400-missing-thought-signature-function-call-fix/)
 - [Gemini API 返回空、finishReason 是 SAFETY 或 RECITATION、报「Request blocked due to safety violations」怎么办：提示被拦、回答被拦与安全设置逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-safety-recitation-blocked-empty-response-fix/)
 - [Gemini 4 Carbon API 何时涨价？11 月 30 日后输入、输出 token 多少钱](https://a37836323.github.io/openlux-api-guides/news/gemini-4-carbon-api-price-november-30/)
 - [Gemini API 报 400 INVALID_ARGUMENT 怎么办：请求体写错、未知参数、API 版本、新模型规则与 Schema 太复杂逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-400-invalid-argument-fix/)
 - [Gemini API 报 404 model_not_found 或 not_found 怎么办：模型名写错、旧模型已关停、Base URL 与 API 版本逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-404-model-not-found-fix/)
-- [Gemini API 报 401、403 PERMISSION_DENIED 怎么办：Key 无效、被封、项目受限与 Key 限制逐项排查](https://a37836323.github.io/openlux-api-guides/news/gemini-api-401-403-permission-denied-fix/)
 
 [查看「Gemini API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
