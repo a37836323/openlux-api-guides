@@ -70,7 +70,7 @@ permalink: /
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（30 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（46 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（23 篇）
-- [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（33 篇）
+- [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（34 篇）
 - [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
 ## 基础指南
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-26 · [LangChain 怎么接入 OpenAI 兼容中转 API：ChatOpenAI、init_chat_model 的 base_url、Key 与模型设置](./news/langchain-chatopenai-relay-api-base-url-setup/)
 - 2026-11-25 · [Gemini API 函数调用报 400「content block is missing a thought_signature」怎么办：思维签名的回传规则与改法](./news/gemini-api-400-missing-thought-signature-function-call-fix/)
 - 2026-11-25 · [Claude 桌面版怎么接入 Claude 中转 API：开发者模式、Configure Third-Party Inference、网关地址、Key 与模型设置](./news/claude-desktop-relay-api-third-party-inference-gateway-setup/)
 - 2026-11-24 · [Gemini API 回答一直重复、表格横线刷屏或 JSON 里一串换行怎么办：按官方排错指南改提示词、Schema 与工具调用](./news/gemini-api-repetitive-output-table-loop-fix/)
