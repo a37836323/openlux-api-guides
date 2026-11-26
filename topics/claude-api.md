@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "Claude API 报错与迁移 | OpenLux API 实战指南"
-description: "Claude API 报错与迁移：共 30 篇，按发布时间从新到旧排列。"
+description: "Claude API 报错与迁移：共 31 篇，按发布时间从新到旧排列。"
 permalink: /topics/claude-api/
 ---
 
 # Claude API 报错与迁移
 
-共 30 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 31 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-27 · [Claude API 在浏览器里直接调用报 CORS 错误或 401「CORS requests are not allowed for this Organization」怎么办：dangerouslyAllowBrowser、请求头与改走后端](https://a37836323.github.io/openlux-api-guides/news/claude-api-browser-cors-requests-not-allowed-fix/)：Claude API 在网页前端直接调用报 CORS 错误或 401「CORS requests are not allowed for this Organization」怎么办：按官方鉴权文档区分缺少 anthropic-dangerous-direct-browser-access 头、TypeScript SDK 的 dangerouslyAllowBrowser、零数据保留等组织设置禁止浏览器直连，以及后端转发透传 Origin 头仍被拒的改法，附 curl 加 Origin 复现验证。
 - 2026-11-25 · [Claude 桌面版怎么接入 Claude 中转 API：开发者模式、Configure Third-Party Inference、网关地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/claude-desktop-relay-api-third-party-inference-gateway-setup/)：Claude 桌面版（Claude Desktop）接 Claude 中转 API：不登录 Anthropic 账号，开开发者模式进 Developer → Configure Third-Party Inference，Inference provider 选 Gateway，Gateway base URL 填 https://api.openlux.ai（不带 /v1）、Gateway API key 填令牌，Apply Changes 后重启；附模型自动发现与 inferenceModels、诊断报告核对、Auto 模式与 401、404、证书报错排查。
 - 2026-11-24 · [Claude Agent SDK 怎么接入 Claude 中转 API：ANTHROPIC_BASE_URL、env 选项与模型设置（Python / TypeScript）](https://a37836323.github.io/openlux-api-guides/news/claude-agent-sdk-relay-api-base-url-env-setup/)：Claude Agent SDK（Python / TypeScript）接 Claude 中转 API：没有专门的网关参数，给它启动的 Claude Code 进程设 ANTHROPIC_BASE_URL=https://api.openlux.ai（不带 /v1）和 ANTHROPIC_AUTH_TOKEN，model 填完整模型 ID；TypeScript 的 options.env 会整个替换环境变量要展开 process.env；附 settings.json 覆盖、401、404、模型不存在、找不到 CLI 的排查。
 - 2026-11-23 · [Claude 客户管理加密密钥被 KMS 拒绝时，如何用 Webhook 发现与恢复告警？](https://a37836323.github.io/openlux-api-guides/news/claude-external-key-webhook-events/)：Claude 组织 Webhook 新增 external_key.failed 与 external_key.recovered，用于监测客户管理加密密钥被 KMS 拒绝及恢复。
