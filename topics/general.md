@@ -1,14 +1,15 @@
 ---
 layout: default
 title: "其他模型与通用实践 | OpenLux API 实战指南"
-description: "其他模型与通用实践：共 34 篇，按发布时间从新到旧排列。"
+description: "其他模型与通用实践：共 35 篇，按发布时间从新到旧排列。"
 permalink: /topics/general/
 ---
 
 # 其他模型与通用实践
 
-共 34 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
+共 35 篇，按发布时间从新到旧排列。[返回全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
+- 2026-11-27 · [LangChain OpenAIEmbeddings 怎么接中转 API 的嵌入模型：base_url、check_embedding_ctx_length、text-embedding-3 与 dimensions 设置](https://a37836323.github.io/openlux-api-guides/news/langchain-openaiembeddings-relay-api-base-url-setup/)：LangChain OpenAIEmbeddings 接中转 API 的嵌入模型：base_url 填 https://api.openlux.ai/v1，按官方建议设 check_embedding_ctx_length=False 发送原文，model 选 text-embedding-3-small/large，写入和查询用同一模型和 dimensions；附 401、404 /v1/v1、少写 /v1、批量超限、维度不一致的排查。
 - 2026-11-26 · [LangChain 怎么接入 OpenAI 兼容中转 API：ChatOpenAI、init_chat_model 的 base_url、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/langchain-chatopenai-relay-api-base-url-setup/)：LangChain（Python）接 OpenAI 兼容中转 API：ChatOpenAI 传 base_url=https://api.openlux.ai/v1、api_key 和在售模型 ID，init_chat_model 加 model_provider="openai"，或设 OPENAI_BASE_URL；附 base_url 读取优先级、/v1/models 验证、Responses API 自动切换与 reasoning_content 丢失等限制，以及 401、404、模型不存在排查。
 - 2026-11-22 · [调用 API 报 400「Invalid 'tools[0].function.name'」怎么办：工具名只能用字母、数字、下划线和横线，OpenAI 最长 64 字符](https://a37836323.github.io/openlux-api-guides/news/api-400-invalid-tools-function-name-fix/)：调用 OpenAI、Claude、Gemini API 带工具时报 400「Invalid 'tools[0].function.name'」的原因与修法：各家工具名允许的字符和长度（OpenAI 64、Claude 128）、MCP 工具名带点号和客户端拼服务器 ID 前缀为什么会撞上，以及如何生成合法别名并映射回原工具。
 - 2026-11-22 · [GitHub Copilot CLI 怎么接入 OpenAI 兼容 / Claude 中转 API：providers.json、Base URL、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/github-copilot-cli-relay-api-providers-json-setup/)：GitHub Copilot CLI 接入 OpenAI 兼容或 Claude 中转 API 的步骤：在 ~/.copilot/providers.json 配置 openai / anthropic 类型提供方、baseUrl 是否带 /v1、apiKey 与模型 ID，或用 COPILOT_PROVIDER_* 环境变量，并给出 /v1/models 验证方法和 401、404、模型看不到、配置不生效等报错处理。
