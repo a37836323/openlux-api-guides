@@ -70,7 +70,7 @@ permalink: /
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（30 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（46 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（24 篇）
-- [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（34 篇）
+- [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（35 篇）
 - [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
 ## 基础指南
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-27 · [LangChain OpenAIEmbeddings 怎么接中转 API 的嵌入模型：base_url、check_embedding_ctx_length、text-embedding-3 与 dimensions 设置](./news/langchain-openaiembeddings-relay-api-base-url-setup/)
 - 2026-11-26 · [Gemini API 用工具检索报 400「tool_search tool must be specified when using defer_loading」怎么办：defer_loading、tool_search 与无状态回传逐项排查](./news/gemini-api-400-tool-search-defer-loading-fix/)
 - 2026-11-26 · [LangChain 怎么接入 OpenAI 兼容中转 API：ChatOpenAI、init_chat_model 的 base_url、Key 与模型设置](./news/langchain-chatopenai-relay-api-base-url-setup/)
 - 2026-11-25 · [Gemini API 函数调用报 400「content block is missing a thought_signature」怎么办：思维签名的回传规则与改法](./news/gemini-api-400-missing-thought-signature-function-call-fix/)
