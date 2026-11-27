@@ -138,11 +138,11 @@ for await (const message of query({
 
 ## 同专题文章
 
+- [Claude API 报 400「"thinking.type.enabled" is not supported for this model」或「adaptive thinking is not supported on this model」怎么办：按模型选 adaptive 还是 enabled，budget_tokens 换成 effort](https://a37836323.github.io/openlux-api-guides/news/claude-api-400-thinking-type-enabled-not-supported-fix/)
 - [Claude API 在浏览器里直接调用报 CORS 错误或 401「CORS requests are not allowed for this Organization」怎么办：dangerouslyAllowBrowser、请求头与改走后端](https://a37836323.github.io/openlux-api-guides/news/claude-api-browser-cors-requests-not-allowed-fix/)
 - [Claude 桌面版怎么接入 Claude 中转 API：开发者模式、Configure Third-Party Inference、网关地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/claude-desktop-relay-api-third-party-inference-gateway-setup/)
 - [Claude 客户管理加密密钥被 KMS 拒绝时，如何用 Webhook 发现与恢复告警？](https://a37836323.github.io/openlux-api-guides/news/claude-external-key-webhook-events/)
 - [Claude API 报「Streaming is required for operations that may take longer than 10 minutes」怎么办：max_tokens 阈值、流式拿完整结果、timeout 与 Batches 逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-api-streaming-required-10-minutes-max-tokens-fix/)
 - [Claude API 报 400「This model does not support assistant message prefill」怎么办：预填充为什么不能用、改成结构化输出与续写的写法](https://a37836323.github.io/openlux-api-guides/news/claude-api-400-assistant-message-prefill-not-supported-fix/)
-- [Claude API 传图片报 400 invalid_request_error 怎么办：单图 10 MB、8000 像素、超过 20 张图的尺寸限制与格式逐项排查](https://a37836323.github.io/openlux-api-guides/news/claude-api-image-400-size-dimension-limit-fix/)
 
 [查看「Claude API 报错与迁移」全部文章](https://a37836323.github.io/openlux-api-guides/topics/claude-api/) · [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
