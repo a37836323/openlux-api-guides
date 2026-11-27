@@ -70,7 +70,7 @@ permalink: /
 - [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（31 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（46 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（24 篇）
-- [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（35 篇）
+- [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（36 篇）
 - [全部文章目录](https://a37836323.github.io/openlux-api-guides/news/)
 
 ## 基础指南
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-28 · [Hugging Face Chat UI 怎么接入 OpenAI 兼容中转 API：OPENAI_BASE_URL、Key 与模型设置（npm / Docker）](./news/huggingface-chat-ui-relay-api-openai-base-url-setup/)
 - 2026-11-27 · [Claude API 在浏览器里直接调用报 CORS 错误或 401「CORS requests are not allowed for this Organization」怎么办：dangerouslyAllowBrowser、请求头与改走后端](./news/claude-api-browser-cors-requests-not-allowed-fix/)
 - 2026-11-27 · [LangChain OpenAIEmbeddings 怎么接中转 API 的嵌入模型：base_url、check_embedding_ctx_length、text-embedding-3 与 dimensions 设置](./news/langchain-openaiembeddings-relay-api-base-url-setup/)
 - 2026-11-26 · [Gemini API 用工具检索报 400「tool_search tool must be specified when using defer_loading」怎么办：defer_loading、tool_search 与无状态回传逐项排查](./news/gemini-api-400-tool-search-defer-loading-fix/)
