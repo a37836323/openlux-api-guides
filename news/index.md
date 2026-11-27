@@ -53,6 +53,7 @@ permalink: /news/
 
 ## [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)
 
+- [Claude API 报 400「"thinking.type.enabled" is not supported for this model」或「adaptive thinking is not supported on this model」怎么办：按模型选 adaptive 还是 enabled，budget_tokens 换成 effort](https://a37836323.github.io/openlux-api-guides/news/claude-api-400-thinking-type-enabled-not-supported-fix/)
 - [Claude API 在浏览器里直接调用报 CORS 错误或 401「CORS requests are not allowed for this Organization」怎么办：dangerouslyAllowBrowser、请求头与改走后端](https://a37836323.github.io/openlux-api-guides/news/claude-api-browser-cors-requests-not-allowed-fix/)
 - [Claude 桌面版怎么接入 Claude 中转 API：开发者模式、Configure Third-Party Inference、网关地址、Key 与模型设置](https://a37836323.github.io/openlux-api-guides/news/claude-desktop-relay-api-third-party-inference-gateway-setup/)
 - [Claude Agent SDK 怎么接入 Claude 中转 API：ANTHROPIC_BASE_URL、env 选项与模型设置（Python / TypeScript）](https://a37836323.github.io/openlux-api-guides/news/claude-agent-sdk-relay-api-base-url-env-setup/)
