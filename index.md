@@ -67,7 +67,7 @@ permalink: /
 
 - [Claude Code 接入与报错](https://a37836323.github.io/openlux-api-guides/topics/claude-code/)（6 篇）
 - [客户端接入：Cline、Codex CLI、Cherry Studio、n8n 等](https://a37836323.github.io/openlux-api-guides/topics/clients/)（32 篇）
-- [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（31 篇）
+- [Claude API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/claude-api/)（32 篇）
 - [OpenAI API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/openai-api/)（46 篇）
 - [Gemini API 报错与迁移](https://a37836323.github.io/openlux-api-guides/topics/gemini-api/)（24 篇）
 - [其他模型与通用实践](https://a37836323.github.io/openlux-api-guides/topics/general/)（36 篇）
@@ -82,6 +82,7 @@ permalink: /
 
 ## 最新 API 与模型动态
 
+- 2026-11-28 · [Claude API 报 400「"thinking.type.enabled" is not supported for this model」或「adaptive thinking is not supported on this model」怎么办：按模型选 adaptive 还是 enabled，budget_tokens 换成 effort](./news/claude-api-400-thinking-type-enabled-not-supported-fix/)
 - 2026-11-28 · [Hugging Face Chat UI 怎么接入 OpenAI 兼容中转 API：OPENAI_BASE_URL、Key 与模型设置（npm / Docker）](./news/huggingface-chat-ui-relay-api-openai-base-url-setup/)
 - 2026-11-27 · [Claude API 在浏览器里直接调用报 CORS 错误或 401「CORS requests are not allowed for this Organization」怎么办：dangerouslyAllowBrowser、请求头与改走后端](./news/claude-api-browser-cors-requests-not-allowed-fix/)
 - 2026-11-27 · [LangChain OpenAIEmbeddings 怎么接中转 API 的嵌入模型：base_url、check_embedding_ctx_length、text-embedding-3 与 dimensions 设置](./news/langchain-openaiembeddings-relay-api-base-url-setup/)
